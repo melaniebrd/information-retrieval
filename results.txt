@@ -1,0 +1,36 @@
+# 1. Results CACM :
+
+Question 1
+Size of the token list : 222 373
+
+Question 2
+Size of the vocabulary list : 8 976
+
+Question 3
+Size of the half of collection token list : 111 186
+Size of the vocabulary list : 6 393
+Heap's law parameters : 
+k : 21.6410151733
+b : 0.48957640586
+
+Question 4
+Estimated vocabulary size for one million tokens : 18 738
+
+
+# 2. Results CS276 : 
+
+Question 1
+Size of the token list : 25 498 340
+
+Question 2
+Size of the vocabulary list : 346 650
+
+Question 3
+Size of the half of collection token list : 12 749 170
+Size of the vocabulary list : 177 266
+Heap's law parameters : 
+k : 0.0236383732178
+b : 0.967563909768
+
+Question 4
+Estimated vocabulary size for one million tokens : 15 100.0
