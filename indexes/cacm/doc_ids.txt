@@ -1,0 +1,3205 @@
+# cacm doc ids
+0 : Preliminary Report-International Algebraic Language 
+1 : Extraction of Roots by Repeated Subtractions for Digital Computers 
+2 : Techniques Department on Matrix Program Schemes 
+3 : Glossary of Computer Engineering and Programming Terminology 
+4 : Two Square-Root Approximations 
+5 : The Use of Computers in Inspection Procedures 
+6 : Glossary of Computer Engineering and Programming Terminology 
+7 : On The Equivalence and Transformation of Program Schemes 
+8 : Proposal for an UNCOL 
+9 : Glossary of Computer Engineering and Programming Terminology 
+10 : The Problem of Programming Communication with Changing Machines A Proposed Solution-Part 2 
+11 : Error Estimation in Runge-Kutta Procedures 
+12 : Glossary of Computer Engineering and Programming Terminology 
+13 : The Problem of Programming Communication with Changing Machines A Proposed Solution (Part 1) 
+14 : Recursive Curve Fitting Technique 
+15 : Secant Modification of Newton's Method 
+16 : On Programming of Arithmetic Operations 
+17 : Simple Automatic Coding Systems 
+18 : Glossary of Computer Engineering and Programming Terminology 
+19 : Accelerating Convergence of Iterative Processes 
+20 : Algebraic Formulation of Flow Diagrams 
+21 : Unusual Applications Department--Automatic Implementation of Computer Logic 
+22 : Binary and Truth-Function Operations on a Decimal Computer with an Extract Command 
+23 : An Improved Decimal Redundancy Check 
+24 : General Purpose Programming Systems 
+25 : A Subroutine Method for Calculating Logarithms 
+26 : Note On Empirical Bounds For Generating Bessel Functions 
+27 : Request for Methods or Programs 
+28 : Need for an Algorithm 
+29 : Algorithm for Analyzing Logical Statements to Produce a Truth Function Table 
+30 : IBM 704 Code-Nundrums 
+31 : Variable-Width Tables with Binary-Search Facility 
+32 : A Programmed Binary Counter For The IBM Type 650 Calculator 
+33 : Tables for Automatic Computation 
+34 : A Machine Method for Square-Root Computation 
+35 : A Queue Network Simulator for the IBM 650 and Burroughs 220 
+36 : Impact of Computer Developments 
+37 : A Proposed Interpretation in ALGOL 
+38 : The Secant Method for Simultaneous Nonlinear Equations  
+39 : Fingers or Fists? (The Choice of Decimal or Binary Representation) 
+40 : Some Notes on Computer Research in Eastern Europe 
+41 : A New Method of Computation of Square Roots Without Using Division 
+42 : A Technique for Handling Macro Instructions 
+43 : RUNCIBLE-Algebraic Translation on a Limited Computer 
+44 : Flow Outlining-A Substitute for Flow Charting 
+45 : Multiprogramming STRETCH: Feasibility Considerations 
+46 : Russian Visit to U.S. Computers 
+47 : Shift-Register Code for Indexing Applications 
+48 : Scientific and Business Applications (Oracle Curve Plotter) 
+49 : Statistical Programs for the IBM 650-Part II 
+50 : On the Construction of Micro-Flowcharts 
+51 : An Efficient Method for Generating Uniformly Distributed Points on the Surface on an n-Dimensional  Sphere (Corrigendum) 
+52 : Recommendations of the SHARE ALGOL Committee 
+53 : SALE, a Simple Algebraic Language for Engineers 
+54 : An Algebraic Translator 
+55 : Proposed Standard Flow Chart Symbols 
+56 : J.E.I.D.A. and Its Computer Center 
+57 : LEM-1, Small Size General Purpose Digital Computer Using Magnetic (Ferrite) Elements 
+58 : Survey of Progress and Trend of Development and Use of Automatic Data Processing in Business and Management control Systems of the Federal Government, as of December 1957-III 
+59 : The Alpha Vector Transformation of a System of Linear Constraints 
+60 : IBM 709 Tape Matrix Compiler 
+61 : Multi-Dimensional Least-Squares Polynomial Curve Fitting 
+62 : Octal Diagrams of Binary Conception and Their Applicability to Computer Design Logic 
+63 : Remarks on ALGOL and Symbol Manipulation  
+64 : ALGOL Sub-Committee Report - Extensions 
+65 : A Proposal for a Generalized Card Code for 256 Characters 
+66 : Central-European Computers 
+67 : The Role of the University in Computers, Data Processing and Related Fields 
+68 : Statistical Programs for the IBM 650-Part I 
+69 : Construction of a Set of Test Matrices 
+70 : Proposal for a Feasible Programming System 
+71 : An Educational Program in Computing  
+72 : A Real Time Data Assimilator 
+73 : A High-Speed Sorting Procedure 
+74 : Parameter Estimation for Simple Nonlinear Models 
+75 : Binary Conversion, With Fixed Decimal Precision, Of a Decimal Fraction 
+76 : On GAT and the Construction of Translators 
+77 : Remarks on the Practical Solution of Characteristic Value Problems 
+78 : Programming for a Machine With an Extended Address Calculational Mechanism 
+79 : A Technique for Computing Critical Rotational Speeds of Flexible Shafts on an Automatic Computer 
+80 : NORC High-Speed Printer 
+81 : Handling Identifiers as Internal Symbols in Language Processors 
+82 : A Visit to Computation Centers in the Soviet Union 
+83 : Survey of Progress and Trend of Development and Use of Automatic Data Processing in Business and Management Control Systems of the Federal Government, as of December 1957-II (Part 2 see CA590406) 
+84 : Error Analysis in Floating Point Arithmetic 
+85 : Survey of Progress and Trend of Development and Use of Automatic Data Processing in Business  and Management Control Systems of the Federal Government, as of December 1957 
+86 : A Note on a Method for Generating Points Uniformly on N-Dimensional Spheres 
+87 : An Efficient Method for Generating Uniformly Distributed Points on the Surface of an n-Dimensional Sphere 
+88 : A Routine to Find the Solution of Simultaneous Linear Equations with Polynomial Coefficients 
+89 : Binary Arithmetic for Discretely Variable Word Length in a Serial Computer 
+90 : A Mathematical Procedure for Machine Division 
+91 : A Checklist of Intelligence for Programming Systems 
+92 : From Formulas to Computer Oriented Language 
+93 : An Iterative Method for Fitting the Logistic Curve 
+94 : Elimination of Special Functions from Differential Equations 
+95 : On Computing Radiation Integrals 
+96 : Signal Corps Research and Development on Automatic Programming of Digital Computers 
+97 : The Arithmetic Translator-Compiler of the IBM FORTRAN Automatic Coding System 
+98 : Possible Modifications to the International Algebraic Language 
+99 : Recursive Subscripting Compilers and List-Types Memories 
+100 : Nuclear Reactor Codes 
+101 : A Comparison of 650 Programming Methods 
+102 : COPE (Console Operator Proficiency Examination)* 
+103 : Digital Simulation of Discrete Flow Systems* 
+104 : Two Methods for Word Inversion on the IBM 709 
+105 : A Method for Overlapping and Erasure of Lists 
+106 : Multiple Precision Arithmetic 
+107 : Programmed Error Correction in Project Mercury 
+108 : A Note on Approximating e^x 
+109 : Fibonaccian Searching 
+110 : On Programming the Numerical Solution of Polynomial Equations 
+111 : Numerical Solution of the Polynomial Equation (Algorithm 30) 
+112 : Survey of Coded Character Representation 
+113 : Survey of Punched Card Codes 
+114 : Optimizers: Their Structure 
+115 : The Sumador Chino 
+116 : An Estimation of the Relative Efficiency of Two Internal Sorting Methods 
+117 : Character Scanning on the IBM 7070 
+118 : Note on Eigenvalue Computation 
+119 : A Simple Technique for Coding Differential Equations 
+120 : Over-all Computation Control and Labelling 
+121 : Least Squares Fitting of a Great Circle Through Points on a Sphere 
+122 : Compilation for Two Computers with NELIAC 
+123 : An Algorithm for the Assignment Problem 
+124 : Polynomial Transformer (Algorithm 29) 
+125 : Least Squares Fit By Orthogonal polynomials (Algorithm 28) 
+126 : ASSIGNMENT (Algorithm 27) 
+127 : ROOTFINDER III (Algorithm 26) 
+128 : ROOTFINDER II (Algorithm 15) 
+129 : Real Zeros of an Arbitrary Function (Algorithm 25) 
+130 : Solution of Tri-Diagonal Linear Equations (Algorithm 24) 
+131 : Math Sort (Algorithm 23) 
+132 : Riccati-Bessel Functions of First And Second Kind (Algorithm 22) 
+133 : Bessel Function for a Set of Integer Orders(Algorithm 21) 
+134 : Digital Computers in Universities-IV 
+135 : A Note on the Calculation of Interest 
+136 : Evaluating Numbers Expressed as Strings of English Words 
+137 : Some Thoughts on Reconciling Various Character Set Proposals (Corrigenda) 
+138 : Binomial Coefficients (Algorithm 19) 
+139 : Crout with Pivoting (Algorithm 16) 
+140 : Some Thoughts on Parallel Processing 
+141 : Comments on a Technique for Counting Ones  
+142 : A List of Computer Systems Programs for the IBM 650, DATATRON 205, and UNIVAC SS-80 
+143 : Do It by the Numbers-Digital Shorthand 
+144 : Automatic Graders for Programming Classes 
+145 : The Use of Computers in Engineering Classroom Instruction  
+146 : Report on a Conference of University Computing Center Directors 
+147 : Digital Computers in Universities-III 
+148 : A Decision Rule for Improved Efficiency in Solving Linear Programming Problems with the Simplex  Algorithm 
+149 : Rational Interpolation by Continued Fractions (Algorithm 18) 
+150 : TRDIAG (Algorithm 17) 
+151 : CROUT With Pivoting (Algorithm 16) 
+152 : Comments from a FORTRAN User 
+153 : Rapidly Convergent Expressions for Evaluating e^x 
+154 : Trie Memory 
+155 : An Introductory Problem in Symbol Manipulation for the Student 
+156 : Digital Computers in Universities -II 
+157 : ROOTFINDER II (Algorithm 15) 
+158 : ROOTFINDER (Algorithm 2) 
+159 : ROOTFINDER II (Algorithm 15) 
+160 : Abbreviating Words Systematically (Corrigendum) 
+161 : A Variant Technique for Counting Ones 
+162 : Counting Ones on the IBM 7090  
+163 : A Short Study of Notation Efficiency 
+164 : NELIAC-A Dialect of ALGOL 
+165 : Programming Compatibility in a Family of Closely Related Digital Computers 
+166 : Combining ALGOL Statement Analysis with Validity Checking 
+167 : Multiprogram Scheduling Parts 3 and 4 Scheduling Algorithm and External Constraints 
+168 : The Multilingual Terminology Project 
+169 : Some Thoughts on Reconciling Various Character Set Proposals 
+170 : Digital Computers in Universities (Part I)  
+171 : Complex Exponential Integral (Algorithm 13) 
+172 : ATLAS a new concept in large computer design 
+173 : Interval Estimation of the Time in One State to Total Time Ratio in a DoubleExponential Process 
+174 : The Solution of Simultaneous Ordinary Differential Equations Using a General Purpose Digital  Computer 
+175 : Symbol Manipulation by Threaded Lists (Corrigendum) 
+176 : Solution of Polynomial Equation by Bairstow Hitchcock Method, A. A. Grau Communications ACM,  February, 1960 (Algorithm) 
+177 : ROOTFINDER (Algorithm) 
+178 : Evaluation of the Legendre Polynomial Pn(X) by Recursion (Algorithm) 
+179 : Evaluation of the Laguerre Polynomial Ln(X) by Recursion (Algorithm) 
+180 : Evaluation of the Hermite Polynomial Hn(X) by Recursion (Algorithm) 
+181 : Evaluation of the Chebyshev Polynomial Tn(X) by Recursion (Algorithm)  
+182 : Conversion Between Floating Point Representations 
+183 : A Short Method for Measuring Error in a Least-Squares Power Series 
+184 : Multiprogram Scheduling Parts 1 and 2.  Introduction and Theory* 
+185 : An Algorithm Defining ALGOL Assignment Statements (Addendum) 
+186 : Compiling Connectives 
+187 : The Department of Computer Mathematics at Moscow State University 
+188 : The Future of Automatic Digital Computers 
+189 : Bendix G-20 System 
+190 : Abbreviating Words Systematically 
+191 : A Technique for Counting Ones in a Binary Computer 
+192 : A Start at Automatic Storage Assignment 
+193 : Divisionless Computation of Square Roots Through Continued Squaring 
+194 : What is a Code? 
+195 : Report on the Algorithmic Language ALGOL 60 
+196 : An Imaginary Number System 
+197 : A High-Speed Multiplication Process for Digital Computers 
+198 : Euclidian Algorithm (Algorithm 7) 
+199 : Bessel Function I, Asymptotic Expansion (Algorithm 6) 
+200 : Bessel Funtion I, Series Expansion (Algorithm 5) 
+201 : A Control System For Logical Block Diagnosis With Data Loading 
+202 : Decoding Combinations of the First n Integers Taken k at a Time 
+203 : Proving Theorems by Pattern Recognition I 
+204 : Macro Instruction Extensions of Compiler Languages 
+205 : Symbol Manipulation in XTRAN 
+206 : Syntactic and Semantic Augments to ALGOL 
+207 : An Introduction to Information Processing Language V 
+208 : Symbol Manipulation by Threaded Lists 
+209 : Recursive Functions of Symbolic Expressions and Their Computation by Machine, Part I 
+210 : Share Standard Flow Chart Symbols 
+211 : Bisection Routine (Algorithm 4) 
+212 : Numerical Inversion of Laplace Transforms 
+213 : An Algorithm Defining ALGOL Assignment Statements 
+214 : The Execute Operations-A Fourth Mode of Instruction Sequencing 
+215 : A Note on the Use of the Abacus in Number Conversion 
+216 : Soviet Computer Technology-1959 
+217 : Computer Preparation of a Poetry Concordance 
+218 : Marriage-with Problems 
+219 : A New Method of Computation of Square Roots Without Using Division 
+220 : The Basic Side of Tape Labeling 
+221 : Coding Isomorphisms 
+222 : Selfcipher: Programming 
+223 : Sequential Formula Translation 
+224 : A Techniquefor Handling Macro Instructions (Corrigendum) 
+225 : Solution of Polynomial Equation by Bairstow-Hitchcock Method (Algorithm 3) 
+226 : ROOTFINDER (Algorithm 2) 
+227 : QUADI (Algorithm 1) 
+228 : A Terminology Proposal 
+229 : A Proposal for Character Code Compatibility 
+230 : A Proposal for a Set of Publication Standards for Use by the ACM 
+231 : A High-Speed Sorting Procedure 
+232 : Abstracts-Additional Nuclear Reactor Codes 
+233 : A SAP-Like Assembly Program for the IBM 650 
+234 : Two Think Pieces 
+235 : Soviet Cybernetics and Computer 
+236 : Computer Production of Peek-A-Boo Sheets 
+237 : Simulation and Analysis of Biochemical Systems 
+238 : Inefficiency of the Use of Boolean Functions for Information Retrieval Systems 
+239 : Processing Magnetic Tape Files with Variable Blocks 
+240 : Machine Calculation of Moments of a Probability Distribution 
+241 : Notes on Geometric Weighted Check Digit Verification 
+242 : N-Dimensional Codes for Detecting and Correcting Multiple Errors 
+243 : Incomplete Elliptic Integrals (Algorithm 73) 
+244 : A Set of Associate Legendre Polynomials of the Second Kind (Algorithm 62) 
+245 : Least-Squares Fit by Orthogonal Polynomials (Algorithm 28) 
+246 : Incomplete Elliptic Integrals (Algorithm 73) 
+247 : What is Proprietary In Mathematical Programming?-Impressions of a Panel Discussion 
+248 : Specification Languages for Mechanical Languages and Their Processors*-A Baker's Dozen 
+249 : An Engineering Application of Logic-Structure Tables 
+250 : Ballistic Cam Design  
+251 : Programming a Duplex Computer System 
+252 : On a Program for Ray-Chaudhuri's Algorithm for a Minimum Cover of an Abstract Complex 
+253 : SMALGOL-61 
+254 : Augmentation (Algorithm 68) 
+255 : A Set of Test Matrices (Algorithm 52) 
+256 : Invert (Algorithm 42) 
+257 : Composition Generator (Algorithm 72) 
+258 : Permutation (Algorithm 71) 
+259 : Interpolation By Aitken (Algorithm 70) 
+260 : Tape Splitting 
+261 : MAP 
+262 : Library Loading with Alternate Routine Selection 
+263 : A Generalized Polyphase Merge Algorithm  
+264 : Low Level Language Subroutines for Use Within Fortran 
+265 : Fitting Spheres by the Method of Least Squares 
+266 : Some Proposals for Improving the Efficiency of ALGOL 60 
+267 : Stochastic Evaluation of a Static Storage Allocation 
+268 : Core Allocation Based on Probability 
+269 : Techniques for Storage Allocation Algorithms  
+270 : A Semi-Automatic Storage Allocation System at Loading Time 
+271 : A Storage Allocation Scheme for ALGOL 60 
+272 : Experience in Automatic Storage Allocation  
+273 : Dynamic Storage Allocation in the Atlas Computer, Including an Automatic Use of a Backing Store 
+274 : Dynamic Storage Allocation for an Information Retrieval System 
+275 : Program Organization and Record Keeping for Dynamic Storage Allocation 
+276 : Problems of Storage Allocation in a Multiprocessor Multiprogrammed System 
+277 : A General Formulation of storage Allocation 
+278 : The Case for Dynamic storage Allocation  
+279 : A Preplanned Approach to a Storage Allocating Compiler 
+280 : Putting a Hex on e^x 
+281 : Optimum Tape-Writing Procedures 
+282 : Inversion of a Complex Matrix 
+283 : Manipulation of Algebraic Expressions 
+284 : Solution of Tridiagonal Matrices 
+285 : An Iterative Method for Inversion of Power Series 
+286 : The Generalized Important Event Technique 
+287 : A Syntactical Chart of ALGOL 60 
+288 : Critical Path Scheduling (Algorithm 40) 
+289 : Chain Tracing (Algorithm 69) 
+290 : Use of MOBOL in PreparingRetrieval Programs 
+291 : An Information Retrieval Language for Legal Studies 
+292 : The Applied Mathematics Laboratory of the David W. Taylor Model Basin 
+293 : An Imaginary Number System 
+294 : Rational Approximations for the Error Function and for Similar Functions 
+295 : A Note on Multiple Precision Arithmetic 
+296 : A Note on Fitting Great Circles by Least Squares 
+297 : A 48-Bit Pseudo-Random Number Generator 
+298 : A Generalized Polyphase Merge Algorithm 
+299 : COBOL: A Sample Problem 
+300 : A Set of Test Matrices (Algorithm 52) 
+301 : Augmentation (Algorithm 68) 
+302 : Some Basic Terminology Connected With Mechanical Languages and Their Processors 
+303 : Nth Roots of a Complex Number (Algorithm 53) 
+304 : CRAM (Algorithm 67) 
+305 : INVRS (Algorithm 66) 
+306 : FIND (Algorithm 65) 
+307 : QUICKSORT (Algorithm 64) 
+308 : PARTITION (Algorithm 63) 
+309 : A Set of Associate Legendre Polynomials of the Second Kind (Algorithm 62) 
+310 : Procedures for Range Arithmetic (Algorithm 61) 
+311 : A Further Note on Approximating e^x 
+312 : An Iterative Method for Inversion of Power Series 
+313 : A Divisionless Method of Integer Conversion 
+314 : Solution of Tridiagonal Matrices 
+315 : An Algorithm for Equivalence Declarations 
+316 : On The Approximation of Curves by Line Segments Using Dynamic Programming 
+317 : Combat Vehicle Firing Stability (Active Suspension) 
+318 : On a Class of Iteration Formulas and Some Historical Notes 
+319 : Logic-Structure Tables 
+320 : ALGOL 60 Confidential 
+321 : Operational Compatibility of Systems-CONVENTIONS 
+322 : The State of Digital Computer Technology in Europe 
+323 : Romberg Integration (Algorithm 60) 
+324 : Numerical Solution of the Polynomial Equation (Algorithm 30) 
+325 : MATHSORT (Algorithm 23) 
+326 : Zeros of a Real Polynomial by Resultant Procedure (Algorithm 59) 
+327 : Matrix Inversion (ALgorithm 58) 
+328 : Automatic Abstracting and Indexing Survey and Recommendations 
+329 : A Method for Evaluating the Area of the Normal Function 
+330 : Successive Approximations and Computer Storage Problems in Ordinary Differential Equations 
+331 : An Indirect Chaining Method for Addressing on Secondary Keys 
+332 : Design of an Improved* Transmission/Data Processing Code 
+333 : Division and Square Root in the Quater-Imaginary Number System 
+334 : Some Numerical Experiments Using Newton's Method for Nonlinear Parabolic and EllipticBoundary-Value  Problems 
+335 : A Practical Technique for the Determination of the Optimum Relaxation Factor of the Successive  Over-Relaxation Method 
+336 : Further Survey of Punched Card Codes 
+337 : GROUT II (Algorithm 43) 
+338 : Real Exponential Integral (Algorithm 20) 
+339 : Legendre Polynomial (Algorithm 13) 
+340 : Chebyschev Polynomial (Algorithm 10) 
+341 : Solution of Polynomial Equation by Barstow-Hitchcock (Algorithm 3) 
+342 : On Frequently Occurring Errors in ALGOL 60 Programs (Algorithm 25) 
+343 : Ber or Bei Function (Algorithm 57) 
+344 : Complete Elliptic Integral of the Second Kind (Algorithm 56) 
+345 : Complete Elliptic Integral of the First Kind (Algorithm 55) 
+346 : Gamma Function for Range 1 to 2 (Algorithm 54) 
+347 : Nth Roots of a Complex Number (Algorithm 53) 
+348 : A Set of Test Matrices 
+349 : Adjust Inverse of a Matrix When an Element is Perturbed (Algorithm 51) 
+350 : Inverse of a Finite Segment of the Hilbert Matrix (Algorithm 50) 
+351 : Spherical Neumant Function (Algorithm 49) 
+352 : Logarithm of A Complex Number (Algorithm 48) 
+353 : Associated Legendre Functions of the First Kind for Real or Imaginary Arguments (Algorithm 47) 
+354 : Exponential of a Complex Number (Algorithm 46) 
+355 : INTEREST (Algorithm 45) 
+356 : Bessel Functions Computed Recursively (Algorithm 44) 
+357 : Crout with Pivoting II (Algorithm 43) 
+358 : INVERT (Algorithm 42) 
+359 : Evaluation of Determinant (Algorithm 41) 
+360 : Programmed Error Correction on a Decimal Computer 
+361 : Table Look-At Techniques 
+362 : On Approximating Transcendental Numbers by Continued Fractions 
+363 : On the Compilation of Subscripted Variables  
+364 : Bessel Functions of Integral Order and Complex Argument 
+365 : Eigenvalues of a Symmetric 3 x 3 Matrix 
+366 : Topological Ordering of a List of Randomly-Numbered Elements of a Network 
+367 : Real Zeros of an Arbitrary Function (Algorithm 25) 
+368 : Crout with Pivoting (Algorithm 16) 
+369 : Bisection Routine (Algorithm 4) 
+370 : Remarks on Algorithms 2 and 3, Algorithm 15 and Algorithms 25 and 26 
+371 : Critical Path Scheduling (Algorithm 40) 
+372 : Correlation Coefficients with Matrix Multiplication (Algorithm 39) 
+373 : Telescope2 (Algorithm 38) 
+374 : Telescope1 (Algorithm 37) 
+375 : Tchebycheff (Algorithm 36) 
+376 : SIEVE (Algorithm 35) 
+377 : A Generalized Technique for Symbol Manipulation and Numerical Calculation  
+378 : Bitwise Operations 
+379 : Comparison of Iterative Methods for the Calculation of nth Roots 
+380 : An Alternate Form of the "UNCOL Diagram" 
+381 : Statistical Programs at the University of North Carolina 
+382 : On Finding Minimum Routes in a Network With Turn Penalties 
+383 : Gamma Function (Algorithm 34) 
+384 : FACTORIAL (Algorithm 33) 
+385 : MULTINT (Algorithm 32) 
+386 : Gamma Function (Algorithm 31) 
+387 : Solution of Polynomial Equations by Bairstow Hitchcock Method (Algorithm 3) 
+388 : Real Exponential Integral (Algorithm 20) 
+389 : Complex Exponential Integral (Algorithm 13) 
+390 : The BKS System for the Philco-2000  
+391 : Comment on A Paper on Parallel Processing 
+392 : Two Subroutines for Symbol Manipulation with an Algebraic Compiler 
+393 : Multiple Programming Data Processing 
+394 : Multiple-Precision Division  
+395 :    Automation of Program  Debugging 
+396 : A Card Format for Reference Files in Information Processing 
+397 : The SLANG System 
+398 : Compiling Techniques for Boolean Expressions and Conditional Statements in ALGOL 60 
+399 : Comments on the Implementation of Recursive Procedures and Blocks in ALGOL 60 
+400 : Allocation of Storage for Arrays in ALGOL 60 
+401 : Dynamic Declarations 
+402 : Thunks -- A Way of Compiling Procedure Statements with Some Comments on Procedure Declarations 
+403 : A Syntax Directed Compiler for ALGOL 60 
+404 : An Algorithm for Coding Efficient Arithmetic Operations 
+405 : The Use of Threaded Lists in Constructing a Combined ALGOL and Machine-Like Assembly Processor 
+406 : MADCAP: A Scientific Compiler for a Displayed Formula Textbook Language 
+407 : The Internal Organization of the MAD Translator 
+408 : CL-1, An Environment for a Compiler 
+409 : The CLIP Translator 
+410 : Use of Magnetic Tape for Data Storage in the ORACLE-ALGOL Translator 
+411 : Recursive Processes and ALGOL Translation 
+412 : A Basic Compiler for Arithmetic Expressions 
+413 : IBM 1440 Data Processing System Features Five New Units 
+414 : The Use of Digital Computers in Western Germany 
+415 : Multiple Shooting Method for Two-Point Boundary Value Problems 
+416 : Legal Implications of Computer Use 
+417 : RANDOM (Algorithm 133) 
+418 : Magic Square (Algorithm 118) 
+419 : PERM (Algorithm 115) 
+420 : Position of Point Relative to Polygon (Algorithm 112) 
+421 : COMBINATION (Algorithm 94) 
+422 : Matrix Inversion (Algorithm 58) 
+423 : Gamma Function (Algorithm 31) 
+424 : Complete Elliptic Integral (Algorithm 149) 
+425 : Term of Magic Square (Algorithm 148) 
+426 : PSIF (Algorithm 147) 
+427 : Multiple Integration (Algorithm 146) 
+428 : Adaptive Nimerical Integration by Simpson's Rule (Algorithm 145) 
+429 : TREESORT2 (Algorithm 144) 
+430 : TREESORT1 (Algorithm 143) 
+431 : Triangular Regression (Algorithm 142) 
+432 : Fixed-World-Length Arrays in Variable-Word-Length Computers 
+433 : Character Manipulation in 1620 Fortran II 
+434 : A Decision Matrix as the Basis for a Simple Data Input Routine 
+435 : Evaluation of Polynomials by Computer 
+436 : Compiling Matrix Operations 
+437 : Mechanical Pragmatics: A Time-Motion Study of a Miniature Mechanical Linguistic System 
+438 : On-Line Digital Computer for Measurement of a Neurological Control System 
+439 : Record Linkage 
+440 : Topological Sorting of Large Networks 
+441 : Crout with Equilibration and Iteration (Algorithm 135) 
+442 : Complex Number to a Real Power (Algorithm 106) 
+443 : Evaluation of Jacobi Symbol (Algorithm 99) 
+444 : COMBINATION (Algorithm 94) 
+445 : Simpson's Integration (Algorithm 84) 
+446 : Certification of the Calculation of Easter 
+447 : Path Matrix (Algorithm 141) 
+448 : Matrix Inversion(Algorithm 140) 
+449 : Solution of the Diophantine Equation (Algorithm 139) 
+450 : Nesting of for Statement II (Algorithm 138) 
+451 : Nesting of for Statement I (Algorithm 137) 
+452 : Enlargement of a Group (Algorithm 136) 
+453 : Crout with Equilibration and Iteration (Algorithm 135) 
+454 : Exponentiation of Series (Algorithm 134) 
+455 : RANDOM (Algorithm 133) 
+456 : Quantum Mechanical Integrals Over all Slater-Type Integrals 
+457 : Coefficient Determination (Algorithm 131) 
+458 : PERMUTE (Algorithm 130) 
+459 : MINIFUN (Algorithm 129) 
+460 : Coding of Medical Case History Data for Computer Analysis 
+461 : Computer Pattern Recognition Techniques: Electrocardiographic Diagnosis 
+462 : On Ambiguity in Phrase Structure Languages 
+463 : Syntactic Analysis by Digital Computer 
+464 : PERM (Algorithm 115) 
+465 : General Order Arithmetic (Algorithm 93) 
+466 : Permutation Generator (Algorithm 87) 
+467 : Incomplete Elliptic Integrals (Algorithm 73) 
+468 : Critical Path Scheduling (Algorithm 40) 
+469 : Summation of Fourier Series (Algorithm 128) 
+470 : ORTHO (Algorithm 127) 
+471 : Gauss' Method (Algorithm 126) 
+472 : WEIGHTCOEFF (Algorithm 125) 
+473 : Input Data Organization in Fortran 
+474 : A Test Matrix for Inversion Procedures 
+475 : Further Remarks on Sampling a Tape File-II 
+476 : Further Remarks on Sampling a Tape File-I 
+477 : Implementing a Stack 
+478 : A Dispersion Pass Algorithm for the Polyphase Merge 
+479 : Quick Calculation of Jacobian Elliptic Functions (Corrigendum) 
+480 : A One-Day Look At Computing 
+481 : TALL-A List Processor for the Philco 200 Computer 
+482 : On the Nonexistence of a Phrase Structure Grammar for ALGOL 60 
+483 : Hankel Function (Algorithm 124) 
+484 : Real Error Function, ERF(x) (Algorithm 123) 
+485 : Tridiagonal Matrix (Algorithm 122) 
+486 : NORMDEV (Algorithm 121) 
+487 : A Heuristic for Page Turning In a Multiprogrammed Computer 
+488 : Current Status of IPL-V for the Philco 2000 Computer (June 1962) 
+489 : Programmed Methods for Printer Graphical Output 
+490 : Use of Multiprogramming in the Design of a Low Cost Digital Computer 
+491 : Analysis of a File Addressing Method 
+492 : The Property Classification Method of File Design and Processing 
+493 : A Finite Sequentially Compact Process for the Adjoints of Matrices Over Arbitrary Integral Domains 
+494 : A Procedure for Inverting Large Symmetric Matrices 
+495 : A Set of Matrices for Testing Computer Programs 
+496 : Further Remarks on Line Segment Curve-Fitting Using Dynamic Programming 
+497 : Magic Square (Algorithm 117 & 118) 
+498 : Permutation Generator (Algorithm 87) 
+499 : PERMUTE (Algorithm 86) 
+500 : JACOBI (Algorithm 85) 
+501 : Simpson's Integration (Algorithm 84) 
+502 : Rational Roots of Polynomials with Integer Coefficients (Algorithm 78) 
+503 : FACTORS (Algorithm 75) 
+504 : Composition Generator (Algorithm 72) 
+505 : PERMUTATION (Algorithm 71) 
+506 : Partition, Quicksort, Find (Algorithm 63, 64, 65) 
+507 : Matrix Inversion (Algorithm 58) 
+508 : Matrix Inversion (Algorithm 58) 
+509 : Ber or Bei Function (Algorithm 57) 
+510 : A Set of Test Matrices (Algorithm 52) 
+511 : Telescope 1 (Algorithm 37) 
+512 : SIEVE (Algorithm 35) 
+513 : Binomial Coefficients (Algorithm 19) 
+514 : Rational Interpolation by Continued Fractions (Algorithm 18) 
+515 : Matrix Inversion II (Algorithm 120) 
+516 : Evaluation of Pert Network (Algorithm 119) 
+517 : Magic Square (Odd Order) (Algorithm 118) 
+518 : Magic Square (Even Order) (Algorithm 117) 
+519 : Complex Division (Algorithm 116) 
+520 : PERM (Algorithm 115) 
+521 : Generation of Partitions with Constraints (Algorithm 114) 
+522 : TREESORT (Algorithm 113) 
+523 : Position of Point Relative to Polygon (Algorithm 112) 
+524 : A Computer Technique for Handling Analysis of Variance 
+525 : Character Manipulation in Fortran 
+526 : The Description List of Concepts 
+527 : FORTRAN for Business Data Processing 
+528 : Regression and Coded Patterns in Data Editing 
+529 : A Computer Method for Radiation Treatment Planning 
+530 : Person-Matching by Electronic Methods 
+531 : On the Computation of Rational Approximations to Continuous Functions 
+532 : Digital Synthesis of Correlated Stationary Noise 
+533 : Quick Calculation of Jacobian Elliptic Functions 
+534 : Triangular Walk Pattern for the Down-hill Method of Solving a Transcendental Equation 
+535 : Nonlinear Regression and the Solution of Simultaneous Equations 
+536 : A Machine Program for Theorem-Proving 
+537 : Quantum Mechanical Integrals of Slater-Type Orbitals (Algorithm 110) 
+538 : Definite Exponential Integrals B (Algorithm 109) 
+539 : Definite Exponential Integrals A (Algorithm 108) 
+540 : Simpson's Integration (Algorithm 84) 
+541 : FACTORS (Algorithm 75) 
+542 : Interpolation by Aitken (Algorithm 70) 
+543 :  Ber or Bei Function (Algorithm 57) 
+544 : Adjust Inverse of a Matrix when an Element is Perturbed (Algorithm 51) 
+545 : Logarithm of a Complex Number (Algorithm 48) 
+546 : Gamma Function (Algorithm 34) 
+547 : Molecular-Orbital Calculation of Molecular Interactions 
+548 : Quantum Mechanical Integrals of Slater-Type Orbitals 
+549 : Definite Exponential Integrals B (Algorithm 109) 
+550 : Definite Exponential Integrals A (Algorithm 108) 
+551 : Gauss's Method (Algorithm 107) 
+552 : Complex Number to a Real Power (Algorithm 106) 
+553 : Newton Maehly, (Algorithm 105) 
+554 : Reduction to Jacobi (Algorithm 104) 
+555 : On Translation of Boolean Expressions 
+556 : Simulation of Computer Timing Device 
+557 : A Modified Inversion Procedure for Product Form of the Inverse Linear Programming Codes 
+558 : Solution of Eigenvalue Problems With Approximately Known Eigenvectors 
+559 : Communication Between Independently Translated Blocks 
+560 : Analytic Differentiation By Computer 
+561 : AVINT (Algorithm 77) 
+562 : Sorting Procedures (Algorithm 76) 
+563 : CRAM (Algorithm 67) 
+564 : INVRS (Algorithm 66) 
+565 : Matrix Inversion (Algorithm 58) 
+566 : Logarithm of a Complex Number (Algorithm 48) 
+567 : Exponential of a Complex Number (Algorithm 46) 
+568 : Binomial Coefficients (Algorithm 19) 
+569 : Simpson's Rule Integrator (Algorithm 103) 
+570 : Permutation in Lexicographical Order (Algorithm 102) 
+571 : Add Item to Chain-Linked List (Algorithm 100) 
+572 : Remove Item From Chain-Linked List (Algorithm 101) 
+573 : Evaluation of Jacobi Symbol (Algorithm 99) 
+574 : Evaluation of Definite Complex Line Integrals (Algorithm 98) 
+575 : Shortest Path (Algorithm 97) 
+576 : ANCESTOR (Algorithm 96) 
+577 : Generation of Partitions in Part-Count Form (Algorithm 95) 
+578 : COMBINATION (Algorithm 94) 
+579 : General Order Arithmetic (Algorithm 93) 
+580 : A Note on Sampling a Tape-File 
+581 : One Lost Bit 
+582 : A Redundancy Check for ALGOL Programs 
+583 : Report on the Algorithmic Language FORTRAN II 
+584 : Initial Experience With an Operating Multiprogramming System 
+585 : Simultaneous System of Equations and Matrix Inversion Routine (Algorithm 92) 
+586 : Romberg Integration (Algorithm 60) 
+587 : Chebyshev Curve-Fit (Algorithm 91) 
+588 : Evaluation of the Fresnel Cosine Integral (Algorithm 90) 
+589 : Evaluation of the Fresnel Sine Integral (Algorithm 89) 
+590 : Evaluation of Asymptotic Expression for the Fresnel Sine and Cosine Integrals (Algorithm 88) 
+591 : COBOL Batching Problems 
+592 : An Introduction to a Machine-Independent Data Division 
+593 : An Advanced Input-Output System for a COBOL Compiler 
+594 : Guides to Teaching COBOL 
+595 : Floating-Point Arithmetic in COBOL 
+596 : Modular Data Processing Systems Written in COBOL 
+597 : The COBOL Librarian - A Key to Object Program Efficiency 
+598 : A Report Writer For COBOL 
+599 : Syntactical Charts of COBOL 61 
+600 : Interim Report on Bureau of Ships COBOL Evaluation Program 
+601 : COBOL and Compatibility 
+602 : Basic Elements of COBOL 61 
+603 : Why COBOL? 
+604 : Computer Simulation Of City Traffic 
+605 : A Method for Eliminating Ambiguity Due to Signal Coincidence in Digital Design 
+606 : The Calculation of Easter... 
+607 : Permutation (Algorithm 71) 
+608 : Permutation (Algorithm 71) 
+609 : SIEVE (Algorithm 35) 
+610 : Permutation Generator (Algorithm 87) 
+611 : Permute (Algorithm 86) 
+612 : JACOBI (Algorithm 85) 
+613 : Simpson's Integration (Algorithm 84) 
+614 : Addressing Multidimensional Arrays 
+615 : An Information Algebra - Phase I Report-Language Structure Group of the CODASYL Development Committee 
+616 : POSEIDON 
+617 : Computers- The Key to Total Systems Control: An Industrial Viewpoint 
+618 : Retrieval of Misspelled Names in an Airlines Passenger Record System 
+619 : RATFACT (Algorithm 78) 
+620 : Romberg Integration (Algorithm 60) 
+621 : Optimal Classification of Objects (Algorithm 83) 
+622 : Economising a Sequence 2 (Algorithm 82) 
+623 : Economising a Sequence 1 (Algorithm 81) 
+624 : Reciprocal Gamma Function of Real Argument (Algorithm 80) 
+625 : A Method of Representation, Storage and Retrieval of 13 Random Codes in a 4-Digit Number or 16  Random Codes in a 5-Digit Number 
+626 : Knotted List Structures 
+627 : On a Floating-Point Number Representation For Use with Algorithmic Languages 
+628 : On a Wired-In Binary-to-Decimal Conversion Scheme 
+629 : An Evaluation of Autocode Readability 
+630 : Automatic-Programming-Language Translation Through Syntactical Analysis* 
+631 : Vectorcardiographic Diagnosis With The Aid of ALGOL 
+632 : Simulation and Analysis of Biochemical Systems (III. Analysis and Pattern Recognition) 
+633 : Manipulation of Trees in Information Retrieval* 
+634 : A Note on Multiplying Boolean Matrices 
+635 : Tape Splitting in an Iterative Program 
+636 : A NELIAC-Generated 7090-1401 Compiler 
+637 : SURGE: A Recoding of the COBOL Merchandise Control Algorithm 
+638 : Difference Expression Coefficients (Algorithm 79) 
+639 : Rational Roots of Polynomials with Integer Coefficients (Algorithm 78) 
+640 : Interpolation, Differentiation, and Integration (Algorithm 77) 
+641 : An Introduction to ALGOL  
+642 : Simulation and Analysis of Biochemcial Systems (II. Solution of Differential Equations) 
+643 : A String Language for Symbol Manipulation Based on ALGOL 60 
+644 : INVRS (Algorithm 66) 
+645 : Inverse of a Finite Segment of the Hilbert Matrix (Algorithm 50) 
+646 : Numerical Solution of the Polynomial Equation (Algorithm 30) 
+647 : Sorting Procedures (Algorithm 76) 
+648 : FACTORS (Algorithm 75) 
+649 : Curve Fitting with Constraints (Algorithm 74) 
+650 : A Survey of Languages and Systems for Information Retrieval 
+651 : Use of Semantic Structure in Information Systems 
+652 : Translation of Retrieval Requests Couched in a "Semiformal" English-Like Language* 
+653 : Language Problems Posed by Heavily Structured Data 
+654 : COMIT as an IR Language 
+655 : An Information System With The Ability To Extract Intelligence From Data 
+656 : Information Structures for Processing and Retrieving 
+657 : Discussion-The Pros and Cons of a Special IR Language 
+658 : Reversion of Series (Algorithm 193) 
+659 : More Test Matrices for Determinants and Inverses (Pracnique) 
+660 : Indexing and the Lambda-Notation 
+661 : Shuttle Sort (Algorithm 175) 
+662 : Determinant (Algorithm 159) 
+663 : Assignment (Algorithm 27) 
+664 : Gauss-Seidel (Algorithm 220) 
+665 : Topological Ordering for Pert Networks (Algorithm 219) 
+666 : Kutta Merson (Algorithm 218) 
+667 : Minimum Excess Cost Curve (Algorithm 217) 
+668 : A Specification of JOVIAL 
+669 : Some Legal Implications of the Use of Computers in the Banking Business 
+670 : TELEFILE-A Case Study of an On-Line Savings Bank Application 
+671 : Recent Developments Affecting ADP in Tax Administration 
+672 : Account Classification at Automating Banks 
+673 : Application of IBM 1620 EDP Methods to the Calculation of the Formation Constants of Complex  Irons 
+674 : Coding Clinical Laboratory Data For Automatic Storage and Retrieval 
+675 : On the Computation of a Certain Type of IncompleteBeta Functions 
+676 : Length of Strings for a Merge Sort 
+677 : Optimizing Bit-time Computer Simulation 
+678 : Recent Improvements in MADCAP 
+679 : An Error-Correcting Parse Algorithm 
+680 : Flexible Abbreviation of Words in a Computer Language 
+681 : Recursive programming in FORTRAN II 
+682 : A Serial Technique to Determine Minimum Paths 
+683 : Interpolation, Differentiation, and Integration (Algorithm 77) 
+684 : Euler Summation (Algorithm 8) 
+685 : Smooth (Algorithm 216) 
+686 : Shanks (Algorithm 215) 
+687 : q-Bessel Functions In(t)(Algorithm 214) 
+688 : Report of a Visit to Discuss Common Programming Languages in Czechoslovakia and Poland, 1963 
+689 : USA Participation in an International Standard glossary on Information Processing 
+690 : A Description of the APT Language 
+691 : On the Inverse of a Test Matrix 
+692 : An Extension of Fibonaccian Search To Several Variables 
+693 : A Comparison of Disks and Tapes 
+694 : Use of the Disk File on Stretch 
+695 : An Automatic Data Acquisition and Inquiry System Using Disk Files 
+696 : A Numerical Method for the Determination of Moving Field Isodose Curves for Treatment Planning  in Radiotherapy 
+697 : DATA-DIAL: Two-Way Communication with Computers From Ordinary dial Telephones 
+698 : A Contour-Map Program for X-Ray Crystallography 
+699 : Hermite Interpolation (Algorithm 210) 
+700 : Shuttle Sort (Algorithm 175) 
+701 : Assign (Algorithm 173) 
+702 : Assign (Algorithm 173) 
+703 : Combinatorial of M Things Taken One At A Time Two At A Time, Up To N At A Time (Algorithm 161) 
+704 : Combinatorial Of M Things Taken N At A Time (Algorithm 160) 
+705 : Fourier Series Approximation (Algorithm 157) 
+706 : Erf(x) (Algorithm 123) 
+707 : Evaluation of the Fresnel Integrals (Algorithm 88, 89, 90) 
+708 : Assignment (Algorithm 27) 
+709 : Fresnel Integrals (Algorithm 213) 
+710 : Frequency Distribution (Algorithm 212) 
+711 : Hermite Interpolation (Algorithm 211) 
+712 : Lagrangian Interpolation (Algorithm 210) 
+713 : Gauss (Algorithm 209) 
+714 : Discrete Convolution (Algorithm 208) 
+715 : Stringsort (Algorithm 207) 
+716 : Partitioning Algorithms for Finite Sets 
+717 : An Experiment in Automatic Verification of Programs  
+718 : Variable Width Stacks 
+719 : Format-Free Input in FORTRAN 
+720 : Report on Proposed American Standard Flowchart Symbols for Information Processing 
+721 : ALCOR Group Representation of ALGOL Symbols 
+722 : ECMA Subset of ALGOL 60 
+723 : A Profile of the Programmer 
+724 : Group Participation Computer Demonstration 
+725 : A General Program for the Analysis of Square and Rectangular Lattice Designs 
+726 : On the Approximate Solution of Delta(u)=F(u) 
+727 : Computer-Drawn Flowcharts* 
+728 : A Generalization of ALGOL 
+729 : MIRFAG: A Compiler Based on Standard Mathematical Notation And Plain English 
+730 : Symmetric List Processor  
+731 : Monte Carlo Inverse (Algorithm 166) 
+732 : Newton Interpolation with Forward Divided Differences (Algorithm 169) 
+733 : Newton Interpolation with Backward Divided Differences (Algorithm 168) 
+734 : Calculation of Confluent Divided Differences (Algorithm 167) 
+735 : Modified Hankel Functions (Algorithm 163) 
+736 : Exponentiation of Series (Algorithm 158) 
+737 : Fourier Series Approximation (Algorithm 157) 
+738 : MINIFUN (Algorithm 129) 
+739 : INTEREST (Algorithm 45) 
+740 : Evaluation of Determinant (Algorithm 41) 
+741 : Evaluation of Determinant (Algorithm 41) 
+742 : ARCCOSIN (Algorithm 206) 
+743 : ATIVE (Algorithm 205) 
+744 : STEEP2 (Algorithm 204) 
+745 : STEEP1 (Algorithm 203) 
+746 : Generation of Permutations in Lexicographical Order (Algorithm 202) 
+747 : A Semi-Iterative Process for Evaluating Arctangents 
+748 : Note onStochastic Matrices 
+749 : PEI Matrix Eigenvectors 
+750 : A Note on a Set of Test Matrices for Inversion 
+751 : Closing Out a Print Tape 
+752 : A Procedure for Converting Logic Table Conditions into an Efficient Sequence of Test Instructions 
+753 : Ye Indiscreet Monitor 
+754 : An Exponential Method of Numerical Integration of Ordinary Differential Equations 
+755 : A Computer Program for Editing the News 
+756 : Simulation of a Traffic Network 
+757 : Skeletal Structure of PERT and CPA Computer Programs 
+758 : Continued Operation Notation for Symbol Manipulation and Array Processing 
+759 : Dialects of FORTRAN 
+760 : A Note on the Dangling Else in ALGOL 60 
+761 : Some Remarks on the Syntax of Symbolic Programming Languages 
+762 : A Syntax Controlled Generator of Formal Language Processors 
+763 : Reduction of a Matrix Containing Polynomial Elements (Algorithm 170) 
+764 : Orthogonal Polynomial Least Squares Surface Fit (Algorithm 164) 
+765 : XY-move Plotting (Algorithm 162) 
+766 : Certification of Algorithm 161 Combinatorial of M Things Taken One at a Time, Two at a Time, Up to N at a Time [M. L. Wolfson and H. V. Wright, Comm. ACM, Apr. 1963] 
+767 : Certification of Algorithm 160 Combinatorial of M Things Taken N at a Time [M. L. Wolfson and H. V. Wright, Comm. ACM, Apr. 1963] 
+768 : Algebra of Sets (Algorithm 156) 
+769 : Combination in Any Order (Algorithm 155) 
+770 : Combination in Lexicographical Order (Algorithm 154) 
+771 : GOMORY (Algorithm 153) 
+772 : Matrix Inversion (Algorithm 140) 
+773 : Jacobi (Algorithm 85) 
+774 : Interpolation, Differentiation, and Integration (Algorithm 77) 
+775 : Partition, Quicksort, and Find (Algorithm 62, 64, & 65) 
+776 : A Set of Test Matrices (Algorithm 52) 
+777 : Associated Legendre Functions of the First Kind for Real or Imaginary Arguments (Algorithm 47) 
+778 : CROUT II (Algorithm 43) 
+779 : Algorithm 42 INVERT, Alg.107 Gauss's Method, Alg.120 Inversion II, and gjr 
+780 : Telescope 2 (Algorithm 38) 
+781 : Telescope 1 (Algorithm 37) 
+782 : Shellsort (Algorithm 201) 
+783 : Normal Random (Algorithm 200) 
+784 : Conversions Between Calendar Date And Julian day Number (Algorithm 199) 
+785 : Adaptive Integration and Multiple Integration (Algorithm 198) 
+786 : Matrix Division (Algorithm 197) 
+787 : Muller's Method for Finding Roots of an Arbitrary Function (Algorithm 196) 
+788 : Bandsolve (Algorithm 195) 
+789 : Zersol (Algorithm 194) 
+790 : Character Manipulation in 7090 Fortran 
+791 : Multiple-Precision Binary-To-Decimal Integer Conversion Using Only Addition And Subtraction 
+792 : Mapped List Structures 
+793 : A List-Type Storage Technique for Alphameric Information 
+794 : Debugging Systems at the Source Language Level 
+795 : SABRAG, A Time-Sharing Low-Cost Computer 
+796 : American Standard Code for Information Interchange 
+797 : A Catalogue Entry Retrieval System 
+798 : Design of a Separable Transition-Diagram Compiler* 
+799 : The Linking Segment Subprogram Language and Linking Loader 
+800 : Least Squares Solution with Constraints (Algorithm 177) 
+801 : SYMINV2 (Algorithm 150) 
+802 : Syminv2 (Algorithm 150) 
+803 : Exponentiation of Series (Algorithms 134) 
+804 : Newton Maehly (Algorithm 105) 
+805 : Remark on Certification of Matrix Inversion Procedures 
+806 : Reversion of Series (Algorithm 193) 
+807 : Confluent Hypergeometric (Algorithm 192) 
+808 : Hypergeometric (Algorithm 191) 
+809 : Complex Power (Algorithm 190) 
+810 : Smoothing 2 (Algorithm 189) 
+811 : Smoothing 1 (Algorithm 188)  
+812 : Differences and Derivatives (Algorithm 187) 
+813 : Complex Arithmetic (Algorithm 186) 
+814 : Normal Probability for Curve Fitting (Algorithm 185) 
+815 : Erlang Probability for Curve Fitting (Algorithm 184) 
+816 : Nexcom (Algorithm 152) 
+817 : Realizing Boolean Connectives on The IBM 1620 
+818 : Polynomial Evaluation Revised 
+819 : Checking for Loops in Networks 
+820 : Further Remarks on Sampling a Tape File-III 
+821 : Real-Time Programming Specifications 
+822 : A Syntactic Description of BC NELLIAC 
+823 : DESCRIPTRAN-Automated Descriptive Geometry* 
+824 : PIP: A Photo-Interpretive Program for the Analysis of Spark-Chamber Data* 
+825 : Remarks on Fortran Subroutines for Time Series Analysis 
+826 : Disk File Sorting 
+827 : Incompressible flow Network Calculations 
+828 : The External Language KLIPA For the URAL-2 Digital computer 
+829 : CORC-The Cornell Computing Language 
+830 : Real Error Function, ERF (Algorithm 123) 
+831 : Curve Fitting with Constraints (Algorithm 74) 
+832 : Reduction of a Symmetric Bandmatrix to Triple Diagonal Form 
+833 : Nonrecursive Adaptive Integration (Algorithm 182) 
+834 : Complementary Error Function-Large X (Algorithm 181) 
+835 : Error Function-Large X (Algorithm 180) 
+836 : Incomplete Beta Ratio (Algorithm 179) 
+837 : Direct Search (Algorithm 178) 
+838 : Least Squares Solution with Constraints (Algorithm 177) 
+839 : Least Squares Surface Fit (Algorithm 176) 
+840 : Shuttle Sort (Algorithm 175) 
+841 : A Posteriori Bounds on a Zero of a Polynomial (Algorithm 174) 
+842 : Assign (Algorithm 173) 
+843 : 1410 Fortran Edit Feature 
+844 : Another Test Matrix for Determinants and Inverses 
+845 : Self-Inverse Conversion Table 
+846 : A Penny-Matching Program 
+847 : A Note on Range Transformations for Square Root and Logarithm 
+848 : Use of Tree Structures for Processing Files 
+849 : Conversion, Reconversion and Comparison Techniques In Variable-Length Sorting 
+850 : Design and Characteristics of a Variable-Length Record Sort Using New Fixed-Length Record Sorting  Techniques 
+851 : A Method of Comparing the Time Requirements of Sorting Methods 
+852 : The COBOL Sort Verb 
+853 : Some Characteristics of Sorting in Computing Systems Using Random Access Storage Devices  
+854 : Organization and Structure of Dataon Disk File Memory Systems for Efficient Sorting and Other  Data Processing Programs 
+855 : Sorting with Large Volume, Random Access, Drum Storage 
+856 : Sorting Nonredundant Files-Techniques Used in the FACT Compiler 
+857 : A Tape File Merge Pattern Generator 
+858 : Computer Planned Collates 
+859 : A Comparison Between the Polyphase and Oscillating Sort Techniques 
+860 : Read-Backward Polyphase Sorting 
+861 : String Distribution for the Polyphase Sort 
+862 : Multiphase Sorting 
+863 : An Empirical Study of Minimal Storage Sorting 
+864 : Internal and Tape Sorting Using the Replacement-Selection Technique 
+865 : Sorting on Computers 
+866 : Least Squares Fitting of Planes to Surfaces Using Dynamic Programming 
+867 : A Suggested Method of Making Fuller Use of Strings in ALGOL 60 
+868 : Term of Magic Square (Algorithm 148) 
+869 : Term of Magic Square (Algorithm 148) 
+870 : PSIF (Algorithm 147) 
+871 : Adaptive Numerical Integration by Simpson's Rule (Algorithm 145) 
+872 : Random (Algorithm 133) 
+873 : Chebyshev Curvefit (Algorithm 91) 
+874 : Incomplete Elliptic Integrals (Algorithm 73) 
+875 : Complete Elliptic Integral (Algorithm 149) 
+876 : Complete Elliptic Integral of the First Kind (Algorithm 55) 
+877 : Reduction of a Matrix Containing Polynomial Elements (Algorithm 170) 
+878 : Newton Interpolation with Forward Divided Differences (Algorithm 169) 
+879 : Newton Interpolation with Backward Divided Differences 
+880 : Calculation of Confluent Divided Differences (Algorithm 167) 
+881 : Monte Carlo (Algorithm 166) 
+882 : Complete Elliptic Integrals (Algorithm 165) 
+883 : Orthogonal Polynomial Least Squares Surface Fit (Algorithm 164) 
+884 : Modified Hankel Function (Algorithm 163) 
+885 : XY-move Plotting (Algorithm 162) 
+886 : Combinatorial of M Things Taken One at a Time, Two at a Time, Up to N at a Time (Algorithm 161) 
+887 : Algorithm 160 Combinatorial of M Things Taken N at A Time 
+888 : Official Actions and Responses to ALGOL As a Programming Language 
+889 : Selected Definitions  
+890 : Everyman's Information Retrieval System 
+891 : RECOL-A Retrieval Command Language 
+892 : Significance Arithmetic on a Digital Computer 
+893 : An Iterative Factorization Technique for Polynomials 
+894 : A Computational Extension of the Variate Difference Method 
+895 : Characteristic Values and Vectors of Defective Matrices 
+896 : Note on the Proof of the Non-existence of a Phrase Structure Grammar for ALGOL 60 
+897 : Random (Algorithm 133) 
+898 : Magic Square (Algorithm 117 & 118) 
+899 : Ancestor (Algorithm 79) 
+900 : Difference Expression Coefficients (Algorithm 79) 
+901 : Determinant (Algorithm 159) 
+902 : Exponentiation of Series (Algorithm 134 ) 
+903 : Fourier Series Approximation (Algorithm 157) 
+904 : Algebra of Sets (Algorithm 156) 
+905 : Combination in any Order (Algorithm 155) 
+906 : Combination in Lexicographical Order (Algorithm 154) 
+907 : Test Matrix for Inversion  
+908 : Arithmetizing Declarations (Corrigendum) 
+909 : Selective Instruction Trap for the 7090 
+910 : A Variant Method of File Searching 
+911 : Addressing an Array Yi in k-Dimensions by Fortran for Analysis of Variance 
+912 : Neliac 
+913 : Jovial and Its Documentation 
+914 : Documentation of IPL-V 
+915 : FORTRAN 
+916 : COMIT 
+917 : COBOL 
+918 : Documentation Problems: ALGOL 60 
+919 : Toward Better Documentation of Programming Languages 
+920 : Incomplete Elliptic Integrals (Algorithm 73) 
+921 : Multint (Algorithm 32) 
+922 : Gomory (Algorithm 153) 
+923 : Nexcom (Algorithm 152) 
+924 : Location of a Vector in a Lexicographically Ordered ListAlgorithm 151) 
+925 : Syminv2 (Algorithm 150) 
+926 : Linear Programming Applied to Ultraviolet Absorption Spectroscopy 
+927 : Character Manipulation in FORTRAN 
+928 : Glossary Construction 
+929 : Decimal-to-Binary Conversion of Short Fields 
+930 : Systematic Mistake Analysis of Digital Computer Programs 
+931 : Matrix Inversion by Gauss-Jordan Inversion II (Algorithm 120) 
+932 : Magic Squares (Algorithm 117 & 118) 
+933 : Gauss's Method (Algorithm 107) 
+934 : Calculating Primes by Means of GPS (Algorithm) 
+935 : A Set of Test Matrices (Algorithm 52) 
+936 : Inverse of a Finite Segment of the Hilbert Matrix (Algorithm 50) 
+937 : Invert (Algorithm 42) 
+938 : Gamma Function (Algorithm 31) 
+939 : Generating Discrete Random Variables in a Computer 
+940 : A Recursive Program for the General n-Dimensional Integral 
+941 : FORTRAN Subroutines for Time Series Analysis 
+942 : Terms Frequently Combined in Problem Description 
+943 : Storage and Search Properties of a Tree-Organized Memory System 
+944 : Arithmetizing Declarations: An Application to COBOL 
+945 : Suggestions on ALGOL 60 (ROME) Issues - A Report by the American Standards Association Subcommittee X3.4.2 
+946 : Supplement to the ALGOL 60 Report 
+947 : Note on the Use of Procedures  
+948 : Integer and Signed Constants in ALGOL 
+949 : Parallel Methods for Integrating Ordinary Differential Equations 
+950 : Rational Chebyshev Approximations to the Bessel Function Integrals Kis(x) 
+951 : Another use of FORTRAN II Chaining 
+952 : Scanning Text with a 1401 
+953 : A Note on the Calculation of Probabilities in an F-Distribution 
+954 : A Class of Matrices to Test Inversion Procedures 
+955 : A Family of Test Matrices 
+956 : Method for Partial Rewriting of Magnetic Tape 
+957 : A Case of too Much Precision 
+958 : Mark Sense and Port-A-Punch Programming Inputs 
+959 : Curve Fitting with Format Fortran 
+960 : Limited Bit Manipulation Using FORTRAN II 
+961 : Double-Precision Squares Root for The CDC-3600 
+962 : Relative Effects of Central Processor and Input-Output Speeds Upon Throughput on the Large Computer 
+963 : Mechanization of Tedious Algebra-the e Coefficients of Theoretical Chemistry 
+964 : Greatest Common Divisor (Algorithm 237 [A1]) 
+965 : Evaluation of Determinant (Algorithm 224 [F3]) 
+966 : Complementary Error Function (Algorithm 181 [S15]) 
+967 : Radical-Inverse Quasi-Random Point Sequence (Algorithm 247 [G5]) 
+968 : Graycode (Algorithm 246 [Z]) 
+969 : Treesort 3 (Algorithm [M1]) 
+970 : Time Sharing in a Traffic Control Program 
+971 : An Executive System Implemented as a Finite-State Automaton 
+972 : Estimation of Heart Parameters Using Skin Potential Measurements 
+973 : A Technique for Reading Gapless Tapes Makes Electrocardiograph Analysis Feasible on the IBM 7090  
+974 : The New Program of Work for the International Standard Vocabulary in Computers and Information Processing 
+975 : Fresnel Integrals (Algorithm 213 [S20]) 
+976 : Conversions Between Calendar Date and Julian Day Number (Algorithm 199 [Z]) 
+977 : Fresnel Integrals (Algorithm 244 [S20]) 
+978 : Logarithm of a Complex Number (Algorithm 243 [B3]) 
+979 : Multiple-Precision Arithmetic and the Exact Calculation of the 3-j, 6-j and 9-j Symbols 
+980 : Rounding Problems in Commercial Data Processing 
+981 : An Inductive Approach to Language Translation 
+982 : Take-up reels for One-Inch Perforated Tape for Information Interchange (Proposed American Standard) 
+983 : Report on Input-Output Procedures for ALGOL 60 (IFIP) 
+984 : Report on SUBSET ALGOL 60 (IFIP) 
+985 : Proposed Amendment to Proposed American Standard on Specification for General-Purpose Paper Cards  for Information Processing 
+986 : FORTRAN vs. Basic FORTRAN (A Programming Language for Information Processing on Automatic Data  Processing Systems) 
+987 : History and Summary of FORTRAN Standardization Development for the ASA 
+988 : A Method of Syntax Specification 
+989 : Constraint-Type Statements in Programming Languages 
+990 : Gamma Function with Controller Accuracy (Algorithm 225 [S14]) 
+991 : Gamma Function (Algorithm 221 [S14]) 
+992 : Kutta Merson (Algorithm 218 [D2]) 
+993 : Stringsort (Algorithm 207 [M1]) 
+994 : Steep1 (Algorithm 203 [E4]) 
+995 : Permutations of a Set with Repetitions (Algorithm 242 [G6]) 
+996 : Patent Protection of Computer Programs 
+997 : Computer Programs are Patentable 
+998 : Joint Inventorship of Computers 
+999 : Computer Patent Disclosures 
+1000 : Copyright Aspects of Computer Usage 
+1001 : A Rapid Method for Digital Filtering 
+1002 : A Computer Analysis Method For Thermal Diffusion in Biochemical Systems 
+1003 : Arctangent (Algorithm [B1]) 
+1004 : Coordinates on an Ellipsoid (Algorithm 240 [Z]) 
+1005 : A Storage Allocation and Reference Structure 
+1006 : Extension of Existing Compilers By Sophisticated Use of Macros 
+1007 : Scheduling Meetings with a Computer 
+1008 : Solution of Combinatorial Problems Using Generating Functions on a Variable-Field Computer 
+1009 : A Multiuser Computation Facility for Education and Research 
+1010 : Logarithm of a Complex Number (Algorithm 48 [B3]) 
+1011 : Formal Parsing Systems 
+1012 : Final Examination Scheduling 
+1013 : Machine Controls for Analysis of Variance 
+1014 : Near-Minimax Polynomial Approximations and Partitioning of Intervals 
+1015 : Interchangcable Perforated Tape Variable Block Formats for Positioning and Straight Cut (RS-273)  and Contouring and Contouring/Positioning (RS-274) Numerically Controlled Machine Tools (Proposed American  Standards) 
+1016 : Comments on Bit-Sequencing of the ASCII in Serial-by-Bit Data Transmission 
+1017 : Gauss (Algorithm 209 [S15]) 
+1018 : XY move Plotting (Algorithm 162 [J6]) 
+1019 : Free Field Read (Algorithm 239 [I5]) 
+1020 : Conjugate Gradient Method (Algorithm 238 [F4]) 
+1021 : Greatest Common Divisor (Algorithm 237 [A1]) 
+1022 : Bessel Functions of the First Kind (Algorithm 236 [S17]) 
+1023 : A Note on the Formation of Free List 
+1024 : A Method of Syntax-Checking ALGOL 60 
+1025 : Divide-and-Correct Methods for Multiple Precision Division 
+1026 : An Alternate Checksum Method 
+1027 : Investigation of a New Analytical Method for Numerical Derivative Evaluation 
+1028 : A Simple Automatic Derivative Evaluation Program 
+1029 : Techniques for the Simulation of Computer Logic 
+1030 : A Note on Starting the Newton-Raphson Method 
+1031 : Theoretical Considerations in Information Retrieval Systems 
+1032 : Experimental Personalized Array Translator System 
+1033 : Autosate 
+1034 : Characteristics of the FORTRAN CEP Language 
+1035 : Remark on Further Generalization of ALGOL 
+1036 : Reduction of a Matrix Containing Polynomial Elements (Algorithm 170 [F3]) 
+1037 : Crout with Equilibration and Iteration (Algorithm 135 [F4]) 
+1038 : Summation of Fourier Series (Algorithm 128 [C6]) 
+1039 : Romberg Integration(Algorithm 60 [D1]) 
+1040 : Random Permutation (Algorithm 235 [G6]) 
+1041 : Poisson-Charlier Polynomials (Algorithm 234 [S23]) 
+1042 : Talk-A High-Level Source Language Debugging Technique With Real-Time Data Extraction 
+1043 : An Automatic Loader for Subroutine Nests 
+1044 : Programming Analysis of Variance by Sequences of Operators and Isomorphic Mappings 
+1045 : A Compiler-Building System Developed by Brooker and Morris 
+1046 : Generation of Test Matrices by Similarity Transformations 
+1047 : Approximate Solution of Axially Symmetric Problems 
+1048 : Numerical Solution of Nonlinear Two-Point Boundary Problems by Finite Difference Methods 
+1049 : A Parts Breakdown Technique Using List Structures 
+1050 : Multiword List Items 
+1051 : Reducing Truncation Errors by Programming 
+1052 : Design and Implementation of a General-Purpose Input Routine 
+1053 : Gauss-Seidel (Algorithm 220 ) 
+1054 : q-Bessel Functions In(t) (Algorithm 214) 
+1055 : Shellsort (Algorithm 201) 
+1056 : Critical Path Scheduling (Algorithm 40) 
+1057 : Simpson's Rule for Multiple Integration (Algorithm 233) 
+1058 : Heapsort (Algorithm 232) 
+1059 : Matrix Inversion (Algorithm 231) 
+1060 : Matrix Permutation (Algorithm 230) 
+1061 : Symbol Manipulation in FORTRAN-SASP I Subroutines 
+1062 : One-Inch Perforated Paper Tape for Information Interchange (Proposed American Standard) 
+1063 : Perforated Tape Code for Information Interchange (Proposed American Standard) 
+1064 : Bit Sequencing of the American Standard Code for Information Interchange (ASCII) in Serial-by-Bit  Data Transmission (Proposed American Standard) 
+1065 : Growing Applications of Linear Programming 
+1066 : Picture Generation With a Standard Line Printer 
+1067 : A FORTRAN II Load-Time-Saver 
+1068 : A Method for Comparing the Internal Operating Speeds of Computers 
+1069 : Expand, A System for Input Card Replication 
+1070 : Computer-Usage Accounting for Generalized Time-Sharing Systems 
+1071 : An Improved Equivalence Algorithm 
+1072 : A Fast Procedure for Generating Exponential Random Variables 
+1073 : Shanks (Algorithm 215) 
+1074 : Shuttlesort (Algorithm 175) 
+1075 : Multiple Integration (Algorithm 146) 
+1076 : Chebyshev Curve Fit (Algorithm 91) 
+1077 : Elementary Functions by Continued Fractions (Algorithm 229) 
+1078 : Q-Bessel Functions (Algorithm 228) 
+1079 : Chebyshev Polynomial Coefficients (Algorithm 227) 
+1080 : Normal Distribution Function (Algorithm 226) 
+1081 : Gamma Function with Controlled Accuracy (Algorithm 225) 
+1082 : An Experiment in a User-Oriented Computer System 
+1083 : On Declaring Arbitrarily Coded Alphabets 
+1084 : Specification for General-Purpose Paper Cards for Information Processing (Proposed American Standard) 
+1085 : A Proposal for Input-Output Conventions in ALGOL 60-A Report of the Subcommittee on ALGOL of  the ACM Programming Language Committee 
+1086 : Problems in Automatic Abstracting 
+1087 : Menu Planning by Computer 
+1088 : Designing a Computer Center 
+1089 : Incomplete Beta Function Ratios (Algorithm 222) 
+1090 : Hypergeometric and Confluent Hypergeometric (Algorithm 191 & 192) 
+1091 : Nonrecursive Adaptive Integration (Algorithm 182) 
+1092 : Evaluation of Determinant (Algorithm 224) 
+1093 : Prime Twins (Algorithm 223) 
+1094 : Decimal Tables of Binary Coded Tables 
+1095 : On Avoiding Matrix Reversals Between 7090 FORTRAN II and 7090 FORTRAN IV 
+1096 : An Algorithm for Converting Integers from Base A to Base B 
+1097 : A Comparison of List-Processing Computer Languages (Including a Detailed Comparison of COMIT,  IPL-V, LISP 1.5, and SLIP) 
+1098 : Professional Computer Work for the Blind 
+1099 : Status of Computer Sciences Curricula in Colleges and Universities 
+1100 : The Place of Logical Design and Switching Theory In The Computer Curriculum 
+1101 : Mechanical Languages: A Course Specification 
+1102 : Logic for the Computer Sciences  
+1103 : An Undergraduate Curriculum in Numerical Analysis 
+1104 : On Introducing Digital Computing 
+1105 : Programming of Digital Computers 
+1106 : Computers and Education 
+1107 : Digital Data Processor for Tracking the Partially Illuminated Moon* 
+1108 : Conversion of a Power to a Series of Chebyshev Polynomials* 
+1109 : A Fourier Series Method for the Numerical Solution of a Class of Parabolic Partial Differential  Equations* 
+1110 : A Class of Iterative Techniques For the Factorization of Polynomials* 
+1111 : A Technique for Computer Detection and Correction of Spelling Errors* 
+1112 : Computer-Made Perspective Movies as a Scientific and Communication Tool* 
+1113 : Generating a Canonical Prefix Encoding* 
+1114 : Randomized Binary Searching With Tree Structure 
+1115 : Tests on a Computer Method for Constructing School Timetables* 
+1116 : Polyphase Sorting With Overlapped Rewind* 
+1117 : FORTRAN Subroutines for Time Series Data Reduction* 
+1118 : An Open Letter to X3.4.3 (FORTRAN Standards -- American Association) 
+1119 : "ALCOR Group Representations of ALGOL Symbols," Comm. ACM 6 (1963), 597-599. (Corrigenda) 
+1120 : Comments on "A Continued Operation Notation"* 
+1121 : A Note on Some Compiling Algorithms 
+1122 : Gauss (Algorithm 209) 
+1123 : Matrix Division (Algorithm 197) 
+1124 : Syminv2 (Algorithm 150) 
+1125 : ERF (Algorithm 123) 
+1126 : Tridiagonal Matrix (Algorithm 122) 
+1127 : Evaluation of Determinant (Algorithm 41) 
+1128 : Incomplete Beta Function Ratios (Algorithm 222) 
+1129 : Gamma Function (Althm 221) 
+1130 : On Context and Ambiguity in Parsing* 
+1131 : An Extension to ALGOL for Manipulating Formulae* 
+1132 : A Programming Package for Some General Modes of Arithmetic* 
+1133 : Some Effects of the 6600 Computer on Language Structures* 
+1134 : A General Business-Oriented Language Based on Decision Expressions* 
+1135 : Beginnings of a Theory of Information Handling* 
+1136 : A Format Language* 
+1137 : Formalism in Programming Languages* 
+1138 : FORTRAN IV as a Syntax Language* 
+1139 : "Structural Connections" in Formal Language* 
+1140 : Bounded Context Syntactic Analysis 
+1141 : An Extension of ALGOL-Like Languages 
+1142 : Analysis of Decay-Type Data* 
+1143 : Digital Computer Determination of Alpha Source Activity 
+1144 : GIT-A Heuristic Program for Testing Pairs of Directed Line Graphs for Isomorphism* 
+1145 : An Efficient Composite Formula for Multidimensional Quadrature 
+1146 : On the Numerical Solution of Boundary Value Problems for Linear Ordinary Differential Equations* 
+1147 : An Example in "Significant-Digit" Arithmetic* 
+1148 : GARGOYLE , A Language for Compiler Writing* 
+1149 : A Fortran Post-Mortem Procedure 
+1150 : A Note on Multiplying Boolean Matrices II 
+1151 : Floating-Point Arithmetic with 84-Bit Numbers 
+1152 : A Fast Procedure for Generating Normal Random Variables* 
+1153 : Multi-Tape and Infinite-State Automata -- A Survey 
+1154 : Experiments with a Deductive Question-Answering Program 
+1155 : Hankel Function (Algorithm 124 [S17]) 
+1156 : Procedure for the Normal Distribution Functions (Algorithm 272 [S15]) 
+1157 : Program Structures for Parallel Processing 
+1158 : Machine Independence: Its Technology and Economics 
+1159 : CAT: A 7090-3600 Computer-Aided Translation 
+1160 : 1401 Compatibility Feature on the IBM System/360 Model 30 
+1161 : An Assembly Language for Reprogramming 
+1162 : Philco/IBM Translation at Problem-Oriented, Symbolic and Binary Levels 
+1163 : Emulation of Large Systems 
+1164 : The Spectra 70/45 Emulator for the RCA 301 
+1165 : A Use of Macros in Translation of Symbolic Assembly Language of One Computer to Another 
+1166 : On the Translation of Machine Language Programs 
+1167 : Across Machine Lines in COBOL 
+1168 : An Algorithm for Minimizing Backboard Wiring Functions 
+1169 : Analyzing English Syntax with a Pattern-Learning Parser 
+1170 : A Comparison of the Primal-Simplex and Primal-Dual Algorithms for Linear Programming 
+1171 : Conversion of Limited-Entry Decision Tables to Computer Programs 
+1172 : The Performance of a System for Automatic Segmentation of Programs Within an ALGOL Compiler (GIER  ALGOL) 
+1173 : Inverse Permutation (Algorithm 250 [G6]) 
+1174 : Quickersort (Algorithm 271 [M1]) 
+1175 : Finding Eigenvectors by Gaussian Elimination (Algorithm 270 [F2]) 
+1176 : Determinant Evaluation (Algorithm 269 [F3]) 
+1177 : ALGOL 60 Reference Language Editor (Algorithm 268 [R2]) 
+1178 : PUFFT-The Purdue University Fast FORTRAN Translator 
+1179 : AXLE: An Axiomatic Language for String Transformations 
+1180 : A Simple Data Transmission System Using the Office Telephone 
+1181 : Contextual Correlates of Synonymy 
+1182 : A Note on the Use of a Digital Computer for Doing Tedious Algebra and Programming 
+1183 : A Fast Storage Allocator 
+1184 : A program to Solve the Pentomino Problem by the Recursive Use of Macros 
+1185 : Recursive Solution of a Class Of Combinatorial Problems: An Example 
+1186 : Note on an ASCII-Octal Code Table (Standards) 
+1187 : An ALGOL-like Computer Design Language 
+1188 : Random Normal Deviate (Algorithm 267 [G5]) 
+1189 : Pseudo-Random Numbers (Algorithm 266 [G5]) 
+1190 : Find Precedence Functions (Algorithm 265 [L2]) 
+1191 : Interpolation in a Table (Algorithm 264 [E1]) 
+1192 : Gomory 1 (Algorithm 263 [H]) 
+1193 : Establishment of the ACM Repository and Principles of the IR System Applied to its Operation 
+1194 : UPLIFTS-University of Pittsburgh Linear File Tandem System 
+1195 : Applications of Differential Equations in General Problem Solving 
+1196 : Finding Zeros of a Polynomial by the Q-D Algorithm 
+1197 : Solution of a Problem in Concurrent Programming Control 
+1198 : A Computer Center Simulation Project 
+1199 : On Reversible Subroutines and Computers that Run Backwards 
+1200 : Generation of Permutations in Lexico-Graphical Order (Algorithm 202 [G6]) 
+1201 : Normal Random (Algorithm 200 [G5]) 
+1202 : Normdey (Algorithm 121 [G5]) 
+1203 : Character Structure and Character Parity Sense for Serial-by-Bit Data Communication in the American  Standard Code for Information Interchange (Proposed American Standard) 
+1204 : An Undergraduate Program in Computer Science-Preliminary Recommendations 
+1205 : The Self-Judgment Method of Curve Fitting 
+1206 : Remarks on Simulation of Boolean Functions 
+1207 : Simulation of Computer Logic by Fortran Arithmetic 
+1208 : Negative and Zero Subscripts in Fortran II Programming for the IBM 1620 
+1209 : File-Handling Within FORTRAN 
+1210 : A Note on Storage of Strings 
+1211 : Non-linear Extrapolation and Two-Point Boundary Value Problems 
+1212 : Dynamic Format Specifications 
+1213 : Some Experiments in Algebraic Manipulation by Computer  
+1214 : Some Techniques Used in the ALCOR ILLINOIS 7090 
+1215 : Symbolic Derivatives Without List Processing, Subroutines, or Recursion 
+1216 : Map of Partitions into Integers (Algorithm 264 [A1]) 
+1217 : Partition Generator (Algorithm 263 [A1]) 
+1218 : Number of Restricted Partitions of N (Algorithm 262 [A1]) 
+1219 : 9-J Symbols (Algorithm 261 [Z]) 
+1220 : 6-J Symbols (Algorithm 260 [Z]) 
+1221 : Legendre Functions for Arguments Larger Than One (Algorithm 259 [S16]) 
+1222 : High Speed Compilation of Efficient Object Code 
+1223 : Determining a Computing Center Environment 
+1224 : The Predictive Analyzer and a Path Elimination Technique 
+1225 : The Organization of Structured Files 
+1226 : Transport (Algorithm 258 [H]) 
+1227 : Treesort 3 (Algorithm 245 [M1]) 
+1228 : Random Permutation (Algorithm 235 [G6]) 
+1229 : Method for Hyphenating at the End of a Printed Line 
+1230 : Peephole Optimization 
+1231 : Representation of the Standard ECMA 7-Bit Code in Punched Cards (ECMA Standard) 
+1232 : Conventions for the Use of Symbols in the Preparation of Flowcharts for Information Processing  Systems (A Standard Working Paper) 
+1233 : The Structure of Yet Another ALGOL Compiler 
+1234 : A Stochastic Approach to the Grammatical Coding of English 
+1235 : The SMART Automatic Document Retrieval System-An Illustration 
+1236 : Conversion of Decision Tables To Computer Programs 
+1237 : A Technique for Integrated Reports from a Multi-run System 
+1238 : Graycode (Algorithm 246 [Z]) 
+1239 : Transport (Algorithm 258 [H]) 
+1240 : Havie Integrator (Algorithm 257 [D1]) 
+1241 : Modified Graeffe Method (Algorithm 256 [C2]) 
+1242 : Testing the Understanding of the Difference Between Call by Name and Call by Value in ALGOL 60 
+1243 : Bit Manipulation in Fortran Language 
+1244 : A Fortran n-Ary Counter 
+1245 : Deeply Nested Iterations  
+1246 : An Operating Environment for Dynamic-Recursive Computer Programming Systems 
+1247 : On the Automatic Simplification of Computer Programs 
+1248 :  Recorded Magnetic Tape for Information Interchange (200 CPI, NRZI) (On the Revised Proposed  American Standard) 
+1249 : Graphic Symbols for Problem Definition and Analysis-A Standards Working Paper 
+1250 : American Standard and IFIP/ICC Vocabularies compared 
+1251 : Symbolic Notations for Statistical Tables and an Approach Towards Automatic System Design 
+1252 : QUIKSCRIPT-A SIMSCRIPT- Like Language for the G-20 
+1253 : The Iteration Element 
+1254 : A Method of Data List Processing With Application to EEG Analysis 
+1255 : Dynamic Variable Formatting 
+1256 : DEBUG-An Extension to Current On-Line Debugging Techniques 
+1257 : An Extended Arithmetic Package 
+1258 : Applications of Binary Numbers In Computer Routines 
+1259 : Least-Squares Analysis of Resonance Spectra on Small Computers 
+1260 : Modeling and Simulation of Digital Networks 
+1261 : Procedure-Oriented Language Statements to Facilitate Parallel Processing 
+1262 : Metalanguage and Syntax Specification 
+1263 : BLNSYS-A 1401 Operating System with Braille Capabilities 
+1264 : On the Relative Efficiencies of Context-Free Grammar Recognizers 
+1265 : Considerations Relating to Purpose of FORTRAN Standardization (Appendixes to ASA FORTRAN Standard) 
+1266 : Performance of Systems Used for Data Transmission Transfer Rate of Information Bits -An ASA Tutorial  Standard 
+1267 : Logarithm of a Complex Number (Algorithm 243 [B3]) 
+1268 : Computation of Fourier Coefficients (Algorithm [C6]) 
+1269 : On ALGOL Education: Automatic Grading Programs 
+1270 : Secondary Key Retrieval Using an IBM 7090-1301 System 
+1271 : Expanding the Editing Function In Language Data Processing 
+1272 : Remark on Romberg Quadrature 
+1273 : On the Numerical Solution of an N-Point Boundary Value Problem for Linear Ordinary Differential  Equations 
+1274 : Code Structures for Protection and Manipulation of Variable Length Items (Corrigendum) 
+1275 : Still Another Use for FORTRAN II Chaining 
+1276 : The Use of Cobol Subroutines in Fortran Main Programs 
+1277 : Wengert's Numerical Method for Partial Derivatives, Orbit Determination and Quasilinearization 
+1278 : Use of a Conditional Base Number System for Encoding Sequences of Correlated Characters 
+1279 : Numerical Integration of a Differential-Difference Equation with a Decreasing Time-Lag 
+1280 : Data Input by Question and Answer 
+1281 : The Use of FORTRAN in Subroutines with COBOL Main Programs 
+1282 : Matrix Inversion (Algorithm 231 [F1]) 
+1283 : Bessel Function for a Set of Integer Orders 
+1284 : Eigenvalues and Eigenvectors of a Real Symmetric Matrix by the QR Method (Algorithm 254 [F2]) 
+1285 : Eigenvalues of a Real Symmetric Matrix by the QR Method (Algorithm 253 [F2]) 
+1286 : Vector Coupling or Clebsch-Gordan Coefficients (Algorithm 252 [Z]) 
+1287 : CLP-The Cornell List Processor 
+1288 : Proposed Revised American Standard Code for Information Interchange 
+1289 : Transparent-Mode Control Procedures for Data Communication, Using the American Standard Code  for Information Interchange -A Tutorial 
+1290 : Tabular Input of Data  
+1291 : On a Divide-and-Correct Method For Variable Precision Division 
+1292 : Method is Randomness  
+1293 : Note on Triple-Precision Floating-Point Arithmetic with 132-Bit Numbers 
+1294 : PERT Time Calculations Without Topological Ordering 
+1295 : Ative (Algorithm 205 [E4]) 
+1296 : Steep1 (Algorithm 203 [E4]) 
+1297 : Adaptive Numerical Integration by Simpson's Rule (Algorithm 145 [D1]) 
+1298 : Solutions of the Diophantine Equation (Algorithm 139 [A1]) 
+1299 : Function Minimization (Algorithm 251[E4]) 
+1300 : On ALGOL I/O Conventions 
+1301 : Parallel Signaling Speeds for Data Transmission (Proposed American Stand ard) 
+1302 : A Correspondence Between ALGOL 60 and Church's Lambda-Notation: Part II* 
+1303 : A Rapid Turnaround Multi-Programming System 
+1304 : The Internal Structure of the FORTRAN CEP Translator 
+1305 : A Class of Unambiguous Computer Languages 
+1306 : A Lightpen-Controlled Program For On-Line Data Analysis 
+1307 : A Mathematical Model for Mechanical part Description 
+1308 : A Computer User-Oriented System 
+1309 : A Rapid Braille Transliteration Technique for Certain IBM Machines 
+1310 : Efficient Autocorrelation  
+1311 : Recursion and Iteration 
+1312 : Construction of Nonlinear Programming Test Problems 
+1313 : The Organization of Symbol Tables 
+1314 : Automation of the Radioisotope Accountability System 
+1315 : Bessel Functions of the First Kind (Algorithm 236 [S17]) 
+1316 : Poisson-Charlier Polynomials (Algorithm 234 [S23]) 
+1317 : Arccossin (Algorithm 206 [B1]) 
+1318 : Crout with Equilibration and Iteration (Algorithm 135 [F4]) 
+1319 : Inverse Permutation (Algorithm 250 [G6]) 
+1320 : Outreal N (Algorithm [I5]) 
+1321 : Netflow (Algorithm 248 [H]) 
+1322 : A Correspondence Between ALGOL 60 and Church's Lambda-Notation: Part I* 
+1323 : Answering English questions by Computer: A Survey 
+1324 : Remote, On-Line, Real-time Computer Diagnosis of the Clinical Electrocardiogram 
+1325 : Boundary Networks 
+1326 : Use of Decision Tables in Computer Programming 
+1327 : Further Remarks on Reducing Truncation Errors 
+1328 : Simulation of Boolean Functions in a Decimal computer 
+1329 : Automated Plotting Flow-Charts on a Small Computer 
+1330 : Code Structures for Protection and Manipulation of Variable-Length Items 
+1331 : Subroutine Assembly 
+1332 : Reducing Truncation Errors Using Cascading Accumulators 
+1333 : Mechanization of Tedious Algebra: The Newcomb Operators of Planetary Theory 
+1334 : Character Set for Optical Character Recognition (Proposed American Stand ard) 
+1335 : NPL: Highlights of A New Programming Language 
+1336 : EULER: A Generalization of ALGOL, and its Formal Definition 
+1337 : Additional Comments on a Problem in Concurrent Progamming Control 
+1338 : A Contribution to the Development of ALGOL 
+1339 : Multiplexing of Slow Peripherals 
+1340 : Levels of Computer Systems 
+1341 : Transportation Problem (Algorithms 293 [H]) 
+1342 : Havie Integrator (Algorithm 257 [D1]) 
+1343 : Statistical Computations Based Upon Algebraically Specified Models 
+1344 : Tensor Calculations on the Computer 
+1345 : On the Application of the Process of Equalization of Maxima to Obtain Rational Approximation  to Certain Modified Bessel Functions 
+1346 : General Time-Varying Systems Error Sensitivities Program 
+1347 : FLOWTRACE, A Computer Program for Flowcharting Programs 
+1348 : Computing Capabilities at Western European Universities 
+1349 : The Augmented Predictive Analyzer for Context-Free Languages-Its Relative Efficiency 
+1350 : Automatic Error Bounds on Real Zeros of Rational Functions 
+1351 : Automatic Integration of a Function with a Parameter 
+1352 : Techniques for Automatic Tolerance Control in Linear Programming 
+1353 : Conversion of Decision Tables to Computer Programs by Rule Mark Techniques 
+1354 : Regular Coulomb Wave Functions (Algorithm 292 ) 
+1355 : Havie Integrator (Algorithm 257 [D1]) 
+1356 : Examination Scheduling (Algorithm 286 [H]) 
+1357 : Syntax Macros and Extended Translation 
+1358 : Data Filtering Applied to Information Storage and Retrieval Applications 
+1359 : Description of Systems Used for Data Transmission* (An ASA Tutorial) 
+1360 : Rectangular Holes in Twelve-Row Punched Cards* (Proposed American Standard) 
+1361 : Code Extension in ASCII* (An ASA Tutorial) 
+1362 : A General Method of Systematic Interval Computation for Numerical Integration of Initial Value  Problems 
+1363 : Mathematical Experimentation in Time-Lag Modulation 
+1364 : Eliminating Monotonous Mathematics with FORMAC 
+1365 : Computer Simulation-Discussion of the Technique and Comparison of Languages  
+1366 : Character Structure and Character Parity Sense for Parallel-by-Bit Data Communication in ASCII*  (Proposed American Standard) 
+1367 : Systematic Generation of Hamiltonian Circuits 
+1368 : Half Rotations in N-Dimensional Euclidean Space 
+1369 : Linear Equations, Exact Solutions (Algorithm 290 [F4]) 
+1370 : Logarithm of Gamma Function (Algorithm 291 [S14]) 
+1371 : Direct Search (Algorithm 178 [E4]) 
+1372 : Gamma Function; Gamma Function for Range 1 to 2; Reciprocal Gamma Function to Real Argument;  Gamma Function; Logarithm of Gamma Function (Algorithms 34[S14]; 54[S14]; 80[S14]; 221[S14]; 291[S14]) 
+1373 : Evaluation of Determinant; Determinant Evaluation (Algorithms 41[F3]; 269[F3]) 
+1374 : Function Minimization (Algorithm 251 [E4]) 
+1375 : Modified Graeffee Method (Algorithm 256 [C2]) 
+1376 : Pseudo-Random Numbers (Algorithm 266 [G5]) 
+1377 : Pseudo-Random Numbers (Algorithm 266 [G5]) 
+1378 : A Final Solution to the Dangling Else of ALGOL 60 and Related Languages 
+1379 : SIMULA-an ALGOL-Based Simulation Language 
+1380 : Impact of Computers on the Undergraduate Mathematics Curriculum  
+1381 : Desired Computer Impact on Undergraduate Mathematics  
+1382 : Implications of the Digital Computer for Education In the Mathematical Sciences 
+1383 : Mathematics for Undergraduate Computer Scientists 
+1384 : Computer Technology in Communist China, 1956-1965 
+1385 : Symbolic Factoring of Polynomials in Several Variables 
+1386 : Solution of Systems of Polynomial Equations By Elimination 
+1387 : AUTOMAST: Automatic Mathematical Analysis and Symbolic Translation 
+1388 : A Programmer's Description of L^6 
+1389 : CONVERT 
+1390 : Computer Experiments in Finite Algebra 
+1391 : Experience with FORMAC Algorithm Design 
+1392 : PM, A System for Polynomial Manipulation 
+1393 : Computation of Algebraic Properties of Elementary Particle Reactions Using a Digital Computer 
+1394 : On the Implementation of AMBIT, A Language for Symbol Manipulation 
+1395 : Survey of Formula Manipulation 
+1396 : Proceedings of the ACM Symposium on Symbolic and Algebraic Manipulation 
+1397 : Robot Data Screening: A Solution to Multivariate Type Problems in the Biological and Social Sciences 
+1398 : On Top-to-Bottom Recognition and Left Recursion 
+1399 : Free-Text Inputs to Utility Routines 
+1400 : Quasilinearization and the Calculation of Eigenvalues 
+1401 : Partial Step Integration 
+1402 : A Method for Finding the m Smallest Values of a Monotonic Function Defined on Ordered Sets of  Positive Integers 
+1403 : Computational Aspects of Multiple Covariance Analysis on a Multifactor Structure 
+1404 : Matrix Triangulation with Integer Arithmetic (Algorithm 287 [F1]) 
+1405 : Solution of simultaneous Linear Diophantine Equations (Algorithm 288 [F4]) 
+1406 : Confidence Interval for a Ratio (Algorithm 289 [G1]) 
+1407 : The Eschenbach Drum Scheme 
+1408 : NEBULA: A Digital Computer Using a 20 Mc Glass Delay Line Memory 
+1409 : Interarrival Statistics for Time Sharing Systems 
+1410 : Comparison of Several Algorithms for Computation of Means, Standard Deviations and Correlation  Coefficients 
+1411 : The Banking Information System Concept 
+1412 : A Vision of Technology and Education 
+1413 : Twelve-Row Punched-Card Code for Information Interchange* (Proposed American Standard) 
+1414 : Automatic Derivation of Microsentences 
+1415 : A Fortran Technique for Simplifying Input to Report Generators 
+1416 : Economies of Scale and the IBM System/360 
+1417 : Examination Scheduling (Algorithm 286 [ZH]) 
+1418 : Chebyshev Quadrature (Algorithm 279 [D1]) 
+1419 : A New Uniform Pseudorandom Number Generator 
+1420 : A Contribution to the Development of ALGOL 
+1421 : Eleven-Sixteenths Inch Perforated Paper Tape (Proposed American Standard) 
+1422 : A Simple Algorithm for Computing the Generalized Inverse of a Matrix 
+1423 : Automatic Analysis of Electronic Digital Circuits Using List Processing 
+1424 : Flow Diagrams, Turing Machines And Languages With Only Two Formation Rules 
+1425 : A Simulation of Hospital Admission Policy 
+1426 : Simulation of Radioisotope Scans by Computer 
+1427 : SHOCK III, A Computer System As an Aid in the Management of Critically III Patients 
+1428 : Matrix Reduction Using the Hungarian Method For The Generation of School Timetables 
+1429 : Multiple Precision Floating-Point Conversion from Decimal-to-Binary and Vice Versa 
+1430 : On a Storage Mapping Function For Data Structures 
+1431 : Incorporation of Nonstandard Input/Output Devices into FORTRAN Systems 
+1432 : A Note on Linear Programming Algorithm Design: A Combinatorial Problem 
+1433 : A Monte Carlo Algorithm for Assigning Students to Classes 
+1434 : Design of Computer Simulation Experiments for Industrial Systems 
+1435 : Interchange of Two Blocks of Data (Algorithm 284 [K2]) 
+1436 : The Mutual Primal-Dual Method (Algorithm 285 [H]) 
+1437 : A Method for Locating Zeros of Complex Functions 
+1438 : Mechanization of the Curve Fitting Process: DATAN 
+1439 : Starting Approximations for Square Root Calculation on IBM System/360 
+1440 : Methods of Numerical Integration Applied to a System Having Trivial Function Evaluations 
+1441 : Recorded Magnetic Tape For Information Interchange (800 CPI, NRZI)* (Proposed American Standard) 
+1442 : A Method for Finding the Least Squares Estimate of the Intersection Point of Two Helices in Space 
+1443 : An Algorithm for Generating Projective Reduction Formulas for Matrix Elements of Many-Electron  Wavefunctions 
+1444 : Use of the Computer to Teach Introductory Statistics 
+1445 : Chebyshev Quadrature (Algorithm 279 [D1]) 
+1446 : Abscissas and Weights for Gregory Quadrature [D1]) 
+1447 : Abscissas and Weights for Romberg Quadrature (Algorithm 281 [D1]) 
+1448 : Derivatives (Algorithm 282 [S22]) 
+1449 : Simultaneous Displacement of Polynomial Roots if Real and Simple (Algorithm 283 [C2]) 
+1450 : Runge-Kutta Integration (Algorithm 9 [D2]) 
+1451 : Kutta-Merson (Algorithm 218 [D2] 
+1452 : A Nonrecursive Method of Syntax Specification 
+1453 : A Simple User-Oriented Compiler Source Language for Programming Automatic Test Equipment 
+1454 : TRAC, A Procedure-Describing Language for the Reactive Typewriter 
+1455 : Storage and Retrieval of Aspects of Meaning in Directed Graph Structures 
+1456 : Data Manipulation and Programming Problems in Automatic Information Retrieval 
+1457 : Online Programming 
+1458 : Requirements for Real-Time Languages 
+1459 : Evolution of the Meta-Assembly Program 
+1460 : Discussion Summary on Operating Systems 
+1461 : Multilevel Operating Systems 
+1462 : More on Extensible Machines 
+1463 : An ALGOL Compiler: Construction and Use in Relation to an Elaborate Operating System 
+1464 : Program Translation Viewed as a General Data Processing Problem 
+1465 : Discussion Summary on Graphical Languages 
+1466 : A Graphical ServiceSystem With Variable Syntax 
+1467 : Syntax-Directed Interpretation of Classes of Pictures 
+1468 : The Next 700 Programming Languages  
+1469 : The Structure of Programming Languages 
+1470 : Programming Semantics for Multiprogrammed computations 
+1471 : Description of a High Capacity, Fast Turnaround University Computing Center 
+1472 : The Stability of the Fourth Order Runge-Kutta Method for the Solution of Systems of Differential  Equations 
+1473 : Tests of Probabilistic Models for Propagation of Roundoff Errors 
+1474 : Dribble Posting a Master File 
+1475 : Control Procedures for Data Communication-An ASA Progress Report 
+1476 : EULER: A Generalization of ALGOL, and its Formal Definition: Part II* 
+1477 : Exponential Curve Fit (Algorithm 275 [E2]) 
+1478 : Constrained Exponential Curve Fit (Algorithm 276 [E2]) 
+1479 : Computation of Chebyshev Series Coefficients (Algorithm 277[C6]) 
+1480 : Graph Plotter (Algorithm 278 [J6]) 
+1481 : BUGSYS: A Programming System for Picture Processing-Not for Debugging 
+1482 : A Comparison of the FORTRAN Language Implementation for Several Computers 
+1483 : A Language for Describing the Functions of Synchronous Systems*  
+1484 : The Structure of Programming Languages 
+1485 : A Reprogramming Machine 
+1486 : ELIZA-A Computer Program For the Study ofNatural Language Communication Between Man And Machine 
+1487 : Programming Decision Tables in FORTRAN, COBOL or ALGOL 
+1488 : Data, Documentation and Decision Tables 
+1489 : One Inch Perforated Paper Tape for Information Interchange (Proposed American Standard) 
+1490 : EULER: A Generalization ALGOL, and its Formal Definition: Part I* 
+1491 : Serrev (Algorithm 273 [C1]) 
+1492 : Generation of Hilbert Derived Test Matrix (Algorithm 274 [F1]) 
+1493 : Complete Elliptic Integral of the Second Kind (Algorithm 56 [S21]) 
+1494 : Solution of Transcendental Equations by Series Reversion 
+1495 : A Formal Semantics for Computer Languages and its Application In a Compiler-Compiler 
+1496 : On the Normalization Requirement of Divisor in Divide- and- Correct Methods 
+1497 : The ALCOR Illinois 7090/7094 Post Mortem Dump 
+1498 : Chebyschev Curve-Fit (revised) (Algorithm 318 [E2]) 
+1499 : Chebyschev Curve-Fit (Algorithm 91 [E2]) 
+1500 : Eigenvectors of a 2n x 2n Matrix 
+1501 : An Online Editor 
+1502 : A SIMSCRIPT-FORTRAN Case Study 
+1503 : Algorithms for Finding a Fundamental Set of Cycles for an Undirected Linear Graph 
+1504 : A System Organization for Resource Allocation  
+1505 : The LACONIQ Monitor: Time Sharing for Online Dialogues 
+1506 : A Multiprogramming Environment for Online Data Acquis ition and Analysis 
+1507 : Magnetic Tape Labels for Information Interchange (Proposed USA Standard) 
+1508 : Recorded Magnetic Tape for Information Interchange (200 CPI, NRZI) (Proposed USA Standard) 
+1509 : Finding a Solution of N Functional Equations in N Unknown (Algorithm 314 [C5]) 
+1510 : The Damped Taylor's Series Method for Minimizing a Sum of Squares and for Solving Systems of  Nonlinear Equations 
+1511 : Solution of Simultaneous Non-Linear Equations (Algorithm 316[C5]) 
+1512 : PERMUTATION (Algorithm 317 [G6]) 
+1513 : On the Expected Gain From Adjust ing Matched Term Retrieval Systems 
+1514 : A Computer System for Inference Execution and Data Retrieval 
+1515 : Automatic Data Compression 
+1516 : Methods for Analyzing Data from Computer Simulation Experiments 
+1517 : An Experimental Model of System/360 
+1518 : GEORGE 3-A General Purpose Time Sharing and Operating System 
+1519 : Absolute Value and Square Root of a Complex Number (Algorithm 312 [A2]) 
+1520 : Multi-Dimensional Partition Generator (Algorithm 313 [A1]) 
+1521 : Chebyschev Quadrature (Algorithm 279 [D1]) 
+1522 : SHARER, a Time Sharing System for the CDC 6600 
+1523 : A Stopping Criterion for Polynomial Root Finding 
+1524 : On Computing The Fast Fourier Transform 
+1525 : Multiprogramming under a Page on Demand Strategy 
+1526 : A Grammar Base Question Answering Procedure 
+1527 : Three Fonts of Computer Drawn Letters 
+1528 : Decomposition Programming An Analysis of Matrix Substructure  
+1529 : The ML/I Macro Processor 
+1530 : The Remaining Trouble Spots in ALGOL 60 
+1531 : The Hardware-Software Complementarity 
+1532 : A Marovian Model of the University of Michigan Executive System 
+1533 : DAD, The C.S.I.R.O. Operating System 
+1534 : A Comment on Index Register Allocation 
+1535 : Dynamic Computation of Derivatives 
+1536 : Prime Number Generator 1 (Algorithm 310 [A1]) 
+1537 : Prime Number Generator 2 (Algorithm 311 [A1]) 
+1538 : Prime Number Generator 1; Prime Number Generator 2 (Algorithm 35[A1]; Algorithm 310[A1]; Algorithm  311[A1]) 
+1539 : An Algorithm for Class Scheduling With Section Preference 
+1540 : A Language for Modeling and Simulating Dynamic Systems 
+1541 : A Microprogrammed Implementation of EULER on IBM System/360 Model 30 
+1542 : Computer Formulation of the Equations of Motion Using Tensor Notation 
+1543 : Tele-CUPL: A Telephone Time Sharing System 
+1544 : Legal Safeguards to Insure Privacy in a Computer Society 
+1545 : Toward Standards for Handwritten Zero and Oh 
+1546 : Gamma Function with Arbitrary Precision (Algorithm 309 [S14]) 
+1547 : Parsing of Decision Tables 
+1548 : An Efficient Machine-Independent Procedure for Garbage Collection in Various List Structures 
+1549 : A Comparison of Batch Processing and Instant Turnaround 
+1550 : On Compiling Algorithms for Arithmetic Expressions 
+1551 : The AED Free Storage Package 
+1552 : Contextual Understanding by Computers 
+1553 : A Computer Technique for Displaying n-Dimensional Hyperobjects 
+1554 : Symmetric Polynomials (Algorithm 305 [C1]) 
+1555 : Permutations with Repetitions (Algorithm 306 [G6]) 
+1556 : Symmetric Group Characters (Algorithm 307 [A1]) 
+1557 : Generation of Permutations in Pseudo-Lexicographic Order (Algorithm  [G6]) 
+1558 : Permutation Generator; Permutation in Lexicographical Order; Permute; Generation of Permutations  in Lexicographical Order (Algorithm 87[G6]; Algorithm 102[G6]; Algorithm 130[G6]; Algorithm 202[G6]) 
+1559 : Transport; Transportation Problem (Algorithm 258[H]; Algorithm 293[H]) 
+1560 : The Mutual Primal-Dual Method (Algorithm 285 [H]) 
+1561 : Airy Function (Algorithm 301 [S20]) 
+1562 : A Method for Finding Hamilton Paths and Knight's Tours 
+1563 : Description of Basic Algorithm in DETAB/65 Preprocessor 
+1564 : A Language-Independent Macro Processor 
+1565 : Optimal Starting Values for Newton-Raphson Calculation of SQRT(x) 
+1566 : On the Representation of Symmetric Polynomials 
+1567 : Plotting a Function of Three Independent Variables 
+1568 : Implementing Phrase-Structure Productions in PL/I 
+1569 : String Processing Techniques 
+1570 : A User-Oriented Time-Shared Online System 
+1571 : The Simulation of Time sharing Systems 
+1572 : An Adaptive Quadrature Procedure with Random Panel Sizes (Algorithm [D1]) 
+1573 : Normal Curve Integral (Algorithm 304 [S15]) 
+1574 : Incomplete Beta Ratio (Algorithm 179 [S14]) 
+1575 : Eigenvalues of a Real Symmetric Matrix by the QR Method (Algorithm 253 [F2]) 
+1576 : Eigenvalues and Eigenvectors of a Real Symmetric Matrix by the QR Method (Algorithm 254 [F2]) 
+1577 : Generalized Least Squares Fit By Orthogonal Polynomials (Algorithm 296 [E2]) 
+1578 : Real Error Function, ERF(x) (Algorithm 123 [S15]) 
+1579 : Error Function-Large X (Algorithm 180 [S15]) 
+1580 : Complementary Error Function-Large X (Algorithm 181 [S15]) 
+1581 : GAUSS (Algorithm 209 [S15]) 
+1582 : Normal Distribution Function (Algorithm 226 [S15]) 
+1583 : Procedure for the Normal Distribution Functions (Algorithm 272 [S15]) 
+1584 : Normal Curve Integral (Algorithm 304 [S15]) 
+1585 : A Generalized Bairstow Algorithm 
+1586 : Storage Allocation in a Certain Iterative Process 
+1587 : PL/I List Processing 
+1588 : DIALOG: A Conversational Programming System with a Graphical Orientation 
+1589 : Pitch Period Determination of Speech Sounds 
+1590 : A Model for a Multifunctional Teaching System 
+1591 : String Similarity and Misspellings 
+1592 : A Simple Technique for Digital Division 
+1593 : An Algorithm for Generating Permutations 
+1594 : On the Computer Enumeration of Finite Topologies 
+1595 : Airy Function (Algorithm 301 [S20]) 
+1596 : Transpose Vector Stored Array (Algorithm 302 [K2]) 
+1597 : Least Squares Fit By Orthogonal Polynomials (Algorithm 28 [E2]) 
+1598 : Numerical Solution of the Polynomial Equation (Algorithm 300 [C2]) 
+1599 : Chebyshev Quadrature (Algorithm 279 [D1]) 
+1600 : Parallel Numerical Methods for the Solution of Equations 
+1601 : POSE: A Language for Posing Problems to a Computer 
+1602 : A Multiprogramming Monitor for Small Machines 
+1603 : Further Analysis of a Computing Center Environment 
+1604 : An Experimental Comparison of Time Sharing and Batch Processing 
+1605 : Chi-Squared Integral (Algorithm 299 [S15]) 
+1606 : Coulomb Wave Functions (Algorithm 300 [S22]) 
+1607 : Numerical Integration of Function That Has a Pole 
+1608 : Scheduling University Course Examinations by Computer 
+1609 : A Method for the Solution of Transportation Problems with Tall Matrices 
+1610 : Scheduling Project Networks 
+1611 : Top-to-bottom Parsing Rehabilitated? 
+1612 : One-Pass Compilation of Arithmetic Expressions for a Parallel Processor 
+1613 : A Proposal for Definitions in ALGOL 
+1614 : An Algorithm for Generating Root Locus Diagrams 
+1615 : Tensor Calculations on Computer: Appendix 
+1616 : Eigenvalues and Eigenvectors of the Symmetric System (Algorithm 297 [F2]) 
+1617 : Determination of the Square-Root of a Positive Definite Matrix (Algorithm 298 [F1]) 
+1618 : Error-Free Methods for Statistical Computations 
+1619 : Methods of Evaluating Polynomial Approximations in Function Evaluation Routines 
+1620 : Computer Typesetting of ALGOL 
+1621 : An Efficient Procedure for the Generation of Closed Subsets 
+1622 : An Application of FORMAC 
+1623 : Automatic Dimensioning 
+1624 : On the Automatic Simplification of Source-Language Programs 
+1625 : Structure of a LISP System Using Two-Level Storage 
+1626 : Application of Level Changing to a Multilevel Storage Organization 
+1627 : The Emergence of a Profession 
+1628 : Stat-Pack: A Biostatistical Programming Package 
+1629 : Computer Representation of Planar Regions by Their Skeletons 
+1630 : Testing a Random Number Generator 
+1631 : Programming the Tabular Method of Analysis of Variance for Factorial Experiments  
+1632 : A Modified Newton Method for Polynomials 
+1633 : 27 bits Are Not Enough for 8-digit Accuracy 
+1634 : Parameters for Pseudo Runge-Kutta Methods 
+1635 : Invariant Imbeding and the Numerical Integration of Boundary-Value Problems for Unstable Linear  Systems of Ordinary Differential Equations 
+1636 : Problems in the Statistical Analysis of Simulation Experiments: The Comparison of Means and the  Length of Sample Records 
+1637 : Sorting by Replacement Selecting 
+1638 : Exponential Curve Fit (Algorithm 295 [E2]) 
+1639 : Generalized Least Squared Fit By Orthogonal Polynomials (Algorithm 296 [E2]) 
+1640 : A Use of Fast and Slow Memories in List-Processing Languages 
+1641 : Time Sharing on a Computer with a Small Memory 
+1642 : An Improvement to Iterative Methods of Polynomial Factorization 
+1643 : On the Computation of Least Squares Polynomials 
+1644 : A Note on Computing Approximations to the Exponential Function 
+1645 : DITRAN-A Compiler Emphasizing Diagnostics 
+1646 : WATFOR-The University of Waterloo FORTRAN IV Compiler 
+1647 : Uniform Random (Algorithm 294 [G5]) 
+1648 : Data Directed Input-Output in FORTRAN 
+1649 : A Unifying Computational Method for the Analysis of Complete Factorial Experiments 
+1650 : An Interpretive Input Routine for Linear Programming 
+1651 : A Code for Non-numeric Information Processing Applications in Online Systems 
+1652 : System Performance Evaluation: Survey and Appraisal 
+1653 : A University's Educational Program in Computer Science 
+1654 : Code Extension Procedures for Information Interchange* (Proposed USA Standard) 
+1655 : Procedures for the Standardization Process* (Proposed USA Standard) 
+1656 : Implementation of the SHARER2 Time-Sharing System 
+1657 : Analysis of Algorithms for the Zero-One Programming Problem 
+1658 : Computational Linguistics in a Ph.D. Computer Science Program 
+1659 : Index By Subject To algorithms, 1960-1968 
+1660 : Multint (Algorithm 32 [D1]) 
+1661 : Eigenvalues and Eigenvectors of a Real General Matrix [F2]) 
+1662 : Generator of Random Numbers Satisfying the Poisson distribution [G5]) 
+1663 : An Algorithm for Deriving the Equations of Mathematical Physics by Symbolic Manipulation 
+1664 : Automatic Generation of Efficient Lexical Processors Using Finite State Techniques 
+1665 : Solution of Linear Programs in 0-1 Variables by Implicit Enumeration (Algorithm 341 [H]) 
+1666 : Roots of Polynomials by a Root-Squaring and Resultant Routine (Algorithm 340 [C2]) 
+1667 : An Algol Procedure for the Fast Fourier Transform with Arbitrary Factors (Algorithm 339 [C6]) 
+1668 : Algol Procedures for the Fast Fourier Transform (Algorithm 338 [C6]) 
+1669 : Correspondences of 8-Bit and Hollerith Codes for Computer Environments (A USASI Tutorial Standard) 
+1670 : A Phonological Rule Tester 
+1671 : Practical Error Coefficients in the Integration of Periodic Analytic Functions by the Trapezoidal  Rule 
+1672 : Approximate Solution of Initial Boundary Wave Equation Problems by Boundary-Value Techniques 
+1673 : One-Line Random Number Generators and Their Use in Combinations 
+1674 : A Note on a Relevance Estimate and Its Improvement 
+1675 : The LRLTRAN Compiler 
+1676 : Storage Organization in Programming Systems 
+1677 : Automata, Formal Languages, Abstract Switching, and Computability in a Ph.D. Computer Science  Program 
+1678 : A Fast Fourier Transform Algorithm for Real-Valued Series 
+1679 : A General-Purpose Display Processing and Tutorial System 
+1680 : Easy English,a Language for Information Retrieval Through a Remote Typewriter Console 
+1681 : The Implementation of a BASIC System in a Multiprogramming Environment 
+1682 : Boolean matrix Methods for the Detection of Simple Precedence Grammars 
+1683 : Ambiguity in Limited Entry Decision Tables 
+1684 : GAN, a System for Generating and Analyzing Activity Networks 
+1685 : Computer Synthesis of Holograms for 3-D Display 
+1686 : Netflow (Algorithm 248 [H]) 
+1687 : Netflow (Algorithm 248 [H]) 
+1688 : Calculation of a Polynomial and its Derivative Values by Horner Scheme (Algorithm 337 [C1]) 
+1689 : Netflow (Algorithm 336 [H]) 
+1690 : A Comparison of the Correlational Behavior of Random Number Generators for the IBM 360 
+1691 : Numerical Solution of a Thin Plate Heat Transfer Problem 
+1692 : GPL, a Truly General Purpose Language 
+1693 : An Algorithm for the Probability of the Union of a Large Number of Events 
+1694 : PLEXUS-An On-Line System for Modeling Neural Networks 
+1695 : An Algorithm for Identifying the Ergodic Subchains and Transient States of a Stochastic Matrix 
+1696 : Graphical Input/Output of Nonstandard Characters 
+1697 : A Statistical Model for Console Behavior in Multiuser Computers 
+1698 : Experimental Evaluation of Information Retrieval Through a Teletypewriter 
+1699 : PEEKABIT, Computer Offspring of Punched Card PEEKABOO, for Natural Language Searching 
+1700 : Synchronous Signaling Rates for Data Transmission* (Proposed USA STandard) 
+1701 : Commentary on Mr. Mooers' Paper 
+1702 : Accommodating Standards and Identification of Programming Languages 
+1703 : Minimum Excess Cost Curve (ALgorithm 217 [H]) 
+1704 : A Set of Basic Input-Output Procedures (Algorithm 335 [15]) 
+1705 : CHAMP-Character Manipulation Procedures 
+1706 : Generation of Positive Test Matrices with Known Positive Spectra 
+1707 : A Note on the Efficiency of a LISP Computation in a Paged Machine 
+1708 : A Modification of Efroymson's Technique for Stepwise Regression Analysis 
+1709 : ASP-A Ring Implemented Associative Structure Package 
+1710 : When Your Computer Needs a Lawyer 
+1711 : Recovery of Disk Contents After System Failure 
+1712 : On Overcoming High-Priority Paralysis in Multiprogramming Systems: A Case His tory 
+1713 : Procedure for the Normal Distribution (Algorithm 272 [S15]) 
+1714 : Direct Search (Algorithm 178 [E4])  
+1715 : Normal Random Deviates (Algorithm 334 [G5]) 
+1716 : Generating Prime Implicants Via Ternary Encoding and Decimal Arithmetic 
+1717 : "Logical" Arithmetic on Computers with Two's Complement Binary Arithmetic 
+1718 : A Methodology for Calculating and Optimizing Real-Time System Performance 
+1719 : Master's Level Computer Science Curricula 
+1720 : Determination of the Intersection Points of Two Plane Curves by Means of Differential Equations 
+1721 : Methods of Convergence Improvement for Some Improper Integrals 
+1722 : Computer Construction of Project Networks 
+1723 : A Generalized Partial Pass Block Sort 
+1724 : A Simple Proof of Lewin's Ordered-Retrieval Theorem for Associative Memories 
+1725 : Preliminary Investigation of Techniques for Automated Reading of Unformatted Text 
+1726 : One Way of Estimating Frequencies of Jumps in a Program 
+1727 : Further Experimental Data on the Behavior of Programs in a Paging Environment 
+1728 : Minit Algorithm for Linear Programming (Algorithm 333 [H]) 
+1729 : Jacobi Polynomials (Algorithm 332 [S22]) 
+1730 : Gaussian Quadrature Formulas (Algorithm 331 [D1]) 
+1731 : Factorial Analysis of Variance (Algorithm 330 [G1]) 
+1732 : Distribution of Indistinguishable Objects into Distinguishable slots (Algorithm [G6]) 
+1733 : Chebyshev Solution to an Overdetermined Linear System (Algorithm 328 [F4]) 
+1734 : A Futures Market in Computer time 
+1735 : Heading Format for Data Transmission (A USAAI Tutorial -- Standards) 
+1736 : A Global Parser for Context-Free Phrase Structure Grammars 
+1737 : Writing an Outline Debugging Program for the Experienced User 
+1738 : Regular Expression Search Algorithm 
+1739 : An Inexpensive Braille Terminal Device 
+1740 : BRAD: The Brookhaven Raster Display 
+1741 : On the Design of Display Processors 
+1742 : Reliable Full-Duplex file Transmission over Half-Duplex Telephone Lines 
+1743 : Stable Numerical Methods for Obtaining the Chebyshev Solution to an Overdetermined System of  Equations 
+1744 : A Position Paper on Computing and Communications 
+1745 : Protection in an Information Processing Utility 
+1746 : Three Criteria for Designing Computing Systems to Facilitate Debugging 
+1747 : A Scheduling Philosophy for Multiprocessing Systems 
+1748 : The Structure of the "THE"-Multiprogramming System 
+1749 : Considerations in the Design of a Multiple Computer System with Extended Core Storage 
+1750 : The Working Set Model for Program Behavior 
+1751 : Resource Management for a Medium Scale Time-Sharing Operating system 
+1752 : Virtual Memory, Processes, and Sharing in MULTICS 
+1753 : Dynamic Storage Allocation Systems 
+1754 : Proceedings of the ACM Symposium on Operating system Principles 
+1755 : Hollerith Punched Card Code* (Proposed USA Standard) 
+1756 : Data Code for Calendar Date for Machine-to-Machine Data Interchange* (Proposed USA Standard) 
+1757 : Symmetric Polynomials, (Algorithm 305 [C1]) 
+1758 : Transportation Problem (Algorithm 293 [H]) 
+1759 : Normal Curve Integral (Algorithm 304 [S15]) 
+1760 : Chi-Squared Integral (Algorithm 299 [S15]) 
+1761 : Dilogarithm (Algorithm 327 [S22]) 
+1762 : Roots of Low-Order Polynomial Equations (Algorithm 326 [C2]) 
+1763 : Panel Discussion on Computer Appreciation 
+1764 : Expenditures, Sources of Funds, and Utilization of Digital Computers for Research and Instruction  in Higher Education: 1964-65 with Projections for 1968-69 
+1765 : Quasilinearization and the Estimation of Differential Operators from Eigenvalues 
+1766 : A General Purpose Graphic Language 
+1767 : A Global Parser for Context-Free Phrase Structure Grammars 
+1768 : The Expanding World of Computers 
+1769 : Rules of Ethics in Information Processing 
+1770 : CURRICULUM 68 -- Recommendations for Academic Programs in Computer Science -- A Report of the  ACM Curriculum Committee on Computer science 
+1771 : USASCSOCR Dual Case Keyboard Arrangement* (Proposed USA Standard) 
+1772 : General Purpose Alphanumeric Keyboard Arrangement for Information Interchange* (Proposed USA  Standard) 
+1773 : Program Overlay Techniques 
+1774 : Adjustment of the Inverse of a Symmetric Matrix when Two Symmetric Elements are Changed (Algorithm  325 [F1]) 
+1775 : Maxflow (Algorithm 324 [H]) 
+1776 : Generation of Permutations in Lexicographic Order (Algorithm 323 [G6]) 
+1777 : F-Distribution (Algorithm 322 [S14]) 
+1778 : t-Test Probabilities (Algorithm [S14]) 
+1779 : Harmonic Analysis for Symmetrically Distributed Data (Algorithm 320 [C6]) 
+1780 : Translator Writing systems 
+1781 : A Numerical Integration Formula Useful in Fourier Analysis 
+1782 : In-and-Out Conversions 
+1783 : Practical Error Coefficients for Estimating Quadrature Errors for Analytic Functions 
+1784 : Scatter Storage Techniques 
+1785 : An Improved Hash Code for Scatter Storage 
+1786 : Use of Transition Matrices in Compiling 
+1787 : Toward a General Processor for Programming Languages 
+1788 : Logarithm of Gamma Function (Algorithm 291 [S14]) 
+1789 : Muller's Method for Finding roots of an Arbitrary Function  (Algorithm 196 [C5]) 
+1790 : Triangular Factors of Modified Matrices (Algorithm 319 [F1]) 
+1791 : Exploratory Experimental Studies Comparing Online and Off line Programming Performance 
+1792 : Presentation of Alphameric Characters for Information Processing* (Proposed American National  Standard) 
+1793 : A Fast Random Number Generator for IBM 360 
+1794 : Optimal Code for Serial and Parallel Computation 
+1795 : Index by Subject to Algorithms, 1969 
+1796 : Solution of Linear programs in 0-1 (Algorithm 341 [H]) 
+1797 : Coulomb Wave Functions (Algorithm 300 [S22]) 
+1798 : Elementary Functions by Continued Fractions (Algorithm 229 [B1]) 
+1799 : PSIF (Algorithm 147 [S14]) 
+1800 : Analysis of Variance for Balanced Experiments (Algorithm 367 [G2]) 
+1801 : Regression Using Certain Direct Product Matrices (Algorithm 366 [G2]) 
+1802 : Complex Root Finding (Algorithm 365 [C5]) 
+1803 : Coloring Polygonal Regions (Algorithm 364 [Z]) 
+1804 : Productivity of Multiprogrammed Computers-Progress in Developing an Analytic Prediction Method 
+1805 : On the Downhill Method 
+1806 : Optimization of Expressions in Fortran 
+1807 : Advanced Cryptographic Techniques for Computers 
+1808 : Numerical Analysis in a Ph.D. Computer Science Program 
+1809 : Is Automatic "Folding" of Programs Efficient Enough To Displace Manual? 
+1810 : A Case Study in Programming for Parallel-Processors 
+1811 : More on Fortran Random Number Generators 
+1812 : Generation of Permutations in Pseudo-Lexicographic Order (Algorithm 308 [G6]) 
+1813 : Direct Search (Algorithm 178 [E4]) 
+1814 : Direct Search (Algorithm 178 [E4]) 
+1815 : Generalized Least Squares Fit By Orthogonal Polynomials (Algorithm 296 [E2]) 
+1816 : Computation of Fourier Coefficients (Algorithm 255 [C6]) 
+1817 : Associated Legendre Functions of the First Kind for Real or Imaginary Arguments (Algorithm 47  [S16]) 
+1818 : Complex Error Function (Algorithm 363 [S15]) 
+1819 : Generation of Random Permutations (Algorithm 362 [G6]) 
+1820 : Permanent Function of a Square Matrix I and II (Algorithm 361 [G6]) 
+1821 : Shortest-Path Forest with Topological Ordering (Algorithm [H]) 
+1822 : Factorial Analysis of Variance (Algorithm [G1]) 
+1823 : APAREL-A Parse-Request Language 
+1824 : A Practical Method for Constructing LR(k) Processors 
+1825 : A LISP Garbage-Collector for Virtual-Memory Computer Systems 
+1826 : Performance Monitoring in a Time-Sharing System 
+1827 : Synchronization in a Parallel-Accessed Data Base 
+1828 : An Interactive Graphical Display Monitor in a Batch-Processing Environment with Remote Entry 
+1829 : Retrieval Times for a Packed Direct Access Inverted File 
+1830 : A Comment on Optimal Tree Structures 
+1831 : Minimax Logarithmic Error 
+1832 : An Ambiguity in the Description of ALGOL 60 
+1833 : An Axiomatic Basis for Computer Programming 
+1834 : The IITRAN Programming Language 
+1835 : A New Method for Determining Linear Precedence Functions for Precedence Grammars 
+1836 : An Algol Convolution Procedure Based on the Fast Fourier Transform (Algorithm 345 [C6]) 
+1837 : Normal Curve Integral (Algorithm 304 [S15]) 
+1838 : Singular Value Decomposition of a Complex Matrix (Algorithm 358 [F1, 4,5]) 
+1839 : An Efficient Prime Number Generator (Algorithm 357 [A1]) 
+1840 : A Prime Number Generator Using The Treesort Principle (Algorithm 356 [A1]) 
+1841 : An Algorithm for Generating Ising Configurations (Algorithm 355 [Z]) 
+1842 : The Choice of Base 
+1843 : A Modular Computer Sharing System 
+1844 : Loader Standardization for Overlay Programs 
+1845 : On Simulating Networks of Parallel Processes in Which Simultaneous Events May Occur 
+1846 : An Algorithm for Finding a Fundamental Set of Cycles of a Graph 
+1847 : The Damped Taylor's Series Method for Minimizing a Sum of Squares and for Solving Systems of  Nonlinear Equations (Algorithm 315 [E4, C5]) 
+1848 : Function Minimization (Algorithm 251 [E4]) 
+1849 : Generation of Permutations in Lexicographic Order (Algorithm 323 [G6]) 
+1850 : Generator of Spanning Trees (Algorithms 354 [H]) 
+1851 : A Base for a Mobile Programming System 
+1852 : Compact List Representation: Definition, Garbage Collection, and System Implementation 
+1853 : On Multiprogramming, Machine Coding, and Computer Organization 
+1854 : A Program for the Syntactic Analysis of English Sentences 
+1855 : The Teachable Language Comprehender:  A Simulation Program and Theory of Language 
+1856 : Filon Quadrature (Algorithm [D1]) 
+1857 : An Algorithm for Filon Quadrature 
+1858 : Error Bounds for Periodic Quintic Splines 
+1859 : An Algol-Based Associative Language 
+1860 : The MAD Definition Facility 
+1861 : Computing Capabilities at Argentine and Chilean Universities 
+1862 : Minit Algorithm for Linear Programming (Algorithm 333 [H]) 
+1863 : Generation of Hilbert Derived Test Matrix (Algorithm 274 [F1]) 
+1864 : Algol 60 Reference Language Editor (Algorithm 268 [R2]) 
+1865 : Characteristic Values and Associated Solutions of Mathieu's Differential Equation (Algorithm  352 [S22]) 
+1866 : On the Expected Lengths of Sequences Generated in Sorting by Replacement Selecting 
+1867 : On Obtaining Correct Input:A New Approach 
+1868 : Block Structures, Indirect Addressing, and Garbage Collection 
+1869 : Some Techniques for Using Pseudorandom Numbers in Computer Simulation 
+1870 : Automatic Contour Map 
+1871 : Chebyshev Interpolation and Quadrature Formulas of Very High Degree (Errata) 
+1872 : Accelerating LP Algorithms 
+1873 : Generating Pseudorandom Numbers on a Two's Complement Machine such as the IBM 360 
+1874 : Polynomial and Spline Approximation by Quadratic Programming 
+1875 : Generation of Test Matrices Having Certain Sign Patterns and Prescribed Positive Spectra 
+1876 : Prevention of System Deadlocks 
+1877 : Recovery of Reentrant List Structures in SLIP 
+1878 : A Note on Storage Fragmentation and Program Segmentation 
+1879 : Chebyshev Solution to an Overdetermined Linear System (Algorithm 328 [F4]) 
+1880 : Transpose Vector Stored Array (Algorithm 302 [K2]) 
+1881 : Determination of the Square Root of a Positive Definite Matrix (Algorithm 298 [F1]) 
+1882 : Modified Romberg Quadrature(Algorithm [D1]) 
+1883 : An Anomaly in Space-Time Characteristics of Certain Programs Running in a Paging Machine 
+1884 : A Computer System for Transformational Grammar 
+1885 : Generation of Optimal Code for Expressions via Factorization 
+1886 : A Recursive Relation for the Determinant of a Pentadiagonal Matrix 
+1887 : Spline Function Methods for Nonlinear Boundary-Value Problems 
+1888 : Introducing Computing to Smaller Colleges and Universities -- A Progress Report 
+1889 : Simulation of Traffic Flows in a Network 
+1890 : Three-Dimensional Computer Display 
+1891 : Degree of Multiprogramming in Page-on-Demand Systems 
+1892 : Roots of Polynomials by a Root-Squaring and Resultant routine (Algorithm 340 [C2]) 
+1893 : Normal Random Deviates (Algorithm 334 [G5]) 
+1894 : Gaussian Quadrature Formulas (Algorithm 331 [D1]) 
+1895 : Regular Coulomb Wave Functions (Algorithm 292 S22]) 
+1896 : Coulomb Wave Functions (Algorithm 300 [S22]) 
+1897 : Regular Coulomb Wave Functions (Algorithm 292 [S22]) 
+1898 : Simplex Method Procedure Employing Lu Decomposition (Algorithm 350 [H]) 
+1899 : Clarification of Fortran Standards-Initial Progress 
+1900 : Dynamic Space-Sharing in Computer Systems 
+1901 : An Automatic Grading Scheme for Simple Programming Exercises 
+1902 : Chebyshev Interpolation and Quadrature Formulas of Very High Degree 
+1903 : Rough and Ready Error Estimates in Gaussian Integration of Analytic Functions 
+1904 : The Simplex Method of Linear Programming Using LU Decomposition 
+1905 : Automated Printed Circuit Routing with a Stepping Aperture 
+1906 : A Note on Reliable Full-Duplex Transmission over Half-Duplex Links 
+1907 : Time-Sharing and Batch-Processing:  An Experimental Comparison of Their Values in a Problem -  Solving Situation 
+1908 : Computation of Jn(x) by Numerical Integration 
+1909 : An Algorithm for Solving a Special Class of Tridiagonal Systems of Linear Equations 
+1910 : On Coordination Reduction and Sentence Analysis 
+1911 : Simulation of Outpatient Appointment Systems 
+1912 : Polygamma Functions with Arbitrary Precision (Algorithm 349 [S14]) 
+1913 : Matrix Scaling by Integer Programming (Algorithm 348 [F1]) 
+1914 : An Algorithm for Hidden Line Elimination 
+1915 : Analysis of Boolean Program Models for Time-Shared, Paged Environments 
+1916 : An Algol Procedure for the Fast Fourier Transform with Arbitrary Factors (Algorithm 339 [C6]) 
+1917 : Distribution of Indistinguishable Objects into Distinguishable Slots (Algorithm 329 [G6]) 
+1918 : An Efficient Algorithm for Sorting with Minimal Storage (Algorithm 347 [M1]) 
+1919 : F-Test Probabilities (Algorithm 346 [S14]) 
+1920 : An Algol Convolution Procedure Based on the Fast Fourier Transform (Algorithm 345 [C6]) 
+1921 : Proposed USA Standard (Data Communication Control Procedures for the USA Standarad Code for Information  Interchange) 
+1922 : Pseudofiles 
+1923 : Organizing Matrices and Matrix Operations for Paged Memory Systems 
+1924 : Concepts of Use in Contour Map Processing 
+1925 : Description of FORMAT, a Text-Processing Program 
+1926 : Information Science in a Ph.D. Computer Science Program 
+1927 : Exclusive Simulation of Activity in Digital Networks 
+1928 : Images from Computers and Microfilm Plotters 
+1929 : Extremely Portable Random Number Generator 
+1930 : Interval Arithmetic Determinant Evaluation and Its Use in Testing for a Chebyshev System 
+1931 : The Logarithmic Error and Newton's Method for the Square Root 
+1932 : Coding the Lehmer Pseudo-random Number Generator 
+1933 : On Arithmetic Expressions and Trees 
+1934 : Randomized Binary Search Technique 
+1935 : Variable Length Tree Structures Having Minimum Average Search Time 
+1936 : CODAS: A Data Display System 
+1937 : Some Criteria for Time-Sharing System Performance 
+1938 : Directed Random Generation of Sentences 
+1939 : Calculation of a Polynomial and its Derivative Values by Horner Scheme (Algorithm 337 [C1]) 
+1940 : F-Distribution (Algorithm 322 [S14]) 
+1941 : Finding a Solution of N Functional Equations in N Unknowns (Algorithm 314 [C5]) 
+1942 : Complete Elliptic Integrals (Algorithm 165 [S21]) 
+1943 : Student's t-Distribution (Algorithm 344 [S14]) 
+1944 : The Role of Programming in a Ph.D. Computer Science Program 
+1945 : Computing Polynomial Resultants: Bezout's Determinant vs. Collins' Reduced P.R.S. Algorithm 
+1946 : Object code Optimization 
+1947 : Computers in Group Theory: a Survey 
+1948 : Finiteness Assumptions and Intellectual Isolation of Computer Scientists 
+1949 : Efficient Handling of Binary Data 
+1950 : Estimates of Distributions of Random Variables for Certain Computer Communications Traffic Models 
+1951 : Index by Subject to Algorithms, 1970 
+1952 : Exponential Integral Ei(x) (Algorithms 385 $S13)) 
+1953 : Eigenvalues and Eigenvectors of a Real Symmetric Matrix (Algorithm 384 $F2)) 
+1954 : Characteristic Values and Associated Solutions of Mathieu's Differential Equation (Algorithm 352 $S22)) 
+1955 : Optimum Merging from Mass Storage 
+1956 : The List Set Generator: A Construct for Evaluating Set Expressions 
+1957 : Improving Round-off in Runge-Kutta Computations with Gill's Method 
+1958 : An Interrupt Based Organization for Management Information Systems 
+1959 : Process Management and Resource Sharing in the Multiaccess System ESOPE 
+1960 : An Efficient Search Algorithm to Find the Elementary Circuits of a Graph 
+1961 : GROOVE-A Program to Compose, Store, and Edit Functions of Time 
+1962 : Condition Numbers of PEI Matrices 
+1963 : Comment on the Working Set Model for Program Behavior 
+1964 : Correction to "Logical" Arithmetic on Computers with Two's Complement Binary Arithmetic 
+1965 : A Generalized Method for Generating Argument/Function Values 
+1966 : An Improved Algorithm to Produce Complex Primes (Algorithm 401 $A1)) 
+1967 : Eigenvalues and Eigenvectors of a Real General Matrix (Algorithm 343 $F1)) 
+1968 : Increasing the Efficiency of Quicksort (Algorithm 402 $M1)) 
+1969 : Unrecorded Magnetic Tape for Information Interchange (9 Track-200 and 800 CPI, NRZI and 1600 CPI, PE)* (Proposed American National Standard) 
+1970 : Recorded Magnetic Tape for Information Interchange (1600 CPI, Phase Encoded)* (Proposed American National Standard) 
+1971 : A  Nonrecursive List Compacting Algorithm  
+1972 : The Linear Quotient Hash Code 
+1973 : NEATER2: A PL/I Source Statement Reformatter 
+1974 : A Multiple-Precision Division Algorithm 
+1975 : Multi-attribute Retrieval with Combined Indexes 
+1976 : An Interactive Display for Approximation by Linear Programming 
+1977 : The Use of Interactive Graphics To Solve Numerical Problems 
+1978 : Numerical Inversion of Laplace Transforms (Algorithm 368 $D5)) 
+1979 : An Efficient Algorithm for Sorting with Minimal Storage (Algorithm 347 $M1)) 
+1980 : Normal Curve Integral (Algorithm 304 $S15)) 
+1981 : Modified Havie Integration (Algorithm 400 $D1)) 
+1982 : Spanning Tree $H) (Algorithm 399) 
+1983 : Tableless Date Conversion $Z) (Algorithm 398) 
+1984 : An Integer Programming Problem $H) (Algorithm 397) 
+1985 : Student's t-Quantiles $S14) (Algorithm 396) 
+1986 : Student's t-Distribution $S14) (Algorithm 395) 
+1987 : A Formalism for Translator Interactions 
+1988 : Transition Network Grammars for Natural Language Analysis 
+1989 : Numerical Constants (Algorithm) 
+1990 : On the Number of Automorphisms of a Singly Generated Automaton 
+1991 : Comment on Bell's Quadratic Quotient Method for Hash Code Searching 
+1992 : Regular Coulomb Wave Functions (Algorithm 292 $S22)) 
+1993 : Decision Table Translation $H) (Algorithm 394) 
+1994 : Special Series Summation with Arbitrary Precision $C6) (Algorithm 393) 
+1995 : Systems of Hyperbolic PDE $D3) (Algorithm 392) 
+1996 : Increasing the Efficiency of Quicksort 
+1997 : Complex Matrix Inversion Versus Real 
+1998 : Optimal Starting Approximations for Generating Square Root for Slow or No Divide 
+1999 : A Variation of the Goodman-Lance Method for the Solution of Two-Point Boundary Value Problems 
+2000 : Integrating Square Roots 
+2001 : AMESPLOT-A Higher Level Data Plotting Software System 
+2002 : An Interactive Software System for Computers-Aided Design:  An Application to Circuit Project 
+2003 : A Procedure for Generation of Three-dimensional Half-toned Computer Graphics Presentations 
+2004 : Proposed Revision of American National Standard X3.21-1967, "Rectangular Holes in Twelve-Row Punched Cards"* 
+2005 : Proposed American National Standard 
+2006 : Algorithms Policy/Revised August 1970 
+2007 : Gaussian Quadrature Formulas (Algorithm 331 $D1)) 
+2008 : Simpson's Rule for Multiple Integration (Algorithm 233 $D1)) 
+2009 : Unitary Symmetric Polynomials $Z) (Algorithm 391) 
+2010 : Sequency Ordered Walsh Functions $S22) (Algorithm 390) 
+2011 : Binary Ordered Walsh Functions $S22) (Algorithm 389) 
+2012 : Rademacher Function $S22) (Algorithm 388) 
+2013 : Function Minimization and Linear Search $E4) (Algorithm 387) 
+2014 : A Technique for Generating Almost Optimal Floyd-Evans Productions for Precedence Grammars 
+2015 : The Instrumentation of Multics 
+2016 : Sorting in a Paging Environment 
+2017 : Full Table Quadratic Searching for Scatter Storage 
+2018 : Normalization Techniques for Hand printed Numerals 
+2019 : The Allocation of Computer Resources-Is Pricing the Answer? 
+2020 : A Comment on Axiomatic Approaches to Programming 
+2021 : Note on an Anomaly in Paging 
+2022 : A Note on Data Base Deadlocks 
+2023 : Comments on a Paper by Lowe 
+2024 : Student's t-Distribution; Jacobi Polynomials; Modified Romberg Quadrature; Factorial Analysis of Variance; (Algorithms 332,344,351,359)  
+2025 : Exponential Integral (Algorithm 385 $S13)) 
+2026 : Ricatti-Bessel Functions of First and Second Kind (Algorithm 22 $S17)) 
+2027 : Greatest Common Divisor of n Integers and Multipliers $A1) (Algorithm 386) 
+2028 : Exponential Integral $S13) (Algorithm 385) 
+2029 : Context-Sensitive Parsing 
+2030 : Algorithm and Bound for the Greatest Common Divisor of n Integers 
+2031 : File Structures Using Hashing Functions 
+2032 : Space/Time Trade-offs in Hash Coding with Allowable Errors 
+2033 : The Mobile Programming System: STAGE2 
+2034 : Conversational Access to a 2048-Word Machine 
+2035 : An Interactive Command Generating Facility 
+2036 : Permutations of a Set with Repetitions (Algorithm 383 $G6)) 
+2037 : Combinations of M Out of N Objects (Algorithm 382 $G6)) 
+2038 : Permanent Function of a Square Matrix I and II (Algorithm 361 $G6)) 
+2039 : Modified Romberg Quadrature (Algorithm 351 $D1)) 
+2040 : Shellsort (Algorithm 201 $M1)) 
+2041 : Treesort 3 (Algorithm 245 $M1)) 
+2042 : Eigenvalues and Eigenvectors of a Real Symmetric Matrix $F2) (Algorithm 384) 
+2043 : Permutations of a Set with Repetitions (Algorithm 383 $G6)) 
+2044 : Combinations of M Out of N Objects (Algorithm 382 $G6)) 
+2045 : A Relational Model of Data for Large Shared Data Banks 
+2046 : Incorporating Origin Shifts into the QR Algorithm for Symmetric Tridiagonal Matrices 
+2047 : Comparison of Several Adaptive Newton-Cotes Quadrature Routines in Evaluating Definite Integrals with Peaked Integrands 
+2048 : Accurate Floating-Point Summation 
+2049 : Automatic Parsing for Content Analysis 
+2050 : A PL/I Program to Assist the Comparative Linguist 
+2051 : Scheduling to Reduce Conflict in Meetings 
+2052 : On the Conversion of Decision Tables to Computer Programs 
+2053 : On the Feasibility of Voice Input to an On-line Computer Processing System 
+2054 : Subroutine to Perform In-Situ Transposition of a Rectangular Matrix (Algorithm 380) 
+2055 : Gomory (Algorithm 263A $H)) 
+2056 : Random Vectors Uniform in Solid Angle (Algorithm 381 $G5)) 
+2057 : In-Situ Transposition of a Rectangular Matrix (Algorithm 380 $F1)) 
+2058 : A Language for Treating Graphs 
+2059 : GEDANKEN-A Simple Typeless Language Based on the Principle of Completeness and the Reference Concept 
+2060 : An Algorithm for the Construction Of Bounded-Context Parsers 
+2061 : The Application of Sequential Sampling to Simulation: An Example Inventory Model 
+2062 : Translation Equations (Errata) 
+2063 : Operations on Generalized Arrays with the Genie Compiler 
+2064 : A Programming System for the On-line Analysis of Biomedical Images 
+2065 : An Algol Construction for Procedures as Parameters of Procedures 
+2066 : Comment on Lawler's Multilevel Boolean Minimization 
+2067 : Comment on Multiprogramming Under a Page on Demand Strategy 
+2068 : Comments on a Paper by Wallace and Mason 
+2069 : A Formal System for Information Retrieval from Files 
+2070 : Filon Quadrature (Algorithm 353 $D1)) 
+2071 : Modified Romberg Quadrature (Algorithm 351 $D1)) 
+2072 : Solution of Linear Programs in 0-1 Variables by Implicit Enumeration (Algorithm 341 $H)) 
+2073 : Sqank (Algorithm 379 $D1)) 
+2074 : Discretized Newton-Like Method for Solving a System of Simultaneous Nonlinear Equations (Algorithm 378 $C5)) 
+2075 : Cubic Splines on Uniform Meshes 
+2076 : The Cyclical Majority Problem 
+2077 : Representations for Space Planning 
+2078 : On Multiprogramming, Machine Coding, and Computer Organization 
+2079 : The Nucleus of a Multiprogramming System 
+2080 : Some Complete Calculi for Matrices 
+2081 : Syntax-Directed Documentation For PL 360 
+2082 : Creation and Control of Internal Data Bases Under a Fortran Programming Environment 
+2083 : A Note on the Complement of Inherently Ambiguous Context-Free Languages 
+2084 : Comment on a Paging Anomaly 
+2085 : Another Method of Converting from Hexadecimal to Decimal 
+2086 : A Number System for the Permutations 
+2087 : Netflow (ALgorithm 336 $H)) 
+2088 : Prime Number (Algorithm 310 $A1)) 
+2089 : Symbolic Expansion of Algebraic Expressions (Algorithm 377 $R2)) 
+2090 : PDEL-A Language for Partial Differential Equations 
+2091 : A Deductive Question-Answer for Natural Language Inference 
+2092 : A Comparison of Error Improvement Estimates for Adaptive Trapezoid Integration 
+2093 : On an Algorithm for Nonlinear Minimax Approximation 
+2094 : Measurements of Segment Size 
+2095 : Experiments with the M & N Tree-Searching Program 
+2096 : A Program to Teach Programming 
+2097 : t-Test Probabilities (Algorithm 321); Student's t-Distribution (Algorithm 344) 
+2098 : Eigenvalues and Eigen vectors of a Real General Matrix (Algorithm 343 $F)) 
+2099 : Ortho (Algorithm 127 $F5)) 
+2100 : Least Squares Fit By f(x) = Acos(Bx+C) (Algorithm 376 $E2)) 
+2101 : Fitting Data To One Exponential (Algorithm 375 $E2)) 
+2102 : Restricted Partition Generator (Algorithm 374 $A1)) 
+2103 : Number of Doubly Restricted Partitions (Algorithm 373 $A1)) 
+2104 : An Interactive Computer System Using Graphical Flowchart Input 
+2105 : Computer Education in a Graduate School of Management 
+2106 : The Quadratic Quotient Method: A Hash Code Eliminating Secondary Clustering 
+2107 : A Variation on Sorting by Address Calculation 
+2108 : The Use of Quadratic Residue Research 
+2109 : An Efficient Context-free Parsing Algorithm 
+2110 : Spelling Correction in Systems Programs 
+2111 : Translation Equations 
+2112 : The Multistore Parser for Hierarchical Syntactic Structures 
+2113 : A Formal System for Information Retrieval from Files 
+2114 : Fortran Tausworthe Pseudorandom Number Generator 
+2115 :  Interchange Rolls of Perforated Tape for Information Interchange* (Proposed American National Standard) 
+2116 : Representation for Calen dar Date for Machine-to-Machine Data Interchange* (Proposed American National Standard) 
+2117 : An Efficient Algorithm for Sorting with Minimal Storage (Algorithm 347 $M1)) 
+2118 : Derivatives (Algorithm 282 $S22)) 
+2119 : An Algorithm to Produce Complex Primes, Csieve (Algorithm 372 $A1)) 
+2120 : Partitions in Natural Order (Algorithm 371 $A1)) 
+2121 : General Random Number Generator (Algorithm 370 $G5)) 
+2122 : Generator of Random Numbers Satisfying the Poisson Distribution (Algorithm 369 $G5)) 
+2123 : Numerical Inversion of Laplace Transforms (Algorithm 368 $D5)) 
+2124 : A Note on Minimal Length Polygonal Approximation to a Digitized Contour 
+2125 : Experience with an Extensible Language 
+2126 : Natural Language Question-Answering Systems: 1969 
+2127 : A Processor Allocation Method for Time-Sharing 
+2128 : Recursive Computation of Certain Derivatives-A Study of Error Propagation 
+2129 : Automatic Segmentation of Cyclic Program Structures Based on Connectivity and Processor Timing 
+2130 : Rapid Computation of Weights of Interpolatory Quadrature Rules [D1] (Algorithm 417) 
+2131 : Rapid Computation of Coefficients of Interpolation Formulas [E1] (Algorithm 416) 
+2132 : Algorithm for the Assignment Problem (Rectangular Matrices) [H] (Algorithm 415) 
+2133 : An Extension of the Munkres Algorithm for the Assignment Problem to Rectangular Matrices 
+2134 : Rapid Computation of General Interpolation Formulas and Mechanical Quadrature Rules 
+2135 : A Note on "A Modification of Nordsieck's Method Using an 'Off-Step' Point" 
+2136 : New LISP Techniques for a Paging Environment 
+2137 : BLISS: A Language for Systems Programming 
+2138 : Implementation of the Substring Test by Hashing 
+2139 : Retrieval-Update Speed Tradeoffs Using Combined Indices 
+2140 : Algorithmic Selection of the Best Method for Compressing Map Data Strings 
+2141 : Reconstruction of Pictures from Their Projections 
+2142 : Chebyshev Approximation of Continuous Functions by a Chebyshev System of Functions [E2] (Algorithm 414) 
+2143 : On Accurate Floating-Point Summation 
+2144 : Automation of Etching-Pattern Layout 
+2145 : Optimizing the Polyphase Sort 
+2146 : Using Computers in Higher Education: Past Recommendations, Status, and Needs 
+2147 : The Composition of Semantics in Algol 68 
+2148 : ENTCAF and ENTCRE: Evaluation of Normalized Taylor Coefficients of an Analytic Function [C5]  (Algorithm 413) 
+2149 : Concurrent Control with "Readers" and "Writers" 
+2150 : User Program Measurement in a Time-Shared Environment 
+2151 : Display Procedures 
+2152 : Experiments with an Automated Instructional System for Numerical Methods 
+2153 : Clarification of Fortran Standards-Second Report 
+2154 : Toward an Understanding of Data Structures 
+2155 : Comment on Cheney's List-Compaction Algorithm 
+2156 : Average Binary Search Length for Dense Ordered Lists 
+2157 : A Stopping Criterion for the Newton-Raphson Method in Implicit Multistep Integration Algorithms  for Nonlinear Systems of Ordinary Differential Equations 
+2158 : A Note on Best One-Sided Approximations 
+2159 : Canonical Structure in Attribute Based File Organization 
+2160 : An Algorithm for the Blocks and Cutnodes of a Graph (Corrigendum) 
+2161 : An Efficient Bit Table Technique for Dynamic Storage Allocation of 2^n-word Blocks 
+2162 : Education Related to the Use of Computers in Organizations 
+2163 : Symbolic Integration: The Stormy Decade 
+2164 : General Relativity and the Application of Algebraic Manipulative Systems 
+2165 : Automated Algebraic Manipulation in Celestial Mechanics 
+2166 : Algebraic Simplification: A Guide for the Perplexed 
+2167 : List Tracing in Systems Allowing Multiple Cell-Types 
+2168 : The Altran System for Rational Function Manipulation-A Survey 
+2169 : Applications of Symbol Manipulation in Theoretical Physics 
+2170 : Solution of Simultaneous Nonlinear Equations 
+2171 : Graph Plotter [J6] (Algorithm 412) 
+2172 : Three Procedures for the Stable Marriage Problem [H] (Algorithm 411) 
+2173 : The Stable Marriage Problem 
+2174 : Subexpression Ordering in the Execution of Arithmetic Expressions 
+2175 : Buffer Allocation in Merge-Sorting 
+2176 : An Algorithm for the Blocks and Cutnodes of a Graph 
+2177 : A Language Extension for Graph Processing and Its Formal Semantics 
+2178 : Simple LR(k) Grammars 
+2179 : A Programmer Training Project 
+2180 : The State of Computer Oriented Curricula in Business Schools 1970 
+2181 : Interrupt Driven Programming 
+2182 : Binary Summation 
+2183 : On the Meaning of Names in Programming Systems 
+2184 : A Note on Compiling Fixed Point Binary Multiplications 
+2185 : Numerical Properties of the Ritz-Trefftz Algorithm for Optimal Control 
+2186 : Computer Science: A Conceptual Framework for Curriculum Planning 
+2187 : An Approach to the Optimum Design of Computer Graphics Systems 
+2188 : Generation of Rosary Permutations Expressed in Hamiltonian Circuits 
+2189 : Function Minimization 
+2190 : ALGORITHM 410 Partial Sorting [M1] 
+2191 : Another Recursion Induction Principle 
+2192 : On Implementation of Label Variables 
+2193 : How To Keep the Addresses Short 
+2194 : On the Optimal Detection of Curves in Noisy Pictures 
+2195 : A Man-Machine Approach Toward Solving the Traveling Salesman Problem 
+2196 : The Merit of Regional Computing Networks 
+2197 : Introduction to "Feature Analysis of Generalized Data Base Management Systems" 
+2198 : A Sparse Matrix Package (Part I) [F4] (Algorithm 408) 
+2199 : On Complement Division 
+2200 : Animator: An On-Line Two-dimensional Film Animation System 
+2201 : Dynamic Microprogramming: Processor Organization and Programming 
+2202 : Key-to-Address Transform Techniques: A Fundamental Performance Study on Large Existing Formatted  Files 
+2203 : Program Development by Stepwise Refinement 
+2204 : DIFSUB for Solution of Ordinary Differential Equations [D2] (Algorithm 407) 
+2205 : Exact Solution of Linear Equations Using Residue Arithmetic [F4] (Algorithm 406) 
+2206 : The Automatic Integration of Ordinary Differential Equations 
+2207 : Storage Utilization in a Memory Hierarchy When Storage Assignment Is Performed by a Hashing Algorithm 
+2208 : A Scheduling Algorithm for a Computer Assisted Registration System 
+2209 : Toward Automatic Program Synthesis 
+2210 : Scanned-Display Computer Graphics 
+2211 : F-DISTRIBUTION 
+2212 : Roots of Matrix Pencils: The Generalized Eigenvalue Problem [F2] (Algorithm 405) 
+2213 : Complex Interval Arithmetic 
+2214 : Application of Game Tree Searching Techniques to Sequential Pattern Recognition 
+2215 : On the Probability Distribution of the Values of Binary Trees 
+2216 : Experiments in Automatic Learning for a Multipurpose Heuristic Program 
+2217 : An Analysis of Some Time-Sharing Techniques 
+2218 : A Policy-Driven Scheduler for a Time-Sharing System 
+2219 : Conversion of Limited-Entry Decision Tables to Computer Programs-A Proposed Modification to Pollack's  Algorithm 
+2220 : Comment on the Conversion of Decision Tables to Computer Programs 
+2221 : Comment on London's Certification of Algorithm 245 
+2222 : Minit Algorithm For Linear Programming (Algorithm 222 [H]) 
+2223 : Complex Gamma Function [S14] (Algorithm 404) 
+2224 : Circular Integer Partitioning [A1] (Algorithm 403) 
+2225 : Further Evidence for the Analysis of Algorithms for the Zero-One Programming Problem 
+2226 : Proof of a Program: FIND 
+2227 : Comments on Prevention of System Deadlocks 
+2228 : Construction of Rational and Negative Powers of a Formal Series 
+2229 : A Language for Treating Geometric Patterns in a Two-dimensional space 
+2230 : The Reconstruction of Binary Patterns from Their Projections 
+2231 : Pattern Width at a Given Angle 
+2232 : Signature Simulation and Certain Cryptographic Codes 
+2233 : Roots of Matrix Pencils (Algorithm R405) 
+2234 : Decision Table Translation (Algorithm R394) 
+2235 : Remarks on Characteristic Values and Associated Solutions of Mathieus Differential Equation,  Exponential Integral, and Systems of Hyperbolic P.D.E. (Algorithms R352, R385, R392) 
+2236 : BANDSOLVE (Algorithm R195) 
+2237 : Least Squares Surface Fit (Algorithm R176) 
+2238 : Squank (Algorithm C379) 
+2239 : Pseudo-Random Numbers [G5] (Algorithm C266) 
+2240 : Product Type Three-point Gauss-Legendre-Simpson's Integration [D1] (Algorithm A439) 
+2241 : Product Type Two-Point Gauss-Legendre-Simpson's Integration [D1] (Algorithm A438) 
+2242 : Product Type Simpson's Integration [D1] (Algorithm A437) 
+2243 : Product Type Trapezoidal Integration (Algorithm A436) 
+2244 : Trace-Driven Modeling and Analysis of CPU Scheduling in Multiprogramming System 
+2245 : Levels of Language for Portable Software 
+2246 : On the Criteria To Be Used in Decomposing Systems into Modules 
+2247 : A New Method for the Solution of the Cauchy Problem for Parabolic Equations 
+2248 : A Comparison of Multivariate Normal Generators 
+2249 : Computer Methods for Sampling from the Exponential and Normal Distributions (Corrigendum) 
+2250 : Weighted Increment Linear Search for Scatter Tables 
+2251 : A Method for Incrementally Compiling Languages with Nested Statement Structure 
+2252 : Index Ranges for Matrix Calculi 
+2253 : Dynamic Partitioning for Array Languages 
+2254 : Comments on Moorer's Music and Computer Composition 
+2255 : Further Comments on Dijkstra's Concurrent Programming Control Problem 
+2256 : A Note on Optimal Doubly-Chained Trees 
+2257 : Additional Results on Key-to-Address Transform Techniques: A Fundamental Performance Study on  Large Existing Formatted Files 
+2258 : Modified Incomplete Gamma Function [S14] (Algorithm A435) 
+2259 : Exact Probabilities for R x C Contingency Tables [G2] (Algorithm A434) 
+2260 : An Approximate Method for Generating Symmetric Random Variables 
+2261 : Garbage Collection for Virtual Memory Computer Systems 
+2262 : The Conversion of Limited-Entry Decision Tables to Optimal and Near-Optimal Flowcharts: Two New  Algorithms 
+2263 : Derived Semantics for Some Programming Language Constructs 
+2264 : A Model for Type Checking 
+2265 : A Highly Parallel Algorithm for Approximating All Zeros of a Polynomial with Only Real Zeros 
+2266 : Algorithms To Reveal Properties of Floating-Point Arithmetic 
+2267 : A Comparative Study of Computer Programs for Integrating Differential Equations 
+2268 : Tableless Date Conversion (Algorithm R398) 
+2269 : Interpolation and Smooth Curve Fitting Based on Local Procedures [E2] (Algorithm A433) 
+2270 : Aesthetics and the Human Factor in Programming (Corrigendum) 
+2271 : Sorting by Natural Selection 
+2272 : Conversion of Decision Tables By Rule Mask Method Without Rule Mask 
+2273 : Generating English Discourse from Semantic Networks 
+2274 : Integral Equations of Immunology 
+2275 : Computer Methods for Sampling from the Exponential and Normal Distributions 
+2276 : Demand Paging Through Utilization of Working Sets on the MANIAC II 
+2277 : On Foster's Information Storage and Retrieval Using AVL Trees 
+2278 : A Controller for a Braille Terminal 
+2279 : Comment on Deadlock Prevention Method 
+2280 : The Eigen problem of Block Tridiagonal Matrices 
+2281 : A Comparison of Floating Point Summation Methods 
+2282 : Thinning Algorithms on Rectangular, Hexagonal, and Triangular Arrays 
+2283 : Solution of the Matrix Equation AX+XB=C [F4] (Algorithm A432) 
+2284 : Computer Routine for Quadratic and Linear Programming Problems [H] (Algorithm A431) 
+2285 : Automatic Error Analysis for Determining Precision 
+2286 : A New Approach to Automatic Scanning of Contour Maps 
+2287 : File Organization: The Consecutive Retrieval Property 
+2288 : Cellular Arrays for the Solution of Graph Problems 
+2289 : Immediate Predominators in a Directed Graph [H] (Algorithm A430) 
+2290 : Localization of the Roots of a Polynomial [C2] (Algorithm A429) 
+2291 : A Note on the Generation of Rosary Permutations 
+2292 : Comment on Average Binary Search Length 
+2293 : A Bonus from van Wijngaarden's Device 
+2294 : Comment on the Composition of Semantics in Algol 68 
+2295 : Compiling Fixed-Point Multiplications 
+2296 : A Model of Memory Contention in a Paging Machine 
+2297 : An Environment for Research in Microprogramming and Emulation 
+2298 : An Extensible Editor for a Small Machine with Disk Storage 
+2299 : Political Redistricting by Computer 
+2300 : Generating Parsers for Affix Grammars 
+2301 : Computers and Employment 
+2302 : Archaeology of Computers - Reminiscences, 1945-1947 
+2303 : A Western View of Computer History 
+2304 : The "Plankalkul" of Konrad Zuse: A Forerunner of Today's Programming Languages 
+2305 : Ancient Babylonian Algorithms 
+2306 : Dynamic Document Processing 
+2307 : Computers and Urban Society 
+2308 : Computers in the Instructional Process: Directions for Research and Development 
+2309 : Language Analysis in the Humanities 
+2310 : A Generational Perspective of Information System Development 
+2311 : On the Present and Future of Scientific Computation 
+2312 : The Evolution of Storage Structures 
+2313 : Requirements for Advanced Programming Systems for List Processing 
+2314 : The Production of Better Mathematical Software 
+2315 : Programming Languages: History and Future 
+2316 : Programming Systems and Languages 1965-1975 
+2317 : The Role of Computer System Models in Performance Evaluation 
+2318 : Operating System Performance 
+2319 : Structured Multiprogramming 
+2320 : On the Interface Between Computers and Data Communications Systems 
+2321 : A View of computer Architecture 
+2322 : Toward a General Theory of Special Functions 
+2323 : Management Science: A View from Nonlinear Programming 
+2324 : Numerical Mathematics and Computer Science 
+2325 : Fix point Approach to the Theory of Computation  
+2326 : Toward an Automata Theory of Brains 
+2327 : Individualizing Instruction in a Generative CAI Tutor 
+2328 : Computer Science-A Vicious Circle 
+2329 : Calculation of Fourier Integrals (Algorithm R418) 
+2330 : An Integer Programming Problem (Algorithm R397) 
+2331 : Special Series Summation with Arbitrary Precision (Algorithm R393) 
+2332 : Random Vectors Uniform is Solid Angle (Algorithm R381) 
+2333 : General Random Number Generator (Algorithm R370) 
+2334 : Eigenvalues and Eigenvectors of a Real General matrix (Algorithm R343) 
+2335 : Complex Error Function (Algorithm C363) 
+2336 : A Sorting Problem and Its Complexity 
+2337 : A Starting Method for Solving Nonlinear Volterra Integral Equations of the Second Kind 
+2338 : Computer-Assigned Codes from Verbal Responses 
+2339 : A Boolean Matrix Method for the Computation of Linear Precedence Functions 
+2340 : Blocks-A New Data type for SNOBOL4 
+2341 : Interference Between Communicating Parallel Processes 
+2342 : A Proposal To Establish a Pseudo Virtual Memory via Writable Overlays 
+2343 : On the Optimization of Performance of Time-Sharing Systems by Simulation 
+2344 : Curriculum Recommendations for Graduate Professional Programs in Information Systems 
+2345 : Hu-Tucker Minimum Redundancy Alphabetic Coding Method [Z] (Algorithm A428) 
+2346 : Fourier Cosine Integral [D1] (Algorithm A427) 
+2347 : Merge Sort Algorithm [M1] (Algorithm A426) 
+2348 : Generation of Random Correlated Normal Variables [G5] (Algorithm A425) 
+2349 : Clenshaw-Curtis Quadrature [D1] (Algorithm A424) 
+2350 : The Optimality of Winograd's Formula 
+2351 : Minimax Nonlinear Approximation by Approximation on Subsets 
+2352 : Fast Finite-Difference Solution of Biharmonic Problems 
+2353 : Implementing Clenshaw-Curtis Quadrature, II Computing the Cosine Transformation 
+2354 : Implementing Clenshaw-Curtis quadrature, I Methodology and Experience 
+2355 : A Technique for Software Module Specification with Examples 
+2356 : MUX, a Simple Approach to On-Line Computing 
+2357 : The Multics Virtual Memory: Concepts and Design 
+2358 : An Improved Index Sequential Access Method Using Hashed Overflow 
+2359 : A Comment on the Double-Chained Tree 
+2360 : A Note on Cheney's Nonrecursive List-Compacting Algorithm 
+2361 : Linear Equation Solver [F4] (Algorithm A423) 
+2362 : Minimal Spanning Tree [H] (Algorithm A422) 
+2363 : Complex Gamma Function with Error Control [S14] (Algorithm A421) 
+2364 : Matrix Computations with Fortran and Paging 
+2365 : Complex Gamma Function with Error Control 
+2366 : Computers and Society: A Proposed Course for Computer Scientists 
+2367 : An Implemented Graph Algorithm for Winning Shannon Switching games 
+2368 : Hidden Lines Elimination for a Rotating Object 
+2369 : An Experimental Laboratory for Pattern Recognition and Signal Processing 
+2370 : A System for Interprocess Communication in a Resource Sharing Computer Network 
+2371 : On the Implementation of Security Measures in Information Systems 
+2372 : Properties of the Working-Set Model 
+2373 : A Study of Storage Partitioning Using a Mathematical Model of Locality 
+2374 : A Comparative Analysis of Disk Scheduling Policies 
+2375 : Synchronization of Communicating Processes 
+2376 : A Hardware Architecture for Implementing Protection Rings 
+2377 : An Operating System Based on the Concept of a Supervisory Computer 
+2378 : The Design of the Venus Operating System 
+2379 : TENEX, a Paged Time Sharing System for the PDP-10 
+2380 : Average Binary Search Length for Dense Ordered Lists (Corrigendum) 
+2381 : Reconstruction of Pictures from Their Projections (Corrigendum) 
+2382 : Music and Computer Composition 
+2383 : Hidden-Line Plotting Program [J6] (Algorithm A420) 
+2384 : Zeros of a Complex Polynomial [C2] (Algorithm A419) 
+2385 : Dynamic Microprogramming: Processor Organization and Programming (Corrigendum) 
+2386 : Maximum Computing Power and Cost Factors in the Centralization Problem 
+2387 : Optimizing Binary Trees Grown With a Sorting Algorithm 
+2388 : Preliminary Report on a System for General Space Planning 
+2389 : A Proposal for a Computer-Based Interactive Scientific Community 
+2390 : Unitary Symmetric Polynomials [Z] (Algorithm R391) 
+2391 : In-Situ Transposition of a Rectangular Matrix [F1] (Algorithm C380) 
+2392 : Calculation of Fourier Integrals [D1] (Algorithm A418) 
+2393 : Ordering +-f(+-f(+-f(...+-f(x)..))) When f(x) Is Positive Monotonic 
+2394 : Quadratic Programming for Nonlinear Regression 
+2395 : MUSE: A Model To Understand Simple English 
+2396 : Optimizing the Polyphase Sort (Corrigendum) 
+2397 : Teacher/Student Authored CAI Using the NEWBASIC System 
+2398 : A CRT Editing System 
+2399 : Use of the Hough Transformation ToDetect Lines and Curves in Pictures 
+2400 : On Shrinking Binary Picture Patterns 
+2401 : Pictorial Pattern Recognition and the Phase Problem of X-ray Crystallography 
+2402 : Procedures for Natural Spline Interpolation [E1] (Algorithm A472) 
+2403 : Exponential Integrals [S13] (Algorithm A471) 
+2404 : Linear Systems with Almost Tridiagonal Matrix [F4] (Algorithm A470) 
+2405 : A Data Definition and Mapping Language 
+2406 : Curriculum Recommendations for Undergraduate Programs in Information Systems 
+2407 : Solving the Biharmonic Equation in a Square: A Direct Versus a Semidirect Method 
+2408 : An Algorithm for the Approximate Solution of Wiener-Hopf Integral Equations 
+2409 : A Recurrence Scheme for Converting from One Orthogonal Expansion into Another 
+2410 : Tree-Structured Programs 
+2411 : Comment on Brent's Scatter Storage Algorithm 
+2412 : A Note on Subexpression Ordering in the Execution of Arithmetic Expressions 
+2413 : Arithmetic Overa Finite Field [A1] (Algorithm A469) 
+2414 : Algorithm for Automatic Numerical Integration Over a Finite Interval [D1] (Algorithm A468) 
+2415 : Matrix Transposition in Place [F1] (Algorithm A467) 
+2416 : Four Combinatorial Algorithms [G6] (Algorithm A466) 
+2417 : Student's t Frequency [S14] (Algorithm A465) 
+2418 : Eigenvalues of a Real, Symmetric, Tridiagonal Matrix [F2] (Algorithm A464) 
+2419 : Experiments with an Automatic Theorem-Prover HavingPartial Ordering Inference Rules 
+2420 : A Scan Conversion Algorithm with Reduced Storage Requirements 
+2421 : Adaptive Correction of Program Statements (Corrigendum) 
+2422 : A Parser-Generating System for Constructing Compressed Compilers 
+2423 : Dynamic Verification of Operating System Decisions 
+2424 : The Programmer as Navigator 
+2425 : Algorithms SCALE1, SCALE2, and SCALE3 for Determination of Scales on Computer Generated Plots  [J6] (Algorithm A463) 
+2426 : Bivariate Normal Distribution [S15] (Algorithm A462) 
+2427 : Cubic Spline Solutions to a Class of Functional Differential Equations [D2] (Algorithm A461) 
+2428 : Calculation of Optimum Parameters for Alternating Direction Implicit Procedures [D3] (Algorithm  A460) 
+2429 : The Elementary Circuits of a Graph [H] (Algorithm A459) 
+2430 : Discrete Linear L1 Approximation by interval Linear Programming [E2] (Algorithm A458) 
+2431 : Addendum to a Multiple-Precision Division Algorithm 
+2432 : Control Structures in Illiac IV Fortran 
+2433 : Using Page Residency To Select the Working Set Parameter 
+2434 : A Class of Dynamic Memory Allocation Algorithms 
+2435 : A Note on the Confinement Problem 
+2436 : General Performance Analysis of Key-to-Address Transformation Methods Using an Abstract File  Concept 
+2437 : A Model and Stack Implementation of Multiple Environments 
+2438 : Multiple Terminals Under User Program Control in a Time-Sharing Environment 
+2439 : Localization of the Roots of a Polynomial (Algorithm R429) 
+2440 : Hidden-Line Plotting Program (Algorithm R420) 
+2441 : A Sparse Matrix Package (Algorithm R408) 
+2442 : Generation of Permutations in Lexicographic Order (Algorithm R323) 
+2443 : Finding All Cliques of an Undirected Graph (Algorithm A457) 
+2444 : Routing Problem (Algorithm A456) 
+2445 : Analysis of Skew Representations of the Symmetric Group (Algorithm A455) 
+2446 : Sard Kernels for Certain Bivariate Cubatures 
+2447 : Reversible Execution 
+2448 : A Simple Technique for Structured Variable Lookup 
+2449 : Empirical Working Set Behavior 
+2450 : Design of Tree Structures for Efficient Querying 
+2451 : Evaluation and Selection of File Organization-A Model and System 
+2452 : Information Theory Applied to the Conversion of Decision Tables to Computer Programs 
+2453 : Computational Algorithms for Closed Queueing Networks with Exponential Servers 
+2454 : A Generalization of AVL Trees 
+2455 : On the Capabilities of While, Repeat, and Exit Statements 
+2456 : Inductive Methodsfor Proving Properties of Programs 
+2457 : Localization of the Roots of a Polynomial (Algorithm R429) 
+2458 : Hu-Tucker Minimum Redundancy Alphabetic Coding Method (Algorithm R428) 
+2459 : Clenshaw-Curtis Quadrature (Algorithm R424) 
+2460 : Graph Plotter (Algorithm R412) 
+2461 : An Efficient Prime Number Generator (Algorithm R357) 
+2462 : Complex Gamma Function (Algorithm R404,C404) 
+2463 : The Complex Method for Constrained Optimization [E4] (Algorithm A454) 
+2464 : Gaussian Quadrature formulas for Bromwich's Integral [D1] (Algorithm A453) 
+2465 : Enumerating Combinations of m Out of n Objects [G6] (Algorithm A452) 
+2466 : Chi-Square quantiles [G1] (Algorithm A451) 
+2467 : Rosenbrock Function Minimization [E4] (Algorithm A450) 
+2468 : Petri Nets and Speed Independent design 
+2469 : Fen-An Axiomatic Basis for Program Semantics 
+2470 : A Learning Program Which Plays Partnership Dominoes 
+2471 : Minimal spanning Tree (Algorithm R422) 
+2472 : Hidden-Line Plotting Program (Algorithm R420) 
+2473 : DIFSUB for Solution of Ordinary Differential Equations (Algorithm C407) 
+2474 : Solution of Linear Programming Problems in 0-1 Variables [H1] (Algorithm A449) 
+2475 : Equivalence Between AND/OR Graphs and Context-Free Grammars 
+2476 : Multiple Exits from a Loop Without the GOTO 
+2477 : Computer Science-Seminars for Undergraduates 
+2478 : Curriculum Recommendations for Graduate Professional Programs in Information Systems: Recommended  Addendum on Information Systems Administration 
+2479 : Teaching "About Programming" 
+2480 : The Distribution of a Program in Primary and Fast Buffer Storage 
+2481 : Mixed Solutions for the Deadlock Problem 
+2482 : COKO III: The Cooper-Koz Chess Program 
+2483 : A Note on Information Organization and Storage 
+2484 : Managing the Computer Resource: A Stage Hypothesis 
+2485 : Computer Photocomposition of Technical Text 
+2486 : Cubic Spline solutions to Fourth-order Boundary Value Problems 
+2487 : Least Squares Piecewise Cubic Curve Fitting 
+2488 : Number of Multiply-Restricted Partitions [A1] (Algorithm A448) 
+2489 : Efficient Algorithms for Graph Manipulation [H] (Algorithm A447) 
+2490 : Threaded Code 
+2491 : The Development of Decision Tables via Parsing of Complex Decision Situations 
+2492 : Optimum Data Base Reorganization Points 
+2493 : A Computer Generated Aid for Cluster Analysis 
+2494 : Adapting Optimal Code Generation for Arithmetic Expressions to the Instruction Sets Available  on Present-Day Computers 
+2495 : On the Near-Optimality of the Shortest-Latency-Time-First Drum Scheduling Discipline 
+2496 : Synchronizing Processors with Memory-Content-Generated Interrupts 
+2497 : Minimizing Wasted Space in Partitioned Segmentation 
+2498 : Efficient Multiprogramming Resource Allocation and Accounting 
+2499 : A Practical Approach to Managing Resources and Avoiding Deadlocks 
+2500 : WYLBUR: An Interactive Text Editing and Remote Job Entry System 
+2501 : A Comment on the Practical Aspects of Computer Science Education 
+2502 : Another Comment on Computer Music 
+2503 : Concerning Music and Computer Composition in Computational Linguistics 
+2504 : Reflection-Free Permutations, Rosary Permutations, and Adjacent Transposition Algorithms 
+2505 : A Sparse Matrix Package (Algorithm R408) 
+2506 : Exact Solution of Linear Equations Using Residue Arithmetic (Algorithm R406) 
+2507 : Increasing the Efficiency of Quicksort (Algorithm R402) 
+2508 : Minit Algorithm for Linear Programming (Algorithm R333) 
+2509 : Minit Algorithm for Linear Programming (Algorithm R333) 
+2510 : Maxflow (Algorithm R324) 
+2511 : Coulomb Wave Functions (Algorithm R300) 
+2512 : A Nonrecursive List Moving Algorithm 
+2513 : An Array Grammar Programming System 
+2514 : Minimal Event-Node Network of Project Precedence Relations 
+2515 : Hierarchical Storage in Information Retrieval 
+2516 : Some Comments on the Use of Ambiguous Decision Tables and Their Conversion to Computer Programs 
+2517 : Programming by Questionnaire: An Effective Way To Use Decision Tables 
+2518 : On the Problem of Communicating Complex Information 
+2519 : Greatest Common Divisor of n Integers and Multipliers (Algorithm C386) 
+2520 : Ten Subroutines for the Manipulation of Chebyshev Series [C1] (Algorithm A446) 
+2521 : The Design, Implementation, and Evaluation of a Working Set Dispatcher 
+2522 : A Region Coloring Technique for Scene Analysis 
+2523 : Some Approaches to Best-Match File Searching 
+2524 : A Statistical Study of the Accuracy of Floating Point Number Systems 
+2525 : Asymmetric Memory Hierarchies 
+2526 : Implementation of High Level Language Machine 
+2527 : Binary Pattern Reconstruction from Projections [Z] (Algorithm R445) 
+2528 : Binary Pattern Reconstruction from Projections [Z] (Algorithm A445) 
+2529 : An Algorithm for Extracting Phrases in a Space-Optimal Fashion [Z] (Algorithm A444) 
+2530 : Graduate Education: The Ph.D. Glut 
+2531 : On Harrison's Substring Testing Technique 
+2532 : Gray Code and the +- Sign Sequence when +-f (+-f(+-f(...+-f(x)...))) Is Ordered 
+2533 : Design and Implementation of a Diagnostic Compiler for PL/I 
+2534 : The Effects of Multiplexing on a Computer-Communications System 
+2535 : Telecommunications Using a Front-End Minicomputer 
+2536 : Common Phrases and Minimum-Space Text Storage 
+2537 : A Computer Science Course Program for Small Colleges 
+2538 : Solution of the Transcendental Equation w*exp(w)=x [C5] (Algorithm A443) 
+2539 : Properties of the Working Set Model (Corrigendum) 
+2540 : An Overview of the ISPL Computer System Design 
+2541 : A Software Design and Evaluation System 
+2542 : Reducing the Retrieval Time of Scatter Storage Techniques 
+2543 : Automatic Error bounds for Simple Zeros of Analytic Functions 
+2544 : A Theory of Discrete Patterns and Their Implementation in SNOBOL4 
+2545 : The Use of Grammatical Inference for Designing Programming Languages 
+2546 : Representation of Contours ad Regions for Efficient Computer Search 
+2547 : Normal Deviate [S14] (Algorithm A442) 
+2548 : Random Deviates from the Dipole Distribution [G5] (Algorithm A441) 
+2549 : A Multidimensional Monte Carlo Quadrature with Adaptive Stratified Sampling [D1] (Algorithm A440) 
+2550 : Mutual Recursion in Algol 60 Using Restricted Compilers 
+2551 : A Note on When To Chain Overflow Items Within a Direct-Access Table 
+2552 : The Practical Aspect of Computer Science Education-Discussion 
+2553 : Reduction of a Band-Symmetric Generalized Eigenvalue Problem 
+2554 : Variable-Precision Exponentiation 
+2555 : Adaptive Correction of Program Statements 
+2556 : On the Time Required for a Sequence of Matrix Products 
+2557 : Protection in Programming Languages 
+2558 : The Reallocation of Hash-Coded Tables 
+2559 : A Queuing Model of a Multiprogrammed Computer with a Two-Level Storage System 
+2560 : A Heuristic Approach to Inductive Inference in Fact Retrieval Systems 
+2561 : Routing Problem (Algorithm R456) 
+2562 : Merge Sort Algorithm (R426) 
+2563 : Hidden-Line Plotting Program (Algorithm R420) 
+2564 : A Gaussian Pseudo-Random Number Generator (Algorithm 488) 
+2565 : Exact Cumulative Distribution of the Kolmogorov-Smirnov Statistic for Small Samples (Algorithm  A487) 
+2566 : An Exponential Method for the Solution of Systems of Ordinary Differential Equations  
+2567 : A Graph Formulation of a School Scheduling Algorithm 
+2568 : Computer Generation of Gamma Random Variates with Non-integral Shape Parameters 
+2569 : A Comparison of List Schedules for Parallel Processing Systems 
+2570 : An Analytic Model of the Hasp Execution Task Monitor 
+2571 : Arguments for a Moratorium on the Construction of a Community Information Utility 
+2572 : Computer Programming as an Art 
+2573 : Multiple Exists from a Loop Using Neither GO TO nor Labels 
+2574 : The Best-Match Problem in Document Retrieval 
+2575 : A Simple Technique for Representing Strings in Fortran IV 
+2576 : An On-Site Data Management System Application in Field Archaeology 
+2577 : Self-stabilizing Systems in Spite of Distributed Control 
+2578 : Register Allocation Via Usage Counts 
+2579 : A Method for Composing Simple Traditional Music by Computer 
+2580 : A Locally-Organized Parser for Spoken Input 
+2581 : Improving Locality by Critical Working Sets 
+2582 : Guidelines for Humanizing Computerized Information Systems: A Report from Stanley House 
+2583 : Enumerating Full-Time Programmers 
+2584 : Efficient Implementation of a Variable Projection Algorithm for Nonlinear Least Squares Problems  (Errata) 
+2585 : Adapting Optimal Code Generation for Arithmetic Expressions to the Instruction Sets Available  on Present-Day Computers (Errata) 
+2586 : On the Construction of a Representative Synthetic Workload (Errata) 
+2587 : Rosenbrock Function Minimization (Algorithm R450) 
+2588 : A Computer Routine for Quadratic and Linear Programming Problems (Algorithm R431) 
+2589 : Hypergeometric (Algorithm C191) 
+2590 : Numerical Inversion of Laplace Transform (Algorithm A486) 
+2591 : On Generation of Test Problems for Linear Programming Codes 
+2592 : A Back-end Computer for Data Base Management 
+2593 : Structured Data Structures 
+2594 : A Note on the Calculation Working Set Size 
+2595 : A Weighted Buddy Method for Dynamic Storage Allocation 
+2596 : Monitors: An Operating System Structuring Concept 
+2597 : Extending the Information Theory Approach to Converting Limited-Entry Decision Tables to Computer  Programs 
+2598 :  First Order Approximation to the Optimum Checkpoint Interval 
+2599 : Computation of g-Splines via a Factorization Method [E2] (Algorithm A485) 
+2600 : Evaluation of the Modified Bessel Functions K0(Z) and K1(Z) for Complex Arguments [S17] (Algorithm  A484) 
+2601 : Masked Three-Dimensional Plot Program with Rotations [J6] (Algorithm A483) 
+2602 : The Equivalence of Reducing Transition Languages and Deterministic Languages 
+2603 : An Interactive Graphic Display for Region Partitioning by Linear Programming 
+2604 : A Precise Numerical Analysis Program 
+2605 : A New Integration Algorithm for Ordinary Differential Equations Based on Continued Fraction Approximations 
+2606 : A Problem-List of Issues Concerning Computers and Public Policy 
+2607 : Recurrence Relations for the Fresnel Integral and Similar Integrals 
+2608 : Interpolation with Rounded Ramp Functions 
+2609 : Gauss Harmonic Interpolation Formulas 
+2610 : The Complex Method for Constrained Optimization (Algorithm R454) 
+2611 : Rosenbrock Function Minimization (Algorithm R450) 
+2612 : Transitivity Sets [G7] (Algorithm A482) 
+2613 : Arrow to Precedence Network Transformation [H] (Algorithm A481) 
+2614 : Procedures for computing Smoothing and Interpolating Natural Splines [E1] (Algorithm A480) 
+2615 : On the Conversion of Programs to Decision Tables: Method and Objectives 
+2616 : A Note on Subexpression Ordering in the Evaluation of Arithmetic Expressions 
+2617 : A New Solution of Dijkstra's Concurrent Programming Problem 
+2618 : Graph Coloring Conditions for the Existence of Solutions to the Timetable Problem 
+2619 : Execution Time Requirements for Encipherment Programs 
+2620 : A High Security Log-in Procedure 
+2621 : A User Authentication Scheme Not Requiring Secrecy in the Computer 
+2622 : A New Technique for Compression and Storage of Data 
+2623 : Formal Requirements for Virtualizable Third Generation Architectures 
+2624 : Capability-Based Addressing 
+2625 : Protection and the Control of Information Sharing in Multics 
+2626 : Scheduling Independent Tasks to Reduce Mean Finishing Time 
+2627 : Minimal-Total-Processing Time Drum and Disk Scheduling Disciplines 
+2628 : The UNIX Time-Sharing system  
+2629 : On Computing Sets of Shortest Paths in a Graph 
+2630 : An Information-Theoretic Approach to Text Searching in Direct Access Systems 
+2631 : HYDRA: The Kernel of a Multiprocessor Operating System 
+2632 : Compact Representation of Contour Plots for Phone Line Transmission 
+2633 : An Evaluation of Statistical Software in the Social Sciences  
+2634 : Exact Probabilities for R X C Contingency Tables (Algorithm R434) 
+2635 : Generation of Random Correlated Normal Variables (Algorithm R425) 
+2636 : Hidden-Line Plotting Program (Algorithm R420) 
+2637 : Hidden-Line Plotting Program (Algorithm R420) 
+2638 : Calculation of Fourier Integrals (Algorithm R418) 
+2639 : Modified Havie Integration (Algorithm R400) 
+2640 : A Minimal Spanning Tree clustering Method [Z] (Algorithm A479) 
+2641 : Solution of an Overdetermined System of Equations in the L1 Norm [F4] (Algorithm A478) 
+2642 : The Minimization of Spatially-Multiplexed Character Sets 
+2643 : A Theorem-Proving Language for Experimentation 
+2644 : Two Languages for Estimating Program Efficiency 
+2645 : A Model for Masking Rotational Latency by Dynamic Disk Allocation 
+2646 : More on Algorithms that Reveal Properties of Floating Point Arithmetic Units 
+2647 : A Design for a Number Theory Package with an Optimized Trial Division routine 
+2648 : On the Distributions of Significant Digits and Roundoff Errors 
+2649 : Order-n Correction for Regular Languages 
+2650 : The Treatment of Data Types in EL1 
+2651 : Reduction of Compilation Costs Through Language Contraction 
+2652 : Solution of the Transcendental Equation w*exp(x)=x (Algorithm R443) 
+2653 : Generator of Set-Partitions to Exactly R Subsets [G7] (Algorithm A477) 
+2654 : Six Subprograms for Curve Fitting Using Splines Under Tension [E2] (Algorithm A476) 
+2655 : Scalar- and Planar- Valued Curve Fitting Using Splines Under Tension 
+2656 : An Improved Program-Synthesizing Algorithm and Its Correctness 
+2657 : An Alternative Approach to Mutual Recursion in Algol 60 Using Restricted Compilers 
+2658 : Some Remarks on Lookup of Structured Variables 
+2659 : Addendum to M. L. Patrick Paper 
+2660 : Ideal Teaching Machines-A Solution to the Pedagogic Language Problem 
+2661 : Graduate Education: The Ph.D. Glut: Response and Rebuttal 
+2662 : A Study of Computer Use in a Graduate School of Business 
+2663 : Parallelism in Tape-Sorting 
+2664 : Copying List Structures Using Bounded Workspace 
+2665 : On Lions' Counter Example for Gotlieb's Method for the Construction of School Timetables 
+2666 : Execution Characteristics of Programs in a Page-on-Demand System 
+2667 : Computation of Page Fault Probability from Program Transition Diagram 
+2668 : A Simple Linear Model of Demand Paging Performance 
+2669 : Efficient Implementation of a Variable Projection Algorithm for Nonlinear Least Squares Problems 
+2670 : A Note on a Combinatorial Problem of Burnett and Coffman 
+2671 : Emotional Content Considered Dangerous 
+2672 : Quadratic Search for Hash Tables of Size p^n 
+2673 : Scan Conversion Algorithms for a Cell Organized Raster Display 
+2674 : A Computer Routine for Quadratic and Linear Programming Problems (Algorithm R431) 
+2675 : Zeros of a Complex Polynomial (Algorithm R419) 
+2676 : Incomplete Beta Ratio (Algorithm R179) 
+2677 : Visible Surface Plotting Program [J6] (Algorithm A475) 
+2678 : Some Performance Tests of "quicksort" and Descendants 
+2679 : Optimal Space Allocation on Disk Storage Devices 
+2680 : Dynamic Memory Repacking 
+2681 : On the Construction of a Representative Synthetic Workload 
+2682 : The Synthesis of Loop Predicates 
+2683 : Production Systems: or Can We Do Better than BNF? 
+2684 : The Parallel Execution of DO Loops 
+2685 : An Approximate Method for Generating Asymmetric Random Variables 
+2686 : A Cell Organized Raster Display for Line Drawings 
+2687 : Attribute Based File Organization in a Paged Memory Environment 
+2688 : A CRT Report Generating System 
+2689 : A Numbering Systems for Combinations 
+2690 : Comments on the Algorithms of Verhelst for the Conversion of Limited-Entry Decision Tables to  Flowcharts 
+2691 : Reentrant Polygon Clipping 
+2692 : Bivariate Interpolation and Smooth Surface Fitting Based on Local Procedures [E2] (Algorithm  A474) 
+2693 : Computation of Legendre Series Coefficients [C6] (Algorithm A473) 
+2694 : Tridiagonalization by Permutations 
+2695 : A Method of Bivariate Interpolation and Smooth Surface Fitting Based on Local Procedures 
+2696 : A Fast Method for Solving a Class of Tridiagonal Linear Systems 
+2697 : Syntax-Directed Least-Errors Analysis for Context-Free Languages: A Practical Approach 
+2698 : Automatic Data Structure Choice in a Language of Very High Level 
+2699 : Reduction: A Method of Proving Properties of Parallel Programs 
+2700 : A Fast and Usually Linear Algorithm for Global Flow Analysis (Abstract only--Complete paper JACM  23,1 January, 1976) 
+2701 : On the Complexity of LR(k) Testing 
+2702 : The Intrinsically Exponential Complexity of the Circularity Problem for Attribute Grammars 
+2703 : Exception Handling: Issues and a Proposed Notation 
+2704 : Programming Languages, Natural Languages, and Mathematics 
+2705 : A Note on the Set Basis Problem Related to the Compaction of Character Sets 
+2706 : Backtrack Programming Techniques 
+2707 : Practical Syntactic Error Recovery 
+2708 : A Genealogy of Control Structures 
+2709 : Specifying Queries as Relational Expressions: The SQUARE Data Sublanguage 
+2710 : A Vector Space Model for Automatic Indexing 
+2711 : Horner's Rule for the Evaluation of General Closed Queueing Networks 
+2712 : Remark on Stably Updating Mean and Standard Deviation of Data (Corrigendum) 
+2713 : Merging with Parallel Processors 
+2714 : Implementation of a Structured English Query Language 
+2715 : Optimizing the Performance of a Relational Algebra Database Interface 
+2716 : CONVERT: A High Level Translation Definition Language for Data Conversion 
+2717 : A Preliminary System for the Design of DBTG Data Structures 
+2718 : Mechanical Program Analysis 
+2719 : Optimal Balancing of I/O Requests to Disks 
+2720 : The Digital Simulation of River Plankton Population Dynamics 
+2721 : Multidimensional Binary Search Trees Used for Associative Searching 
+2722 : Multiprocessing Compactifying Garbage Collection 
+2723 : The Lemniscate Constants (Corrigendum) 
+2724 : A Comparison of Simulation Event List Algorithms (Corrigendum) 
+2725 : Combining Decision Rules in a Decision Table 
+2726 : Multiple Byte Processing with Full-Word Instructions 
+2727 : Consecutive Storage of Relevant Records with Redundancy 
+2728 : Comments on a Paper by T. C. Chen and I. T. Ho 
+2729 : Interactive Consulting via Natural Language 
+2730 : Remark on Stably Updating Mean and Standard Deviation of Data 
+2731 : Guarded Commands, Nondeterminacy and Formal Derivation of Programs 
+2732 : Deterministic Parsing of Ambiguous Grammars 
+2733 : On the External Storage Fragmentation Produced by First-Fit and Best-Fit Allocation Strategies 
+2734 : Discrimination in the Employment of Women in the Computer Industry 
+2735 : A Note on Hash Linking 
+2736 : Determining the Minimum-Area Encasing Rectangle for an Arbitrary Closed Curve 
+2737 : Use of the Concept of Transparency in the Design of Hierarchically Structured Systems 
+2738 : The Restriction Language for Computer Grammars of Natural Language 
+2739 : A Large Semaphore Based Operating System 
+2740 : Decomposability, Instabilities, and Saturation in Multiprogramming Systems 
+2741 : Improved Event-Scanning Mechanisms for Discrete Event Simulation 
+2742 : Sorting X + Y 
+2743 : Addition in an Arbitrary Base Without Radix Conversion 
+2744 : A Linear Space Algorithm for Computing Maximal Common Subsequences 
+2745 : Efficient String Matching: An Aid to Bibliographic Search 
+2746 : A Simplified Recombination Scheme for the Fibonacci Buddy System 
+2747 : Indirect Threaded Code 
+2748 : Significant Event Simulation 
+2749 : A Cost Oriented Algorithm for Data Set Allocation in Storage Hierarchies 
+2750 : Illumination for Computer Generated Pictures 
+2751 : Generation of All the Cycles of a Graph from a Set of Basic Cycles [H] (Algorithm 492)  
+2752 : A Heuristic Problem Solving Design System for Equipment or Furniture Layouts 
+2753 : A Syntactic Algorithm for Peak Detection in Waveforms with Applications to Cardiography 
+2754 : The New Math of Computer Programming (Corrigendum) 
+2755 : A Problem-List of Public Policy Issues Concerning Computers and Health Care 
+2756 : More on kth Shortest Paths 
+2757 : A Note on the LU Factorization of a Symmetric Matrix 
+2758 : Solution of an Overdetermined System of Equations in the L1 Norm (Algorithm R478) 
+2759 : Visible Surface Plotting Program (Algorithm R475) 
+2760 : Visible Surface Plotting Program (Algorithm R475) 
+2761 : Ten Subroutines for the Manipulation of Chebyshev Series (Algorithm R446, C446) 
+2762 : Basic Cycle Generation [H] (Algorithm 491) 
+2763 : An Intelligent Analyzer and Understander of English 
+2764 : Analysis and performance of Inverted Data Base Structures 
+2765 : Copying Cyclic List Structures in Linear Time Using Bounded Workspace 
+2766 : A Comparison of Simulation Event List Algorithms 
+2767 : An Algorithm for Locating Adjacent Storage Blocks in the Buddy System 
+2768 : A Modification of Warshall's Algorithm for the Transitive Closure of Binary Relations 
+2769 : The Quadratic Hash Method When the Table Size Is Not a Prime Number 
+2770 : The Synthesis of Solids Bounded by Many Faces 
+2771 : On Maintenance of the Opportunity List for Class-Teacher Timetable Problems 
+2772 : A Weighted Buddy Method for Dynamic Storage Allocation (Corrigendum) 
+2773 : Remark on Algorithm 475 
+2774 : The Dilogarithm Function of a Real Argument [S22] (Algorithm 490) 
+2775 : Computer Networks in Higher Education: Socio-Economic-Political Factors 
+2776 : On a Solution to the Cigarette Smoker's Problem (Without Conditional Statements) 
+2777 : Perturbations of Eigenvalues of Non-normal Matrices (Corrigendum) 
+2778 : Discrete Least Squares Polynomial Fits 
+2779 : On Computing Certain Elements of the Inverse of a Sparse Matrix 
+2780 : The Algorithm Sequential Access Method: An Alternative to Index Sequential 
+2781 : A Reply to Gentleman and Marovich 
+2782 : The Algorithm SELECT-for Finding the ith Smallest of n Elements [M1] (Algorithm 489) 
+2783 : Expected Time Bounds for Selection 
+2784 : Glypnir-A Programming Language for Illiac IV 
+2785 : A System for Typesetting Mathematics 
+2786 : Matrix Reduction-An Efficient Method 
+2787 : Finding Circles by an Array of Accumulators 
+2788 : A Minimal Spanning Tree Clustering Method (Algorithm R479) 
+2789 : The Elementary Circuits of a Graph (Algorithm R459) 
+2790 : Exact Probabilities for R x C Contingency Tables (Algorithm R434) 
+2791 : Jacobi Polynomials (Algorithm R332) 
+2792 : Chi-Square Quantiles (Algorithm C451) 
+2793 : State-Space, Problem-Reduction, and Theorem Proving-Some Relationships 
+2794 : Sentence Paraphrasing from a Conceptual Base 
+2795 : Monitors: An Operating System Structuring Concept (Corrigendum) 
+2796 : A First Order Approximation to the Optimal Checkpoint Interval (Corrigendum) 
+2797 : Analysis of Interleaved Memory Systems Using Blockage Buffers 
+2798 : Stably Updating Mean and Standard Deviation of Data 
+2799 : Connections Between Accuracy and Stability Properties of Linear Multistep Formulas 
+2800 : Storage-Efficient Representation of Decimal Data 
+2801 : The New Math of Computer Programming 
+2802 : Pseudoinverses and Conjugate Gradients 
+2803 : Elementary Divisors of Tensor Products 
+2804 : Perturbations of Eigenvalues of Non-normal Matrices 
+2805 : Two Hadamard Numbers for Matrices 
+2806 : On the Stability of Gauss-Jordan Elimination with Pivoting 
+2807 : The Lemniscate Constants 
+2808 : Positivity and Norms 
+2809 : Professionalism in the Computing Field 
+2810 : Structural Pattern Recognition Of Carotid Pulse Waves Using A General Waveform Parsing System 
+2811 : Computer-Aided Analysis and Design of Information Systems 
+2812 : The Computer Science and Engineering Research Study (COSERS) 
+2813 : Roster of Programming Languages for 1974-75  
+2814 : High-Level Binding with Low-Level Linkers 
+2815 : Optimal Reorganization of Distributed Space Disk Files 
+2816 : The Notions of Consistency and Predicate Locks in a Database System 
+2817 : Interference in Multiprocessor Computer Systems with Interleaved Memory (Corrigendum) 
+2818 : Experiments in Text File Compression 
+2819 : The Design and Implementation of a Table Driven, Interactive Diagnostic Programming System 
+2820 : Cobol Under Control 
+2821 : Homilies for Humble Standards 
+2822 : The Status of Women and Minorities in Academic Computer Science 
+2823 : An Improvement to Martin's Algorithm for Computation of Linear Precedence Functions 
+2824 : The BMD and BMDP Series of Statistical Computer Programs 
+2825 : Interactive Skeleton Techniques for Enhancing Motion Dynamics in Key Frame Animation 
+2826 : A Parametric Algorithm for Drawing Pictures of Solid Objects Composed of Quadric Surfaces 
+2827 : Hierarchical Geometric Models for Visible Surface Algorithms 
+2828 : Texture and Reflection in Computer Generated Images 
+2829 : A Practitioner's Guide to Addressing Algorithms (Corrigendum) 
+2830 : Analysis of the PFF Replacement Algorithm via a Semi-Markov Model (Corrigendum) 
+2831 : Faster Retrieval from Context Trees (Corrigendum) 
+2832 : An Efficient, Incremental, Automatic Garbage Collector 
+2833 : Efficient Generation of the Binary Reflected Gray Code and Its Applications 
+2834 : Recursion Analysis for Compiler Optimization 
+2835 : Weighted Derivation Trees 
+2836 : New Upper Bounds for Selection 
+2837 : Analysis of an Algorithm for Real Time Garbage Collection 
+2838 : An Insertion Technique for One-Sided Height-Balanced Trees 
+2839 : Protection in Operating Systems 
+2840 : Designing Surfaces in 3-D 
+2841 : The Denotational Semantics of Programming Languages 
+2842 : Tools and Philosophy for Software Education  
+2843 : Heaps Applied to Event Driven Mechanisms 
+2844 : A Buddy System Variation for Disk Storage Allocation 
+2845 : Compressed Tries 
+2846 : Sampling from the Gamma Distribution on a Computer 
+2847 : Synthesis of Decision Rules 
+2848 : Ethernet: Distributed Packet Switching for Local Computer Networks 
+2849 : Symbolic Execution and Program Testing 
+2850 : Formal Verification of Parallel Programs 
+2851 : The Technology of Computer Center Management: A Proposed Course for Graduate Professional Programs  in Computer Science or in Information Systems 
+2852 : A Numbering System for Permutations of Combinations 
+2853 : Multiprocessing Compactifying Garbage Collection (Corrigendum) 
+2854 : An Efficient List-Moving Algorithm Using Constant Workspace 
+2855 : The Synthetic Approach to Decision Table Conversion 
+2856 : Referencing Lists by an Edge 
+2857 : A Process for the Determination of Addresses in Variable Length Addressing 
+2858 : Interference in Multiprocessor Computer Systems with Interleaved Memory 
+2859 : A Practitioner's Guide To Addressing Algorithms 
+2860 : Production and Employment of Ph.D.'s in Computer Science 
+2861 : Analysis of the PFF Replacement Algorithm via a Semi-Markov Model 
+2862 : VMIN-An Optimal Variable-Space Page Replacement Algorithm 
+2863 : Characteristics of Program Localities 
+2864 : Verifying Properties of Parallel Programs: An Axiomatic Approach 
+2865 : Proving Monitors 
+2866 : Modularization and Hierarchy in a Family of Operating Systems 
+2867 : Reflections on an Operating System Design 
+2868 : Security Kernel Validation in Practice 
+2869 : A Lattice Model of Secure Information Flow 
+2870 : Logical Analysis of Programs 
+2871 : A Counterintuitive Example of Computer Paging (Corrigendum) 
+2872 : LG: A Language for Analytic Geometry 
+2873 : A Comparative Evaluation of Versions of BASIC 
+2874 : Development of an International System for Legal Protection of Computer Programs 
+2875 : Intentional Resolution of Privacy Protection in Database Systems 
+2876 : A Program Data Flow Analysis Procedure 
+2877 : Joining Policies in a Multipriority Multiclass Batch Computer System 
+2878 : Computer Science as Empirical Inquiry: Symbols and Search 
+2879 : A Fast Division Technique for Constant Divisors 
+2880 : A Counterintuitive Example of Computer Paging 
+2881 : A Stochastic Evaluation Model for Database Organization in Data Retrieval Systems 
+2882 : An Application of Heuristic Search Methods to Edge and Contour Detection 
+2883 : Permutation Enumeration: Four New Permutation Algorithms 
+2884 : On Self-Organizing Sequential Search Heuristics 
+2885 : Semantic Evaluation from Left to Right 
+2886 : A Study of Errors, Error-Proneness, and Error Diagnosis in Cobol 
+2887 : Information Reference Coding 
+2888 : Performance of Height-Balanced Trees 
+2889 : On Quadratic Adaptive Routing Algorithms 
+2890 : An Anomaly in Disk Scheduling: A Comparison of FCFS and SSTF Seek Scheduling Using an Empirical  Model for Disk Accesses 
+2891 : A Study of Line Overhead in the Arpanet 
+2892 : Computers as an Innovation in American Local Governments 
+2893 : A Methodology for Interactive Computer Service Measurement 
+2894 : A Language for Formal Problem Specification 
+2895 : An Exercise in Proving Parallel Programs Correct 
+2896 : A Case Study of a New Code Generation Technique for Compilers 
+2897 : A Conceptual Framework for a Nonprocedural Programming Language 
+2898 : A Survey of Computer Science Offerings In Small Liberal Arts Colleges. 
+2899 : Some Theorems to Aid in Solving the File Allocation Problem 
+2900 : An Encoding Method for Multifield Sorting and Indexing 
+2901 : Dynamic Memory Allocation in Computer Simulation 
+2902 : Improving Programs by the Introduction of Recursion 
+2903 : An Algorithm for Reduction of Operator Strength 
+2904 : Perfect Hashing Functions: A Single Probe Retrieving Method for Static Sets 
+2905 : A Very High Level Programming Language for Data Processing Applications 
+2906 : The Optimal Approach to Recursive Programs 
+2907 : A Note On Reflection-Free Permutation Enumeration 
+2908 : What Can We Do about the Unnecessary Diversity of Notation for Syntactic Definitions? 
+2909 : Equivalence of Hough Curve Detection to Template Matching 
+2910 : Anomalous Behavior of the Fifty-Percent Rule in Dynamic Memory Allocation 
+2911 : Concurrent Reading and Writing 
+2912 : The Aliasing Problem in Computer-Generated Shaded Images 
+2913 : Use of the LRU Stack Depth Distribution for Simulation of Paging Behavior 
+2914 : Considerations for Future Programming Language Standards Activities 
+2915 : A Fast String Searching Algorithm 
+2916 : SITAR: An Interactive Text Processing System for Small Computers (Corrigendum) 
+2917 : Multiprocessor Memory Organization and Memory Interference 
+2918 : The Programmer's Workbench-A Machine for Software Development 
+2919 : Game Interpretation of the Deadlock Avoidance Problem 
+2920 : Regular Right Part Grammars and Their Parsers 
+2921 : Two-Level Control Structure for Nondeterministic Programming 
+2922 : High-Level Data Flow Analysis 
+2923 : An Interactive Computer Graphics Approach to Surface Representation 
+2924 : Optimal Surface Reconstruction from Planar Contours 
+2925 : Pagination of B*-Trees with Variable-Length Records 
+2926 : Some New Upper Bounds on the Generation of Prime Numbers 
+2927 : Hardware Estimation of a Process' Primary Memory Requirements 
+2928 : An Analysis of Inline Substitution for a Structured Programming Language 
+2929 : The GRE Advanced Test in Computer Science 
+2930 : Logic and Programming Languages 
+2931 : Complexity of Computations 
+2932 : Another Advantage of Keyword Notation for Parameter Communication with Subprograms 
+2933 : Comment on Computing the k Shortest Paths in a Graph 
+2934 : Production and Employment of Ph.D.'s in Computer Science-1976 (Corrigendum) 
+2935 : An Efficient Data Structure for the Simulation Event Set 
+2936 : An Experimental Evaluation of Data Type Conventions 
+2937 : Toward a Discipline of Real-Time Programming 
+2938 : Abstraction Mechanisms in CLU 
+2939 : Abstraction and Verification in Alphard: Defining and Specifying Iteration and Generators 
+2940 : Early Experience with Mesa 
+2941 : An Algol-Based Implementation of SNOBOL 4 Patterns 
+2942 : Lucid, a Nonprocedural Language with Iteration 
+2943 : Shifting Garbage Collection Overhead to Compile Time 
+2944 : Certification of Programs for Secure Information Flow 
+2945 : An Alternative to Event Queues for Synchronization in Monitors 
+2946 : SITAR: An Interactive Text Processing System for Small Computers 
+2947 : A Terminal-Oriented Communication System 
+2948 : A Correctness Proof of a Topology Information Main tenance Protocol for a Distributed Computer  Network 
+2949 : A Unifying Approach to Scheduling 
+2950 : Dynamic Response Time Prediction for Computer Networks 
+2951 : Functions Realizable with Word-Parallel Logical and Two's-Complement Addition Instructions 
+2952 : Notes on Recursion Elimination 
+2953 : A Bounded Storage Algorithm for Copying Cyclic Structures 
+2954 : Buddy Systems 
+2955 : Some Ideas on Data Types in High-Level Languages 
+2956 : Database Abstractions: Aggregation 
+2957 : Abstract Data Types and the Development of Data Structures 
+2958 : The System for Business Automation (SBA): Programming Language 
+2959 : Two Views of Data Abstraction 
+2960 : Experimental Investigations of the Utility of Detailed Flowcharts in Programming 
+2961 : Production and Employment of Ph.D.'s in Computer Science-1976 
+2962 : A Fast Algorithm for Computing Longest Common Subsequences 
+2963 : An Approach to Optimal Design of Storage Parameters in Databases 
+2964 : An Optimal Evaluation of Boolean Expressions in an Online Query System 
+2965 : The Choice of Reference Poin ts in Best-Match File Searching 
+2966 : A Comparison of Hardware and Software Associative Memories in the Context of Computer Graphics 
+2967 : A Comparison of Tree-Balancing Algorithms 
+2968 : Optimal Program and Data Locations in Computer Networks 
+2969 : Achieving Specific Accuracy in Simulation Output Analysis 
+2970 : SP/k: A System for Teaching Computer Programming 
+2971 : Proof Techniques for Hierarchically Structured Programs 
+2972 : Sorting on a Mesh-Connected Parallel Computer 
+2973 : Comment on Weighted Increment Linear Search for Scatter Tables 
+2974 : Remark on Uniform Insertion in Structured Data Structures 
+2975 : Approximating Block Accesses in Database Organizations 
+2976 : The Stage Hypothesis and the S-Curve: Some Contradictory Evidence 
+2977 : Analysis of Design Alternatives for Virtual Memory Indexes 
+2978 : Studies in Machine Cognition Using The Game of Poker 
+2979 : The Editing  of Picture Segmentations Using Local Analysis of Graphs 
+2980 : Subgoal Induction 
+2981 : The Storage Requirement in Precedence Parsing 
+2982 : A Comparison of Next-fit, First-fit, and Best-fit 
+2983 : Cost/Utilization: A Measure of System Performance 
+2984 : Effects of Chargeout on User/Manager Attitudes 
+2985 : Operations on Sparse Relations 
+2986 : Representation of Many-Sided Polygons and Polygonal Lines for Rapid Processing 
+2987 : Memory Management and Response Time 
+2988 : Empirical Evaluation of Some Features of Instruction Set Processor Architectures 
+2989 : Effective Information Retrieval Using Term Accuracy 
+2990 : Improving the Access Time for Random Access Files 
+2991 : A Numbering System for Binary Trees 
+2992 : Occurrences of Cycling and Other Phenomena Arising in a Class of Linear Programming Models 
+2993 : A Linear Algorithm for Incremental Digital Display of Circular Arcs 
+2994 : Decomposability, Instabilities, and Saturation in Multiprogramming Systems (Corrigendum) 
+2995 : Transient-Free Working-Set Statistics 
+2996 : Convex Hulls of Finite Sets of Poin ts in Two and Three Dimensions 
+2997 : An Empirical Study of List Structure in Lisp 
+2998 : An Approach to Multidimensional Data Array Processing by Computer 
+2999 : Segment Sizes and Lifetimes in Algol 60 Programs 
+3000 : Detection of Combined Occurrences 
+3001 : A Record and File Partitioning Model 
+3002 : A Survey of the Literature in Computer Science Education Since Curriculum '68 
+3003 : Structured Programming in Cobol: An Approach for Application Programmers 
+3004 : Implications of Structured Programming for Machine Architecture 
+3005 : Anomalies with Variable Partition Paging Algorithms 
+3006 : Complexity of Computations (Corrigendum) 
+3007 : Preserving Average Proximity in Arrays 
+3008 : Insertions and Deletions In One-Sided Height-Balanced Trees 
+3009 : Value Orientation of Computer Science Students 
+3010 : Management Utilization of Computers in American Local Governments 
+3011 : The Use of an Interactive Information Storage and Retrieval System in Medical Research 
+3012 : Some New Methods of Detecting Step Edges in Digital Pictures 
+3013 : Is "Sometime" Sometimes Better than "Always"? (Intermittent Assertions in Proving Program Correctness) 
+3014 : Relaxation Methods for Image Reconstruction 
+3015 : A Comparison of Numerical Techniques in Markov Modeling 
+3016 : B-trees Re-examined 
+3017 : Covering Edges by Cliques with Regard to Keyword Conflicts and Intersection Graphs 
+3018 : The GRE Advanced Test in Computer Science 
+3019 : Systematic Recursion Removal 
+3020 : A Method for Obtaining Digital Signatures and Public-Key Cryptosystems 
+3021 : Computer Science Faculties: The Current Status of Minorities and Women 
+3022 : Architecture of the IBM System/370 
+3023 : The CRAY-1 Computer System 
+3024 : The Evolution of the DEC system 10 
+3025 : The Evolution of the Sperry Univac 1100 Series: A His tory, Analysis, and Projection 
+3026 : The Development of the MU5 Computer System 
+3027 : The Manchester Mark I and Atlas: A His torical Perspective 
+3028 : Foreword to the Special Issue on Computer Architecture 
+3029 : An Example of Hierarchical Design and Proof 
+3030 : Abstract Data Types and Software Validation 
+3031 : Reverse Path Forwarding of Broadcast Packets 
+3032 : Optimizing Decision Trees Through Heuristically Guided Search 
+3033 : Detection of Logical Errors in Decision Table Programs 
+3034 : A Strategic Planning Methodology for the Computing Effort in Higher Education: An Empirical Evaluation 
+3035 : The Selection of Optimal Tab Settings 
+3036 : A Linear Sieve Algorithm for Finding Prime Numbers 
+3037 : Using Encryption for Authentication in Large Networks of Computers 
+3038 : On-the-Fly Garbage Collection: An Exercise in Cooperation 
+3039 : Synthesizing Constraint Expressions 
+3040 : Median Split Trees: A Fast Lookup Technique for Frequently Occuring Keys 
+3041 : Power Trees 
+3042 : Distributed Processes: A Concurrent Programming Concept 
+3043 : A Note on Conditional Expressions 
+3044 : A Simple Recovery-Only Procedure For SImple Precedence Parsers 
+3045 : Computer Generation of Gamma Random Variables - II 
+3046 : Using Synthetic Images to Register Real Images with Surface Models 
+3047 : Performance Evaluation of Highly Concurrent Computers by Deterministic Simulation 
+3048 : A Simply Extended and Modified Batch Environment Graphical System (SEMBEGS) 
+3049 : Systems Design Education: A Gaming Approach 
+3050 : A Comparison of Heaps and the TL Structure for the SImulation Event Set 
+3051 : Cold-Start vs. Warm-Start Miss Ratios 
+3052 : Packed Scatter Tables 
+3053 : Implementing Quicksort Programs 
+3054 : An Analysis of Algorithms for the Dutch National Flag Problem 
+3055 : Counting Large Numbers of Events in Small Registers 
+3056 : Optimal His togram Matching by Monotone Gray Level Transformation 
+3057 : Jump Searching: A Fast Sequential Search Technique 
+3058 : Models for Parallel Processing WIthin Programs: Application to CPU:I/O and I/O:I/O Overlap 
+3059 : Fortran 77 
+3060 : Simulations of Dynamic Sequential Search Algorithms 
+3061 : Real Time Plotting of Approximate Contour Maps 
+3062 : A Note on Virtual Memory Indexes 
+3063 : Event Manipulation for Discrete Simulations Requiring Large Numbers of Events 
+3064 : Right Brother Trees 
+3065 : A Controlled Experiment in Program Testing and Code Walkthroughs/Inspections 
+3066 : Generalized Working Sets for Segment Reference Strings 
+3067 : A Model for Verification of Data Security in Operating Systems 
+3068 : A Practical Interprocedural Data Flow Analysis Algorithm 
+3069 : Hybrid Simulation Models of Computer Systems 
+3070 : An Algorithm Using Symbolic Techniques for the Bel-Petrov Classification of Gravitational Fields 
+3071 : Feedback Coupled Resource Allocation Policies in the Multiprogramming- Multiprocessor Computer  System 
+3072 : Communicating Sequential Processes 
+3073 : A Time- and Space- Efficient Garbage Compaction Algorithm 
+3074 : Fast Parallel Sorting Algorithms 
+3075 : Value Conflicts and Social Choice in Electronic Funds Transfer System Developments 
+3076 : Can Programming Be Liberated from the von Neumann Style?  A Functional Style and Its Algebra  of Programs 
+3077 : Analysis of the Availability of Computer Systems Using Computer- Aided Algebra 
+3078 : An Algorithm for Reasoning About Equality 
+3079 : Proving the Correctness of Heuristically Optimized Code  
+3080 : Shallow Binding in Lisp 1.5 
+3081 : Time, Clocks, and the Ordering of Events in a Distributed System 
+3082 : Pseudochaining in Hash Tables 
+3083 : Interpolation Search -A Log LogN Search 
+3084 : An O(n) Algorithm for Determining a Near-Optimal Computation Order of Matrix Chain Products 
+3085 : On the Complexity of Computing the Measure of U[ai, bi] 
+3086 : An English Language Question Answering System for a Large Relational Database 
+3087 : General Equations for Idealized CPU-I/O Overlap Configurations 
+3088 : Performance of Rollback Recovery Systems under Intermittent Failures 
+3089 : Automated Welfare Client-Tracking and Service Integration: The Political Economy of Computing 
+3090 : Some Basic Determinants of Computer Programming Productivity 
+3091 : Characteristics of Application Software Maintenance 
+3092 : Automatic Error Recovery for LR Parsers 
+3093 : Analyses of Deterministic Parsing Algorithms 
+3094 : A Selective Traversal Algorithm for Binary Search Trees 
+3095 : An Optimal Method for Deletion in One-Sided Height-Balanced Trees 
+3096 : Optimal Shift Strategy for a Block-Transfer CCD Memory 
+3097 : Computer Generation of Gamma Random Variables 
+3098 : New Sufficient Optimality Conditions for Integer Programming and their Application 
+3099 : An Interference Matching Technique for Inducing Abstractions 
+3100 : The SL5 Procedure Mechanism 
+3101 : Incorporation of Units into Programming Languages 
+3102 : Automatic Data Structure Selection: An Example and Overview 
+3103 : Test Data as an Aid in Proving Program Correctness 
+3104 : A Language Extension for Expressing Constraints on Data Access 
+3105 : A Fast Algorithm for Copying List Structures 
+3106 : Generating Beta Variates with Nonintegrel Shape Parameters 
+3107 : Economical Encoding of Commas Between Strings 
+3108 : A Data Structure for Manipulating Priority Queues 
+3109 : Assembling Code for Machines with Span-Dependent Instructions 
+3110 : Secure Communications Over Insecure Channels 
+3111 : List Processing in Real Time on a Serial Computer 
+3112 : Optimal Conversion of Extended-Entry Decision Tables with General Cost Criteria 
+3113 : A Technique for Isolating Differences Between Files 
+3114 : Orderly Enumeration of Nonsingular Binary Matrices Applied to Text Encryption 
+3115 : Interference Detection Among Solids and Surfaces 
+3116 : The Impact and Use of Computer Technology by the Police 
+3117 : Permutation of Data Blocks in a Bubble Memory 
+3118 : The Impact of Distributions and Disciplines on Multiple Processor Systems 
+3119 : An Event-Driven Compiling Technique 
+3120 : Syntactic Source to Source Transforms and Program Manipulation 
+3121 : Production and Employment of Ph.D.'s in Computer Science - 1977 and 1978 
+3122 : Employment Characteristics of Doctoral Level Computer Scientists 
+3123 : Recursive Data Structures in APL 
+3124 : Global Optimization by Suppression of Partial Redundancies 
+3125 : Comments on Perfect Hashing Functions: A Single Probe Retrieving  Method for Static Sets 
+3126 : Thoth, a Portable Real-Time Operating System  
+3127 : Synchronization with Eventcounts and Sequencers 
+3128 : Optimal Storage Allocation for Serial Files 
+3129 : CURRICULUM '78 - Recommendations for the Undergraduate Program in Computer Science 
+3130 : FOCUS Microcomputer Number System 
+3131 : Experiments with Some Algorithms that Find Central Solutions for Pattern Classification 
+3132 : Logic and Semantic Networks 
+3133 : The Use of Normal Multiplication Tables for Information Storage and Retrieval 
+3134 : Detection of Three-Dimensional Patterns of Atoms in Chemical Structures 
+3135 : Price/Performance Patterns of U.S. Computer Systems 
+3136 : A Methodology for the Design of Distributed Information Systems 
+3137 : A Mathematical Programming Updating Method Using Modified Givens Transformations and Applied to LP Problems 
+3138 : New Methods to Color the Vertices of a Graph 
+3139 : Social Processes and Proofs of Theorems and Programs 
+3140 : An Improved Algorithm for Decentralized Extrema-Finding in Circular Configurations of Processes 
+3141 : Consumer Difficulties With Computerized Transactions:  An Empirical Investigation 
+3142 : Reasoning About Arrays 
+3143 : A Model for and DIscussion of Multi-Interpreter Systems 
+3144 : An Implementation of Structured Walk-Throughs in Teaching Cobol Programming 
+3145 : An Academic Program Providing Realistic Training in Software Engineering 
+3146 : A Model for Automating File and Program Design in Business Application Systems 
+3147 : High Level Programming for Distributed Computing 
+3148 : The Cyclic Order Property of Vertices as an Aid in Scene Analysis 
+3149 : Beyond Programming Languages 
+3150 : An Optimal Real-Time Algorithm for Planar Convex Hulls 
+3151 : Storage Reorganization Techniques for Matrix Computation in a Paging Environment 
+3152 : The Control of Response Times in Multi-Class Systems by Memory Allocations  
+3153 : Algorithm = Logic + Control 
+3154 : The Paradigms of Programming 
+3155 : Computing Connected Components on Parallel Computers 
+3156 : Proving Termination with Multiset Orderings 
+3157 : Secure Personal Computing in an Insecure Network 
+3158 : Further Remark on Stably Updating Mean and Standard Deviation Estimates 
+3159 : Rejuvenating Experimental Computer Science 
+3160 : An ACM Executive Committee Position on the Crisis  in Experimental Computer Science 
+3161 : On Improving the Worst Case Running Time of the Boyer-Moore String Matching Algorithm 
+3162 : An Optimal Insertion Algorithm for One-Sided Height-Balanced BInary Search Trees 
+3163 : Progressive Acyclic Digraphs-A Tool for Database Integrity 
+3164 : Approximation of Polygonal Maps by Cellular Maps 
+3165 : Computing Standard Deviations: Accuracy 
+3166 : Updating Mean and Variance Estimates: An Improved Method 
+3167 : Comment on "An Optimal Evaluation of Boolean Expressions in an Online Query System." 
+3168 : Note on "An Optimal Evaluation of Boolean Expressions  in an Online Query System." 
+3169 : On the Proof of Correctness of a Calendar Program 
+3170 : Line Numbers Made Cheap 
+3171 : An Algorithm for Planning Collision-Free Paths Among Polyhedral Obstacles 
+3172 : A Psychology of Learning BASIC 
+3173 : Password Security: A Case History 
+3174 : Breaking Substitution Ciphers Using a Relaxation Algorithm 
+3175 : Storing a Sparse Table 
+3176 : How to Share a Secret 
+3177 : Introduction to the EFT Symposium 
+3178 : Overview of the EFT Symposium 
+3179 : Costs of the Current U.S. Payments System 
+3180 : Public Protection and Education with EFT 
+3181 : Vulnerabilities of EFTs to Intentionally Caused Losses 
+3182 : Policy, Values, and EFT Research: Anatomy of a Research Agenda 
+3183 :    Revised Report on the Algorithmic Language ALGOL 60 
+3184 :    The Humble Programmer 
+3185 :    GO TO Statement Considerd Harmful 
+3186 :    Certification of Algorithm 271 (QUICKERSORT) 
+3187 :    Semiotics and Programming Languages 
+3188 :    An Algebraic Compiler for the FORTRAN Assembly Program 
+3189 :    Correction to Economies of Scale and the IBM System/360 
+3190 :    Generating Permutations by Nested Cycling 
+3191 : The Lincoln Keyboard - a Typewriter Keyboard Designed  for Computers Input Flexibility 
+3192 : 
+3193 :    A Non-heuristic Program for Proving Elementary Logical Theorems 
+3194 :    Reiteration of ACM Policy Toward Standardization 
+3195 :    The Reactive Typewriter Program 
+3196 :    Structures of Standards-Processing Organizations in the Computer Area 
+3197 :    Microprogramming, Emulators and Programming Languages 
+3198 :    ALGEM - An Algebraic Manipulator 
+3199 :    A FORMAC Program for the Solution of Linear Boundary and Initial Value  Problems 
+3200 :    Symbolic Manipulation of Poisson Series 
+3201 :    MANIP: A Computer System for Algebra and Analytic Differentiation 
+3202 :    GRAD Assistant - A Program for Symbolic Algebraic Manipulation and  Differentiation 
+3203 :    An On-Line Program for Non-Numerical Algebra 
