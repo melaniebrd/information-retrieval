@@ -13,6 +13,7 @@ def build_index(collection_name, build_dictionaries=False):
     else:
         print("Doc IDs length : %s" % len(index.doc_ids))
         print("Term IDs length : %s" % len(index.term_ids))
+        print("Index length : %s" % len(index.index))
 
 
 def help():

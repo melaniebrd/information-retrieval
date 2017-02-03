@@ -1,0 +1,90 @@
+1992452 function calls (1992449 primitive calls) in 7.986 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+   134349    3.294    0.000    3.294    0.000 {method 'readline' of 'file' objects}
+    13131    1.819    0.000    1.938    0.000 index.py:137(fill_index)
+        2    0.761    0.381    7.152    3.576 index.py:268(build_block_index)
+    13135    0.441    0.000    0.441    0.000 {open}
+    13132    0.417    0.000    0.417    0.000 {method 'split' of 'str' objects}
+        3    0.256    0.085    0.256    0.085 {posix.listdir}
+     6833    0.139    0.000    0.139    0.000 {map}
+   841474    0.119    0.000    0.119    0.000 {method 'append' of 'list' objects}
+    91556    0.102    0.000    0.165    0.000 linguistic_treatment.py:134(line_to_analyse)
+    25793    0.089    0.000    0.089    0.000 {method 'split' of '_sre.SRE_Pattern' objects}
+        1    0.076    0.076    0.538    0.538 linguistic_treatment.py:102(tokenize)
+        1    0.076    0.076    0.260    0.260 index.py:292(save_tmp_index)
+    25793    0.074    0.000    0.240    0.000 linguistic_treatment.py:127(tokenize_by_line)
+   374225    0.071    0.000    0.071    0.000 {method 'startswith' of 'str' objects}
+    13132    0.043    0.000    0.063    0.000 index.py:285(create_new_doc_id)
+     6834    0.029    0.000    0.029    0.000 {method 'write' of 'file' objects}
+    26264    0.028    0.000    0.028    0.000 index.py:240(get_file_path)
+    25793    0.020    0.000    0.020    0.000 re.py:230(_compile)
+    25793    0.019    0.000    0.019    0.000 {method 'lower' of 'str' objects}
+    25793    0.016    0.000    0.125    0.000 re.py:168(split)
+   218953    0.015    0.000    0.015    0.000 {method 'isdigit' of 'str' objects}
+26288/26287    0.013    0.000    0.013    0.000 {len}
+     6833    0.013    0.000    0.013    0.000 {method 'join' of 'str' objects}
+    35217    0.011    0.000    0.019    0.000 linguistic_treatment.py:140(line_to_read)
+        1    0.011    0.011    0.011    0.011 linguistic_treatment.py:53(remove_duplication)
+    25793    0.007    0.000    0.026    0.000 string.py:222(lower)
+        1    0.006    0.006    0.008    0.008 index.py:31(build_term_ids)
+    15809    0.005    0.000    0.005    0.000 index.py:148(print_position)
+        1    0.004    0.004    0.004    0.004 {sorted}
+        1    0.004    0.004    0.020    0.020 linguistic_treatment.py:31(build_vocabulary_list)
+        1    0.004    0.004    7.986    7.986 main_index.py:1(<module>)
+        1    0.001    0.001    0.002    0.002 linguistic_treatment.py:1(<module>)
+        1    0.001    0.001    0.001    0.001 {method 'readlines' of 'file' objects}
+        1    0.001    0.001    7.415    7.415 index.py:256(build_index)
+        1    0.000    0.000    0.002    0.002 index.py:1(<module>)
+        1    0.000    0.000    0.002    0.002 linguistic_treatment.py:56(get_common_words)
+      429    0.000    0.000    0.000    0.000 {method 'rstrip' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {range}
+        3    0.000    0.000    0.000    0.000 {posix.getcwd}
+        1    0.000    0.000    0.000    0.000 linguistic_treatment.py:144(CS276LinguisticTreatment)
+        1    0.000    0.000    0.558    0.558 linguistic_treatment.py:11(__init__)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:395(_parse)
+        1    0.000    0.000    7.981    7.981 index.py:235(__init__)
+        1    0.000    0.000    7.423    7.423 index.py:9(__init__)
+      2/1    0.000    0.000    0.000    0.000 sre_compile.py:64(_compile)
+        1    0.000    0.000    7.981    7.981 main_index.py:6(build_index)
+      3/2    0.000    0.000    0.000    0.000 sre_parse.py:151(getwidth)
+        2    0.000    0.000    0.000    0.000 index.py:243(get_folder_path)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:567(compile)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:706(parse)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:433(_compile_info)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:256(_optimize_charset)
+        5    0.000    0.000    0.000    0.000 sre_parse.py:193(__next)
+        6    0.000    0.000    0.000    0.000 sre_parse.py:141(__getitem__)
+        1    0.000    0.000    0.000    0.000 settings.py:2(<module>)
+        1    0.000    0.000    0.000    0.000 linguistic_treatment.py:9(LinguisticTreatment)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:552(_code)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:228(_compile_charset)
+        1    0.000    0.000    0.558    0.558 linguistic_treatment.py:99(__init__)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:317(_parse_sub)
+        4    0.000    0.000    0.000    0.000 {min}
+        9    0.000    0.000    0.000    0.000 {isinstance}
+        1    0.000    0.000    0.000    0.000 sre_compile.py:428(_simple)
+        1    0.000    0.000    0.000    0.000 {_sre.compile}
+        1    0.000    0.000    0.000    0.000 {method 'find' of 'bytearray' objects}
+        1    0.000    0.000    0.000    0.000 index.py:7(Index)
+        1    0.000    0.000    0.000    0.000 index.py:153(CACMIndex)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:149(append)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:268(_escape)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:189(__init__)
+        1    0.000    0.000    0.000    0.000 index.py:246(get_tmp_path)
+        2    0.000    0.000    0.000    0.000 sre_compile.py:546(isstring)
+        4    0.000    0.000    0.000    0.000 sre_parse.py:212(get)
+        1    0.000    0.000    0.000    0.000 index.py:249(build_doc_ids)
+        1    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 linguistic_treatment.py:22(get_vocabulary_size)
+        1    0.000    0.000    0.000    0.000 linguistic_treatment.py:97(CACMLinguisticTreatment)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:92(__init__)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:67(__init__)
+        1    0.000    0.000    0.000    0.000 index.py:233(CS276Index)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:206(match)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:145(__setitem__)
+        4    0.000    0.000    0.000    0.000 sre_parse.py:137(__len__)
+        1    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}

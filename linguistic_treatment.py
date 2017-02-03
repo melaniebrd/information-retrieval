@@ -108,15 +108,15 @@ class CACMLinguisticTreatment(LinguisticTreatment):
         with open(CACM_PATH, 'r') as content_file:
             line = content_file.readline()
             while line:
-                if self.block_to_analyse(line):
+                if self.line_to_analyse(line):
                     # Go to next line because this line is .I, .T, .W or .K
                     line = content_file.readline()
-                    while line and self.block_to_read(line):
-                        line_words = self.tokenize_by_hand(line)
+                    while line and self.line_to_read(line):
+                        line_words = self.tokenize_by_line(line)
                         tokens += line_words
                         line = content_file.readline()
                 else:
-                    while line and not self.block_to_analyse(line):
+                    while line and not self.line_to_analyse(line):
                         line = content_file.readline()
         return tokens
 
@@ -124,24 +124,21 @@ class CACMLinguisticTreatment(LinguisticTreatment):
     def tokenize_with_nltk(self, line):
         return nltk.word_tokenize(line)
 
-    def tokenize_by_hand(self, line):
+    def tokenize_by_line(self, line):
         # Lower all the letters
         line = lower(line)
         # Get an array of words
         line_words = [word for word in re.split('\W+', line) if not word.isdigit()]
         return line_words
 
-    def block_to_analyse(self, line):
+    def line_to_analyse(self, line):
         for marker in MARKERS_TO_CHECK:
             if line.startswith(PREFIX + marker):
                 return True
         return False
 
-    def block_to_read(self, line):
-        for marker in MARKERS:
-            if line.startswith(PREFIX + marker):
-                return False
-        return True
+    def line_to_read(self, line):
+        return not line.startswith(PREFIX)
 
 
 class CS276LinguisticTreatment(LinguisticTreatment):
@@ -155,10 +152,11 @@ class CS276LinguisticTreatment(LinguisticTreatment):
         Give the number of Token in the Collection.
         Spaces and ponctuation (non alphabetic char) divide token.
         """
-        count = 1
+        folder_count = 1
+        print("CS276 Tokenize")
         for folder_name in os.listdir(os.getcwd() + '/' + CS276_PATH):
-            print("%s %s %s %s" % ("####"*count, "    "*(10 - count), count * 10, '%'))
-            count += 1
+            print("%s %s %s %s" % ("####" * folder_count, "    " * (10 - folder_count), folder_count * 10, '%'))
+            folder_count += 1
             for filename in os.listdir(os.getcwd() + '/' + CS276_PATH + '/' + folder_name):
                 with open(CS276_PATH + '/' + folder_name + '/' + filename, 'r') as content_file:
                     line = content_file.readline()
