@@ -2,7 +2,9 @@ from linguistic_treatment import CACMLinguisticTreatment
 from settings import CACM, CACM_PATH, CS276, CS276_PATH, DOC_IDS_PATH, INDEX_PATH, \
      PREFIX, INITIAL_MARKER, TERM_IDS_PATH, TITLE_MARKER
 
+from itertools import izip
 import os
+
 
 class Index(object):
 
@@ -68,14 +70,15 @@ class Index(object):
                 count += 1
 
     def save_index(self):
-        count = 0
-        path = self.get_path(INDEX_PATH)
-        with open(path, 'w') as file:
-            file.write("# %s index\n" % self.collection_name)
-            for key in self.index:
-                file.write("%s : %s\n" % (key, ", ".join(map(str, self.index[key]))))
-                self.print_position(count, 500, 8976)
-                count += 1
+        if self.collection_name == CACM:
+            count = 0
+            path = self.get_path(INDEX_PATH)
+            with open(path, 'w') as file:
+                file.write("# %s index\n" % self.collection_name)
+                for key in self.index:
+                    file.write("%s : %s\n" % (key, ", ".join(map(str, self.index[key]))))
+                    self.print_position(count, 500, 8976)
+                    count += 1
 
     def save_all(self):
         if len(self.doc_ids) > 0:
@@ -240,7 +243,7 @@ class CS276Index(Index):
                 tmp_index = self.build_block_index(folder_name)
                 self.save_tmp_index(folder_name, tmp_index)
                 print("Length of tmp index : %s" % (len(tmp_index)))
-        # Fusionner tous les index
+        self.merge_indexes()
 
     def build_block_index(self, folder_name):
         tmp_index = {}
@@ -264,13 +267,61 @@ class CS276Index(Index):
         self.doc_id_count += 1
         return doc_id
 
-    def save_tmp_index(self, folder_name, tmp_index):
+    def save_tmp_index(self, folder_name, tmp_index, final_index=False):
         folder_count = 0
-        path = self.get_tmp_path(INDEX_PATH + "_" + folder_name)
+        if final_index:
+            path = self.get_path(INDEX_PATH)
+        else:
+            path = self.get_tmp_path(INDEX_PATH + "_" + folder_name)
         with open(path, 'w') as file:
             file.write("# %s tmp index %s\n" % (self.collection_name, folder_count))
             for key in tmp_index:
                 file.write("%s : %s\n" % (key, ", ".join(map(str, tmp_index[key]))))
-                self.print_position(folder_count, 500, 8976)
                 folder_count += 1
 
+
+    def merge_indexes(self):
+        folder_names = os.listdir(os.getcwd() + '/' + CS276_PATH)
+        folder_names.remove(".DS_Store")
+        while len(folder_names) > 1:
+            final_index = (len(folder_names) == 2)
+            for name_1, name_2 in self.pairwise(folder_names):
+                index_1 = self.get_tmp_index(name_1)
+                index_2 = self.get_tmp_index(name_2)
+                merged_index = self.merge_index_dictionaries(index_1, index_2)
+                # Delete the txt indexes : index_1 and index_2
+                os.remove(os.getcwd() + '/' + self.get_tmp_path(INDEX_PATH + "_" + name_1))
+                os.remove(os.getcwd() + '/' + self.get_tmp_path(INDEX_PATH + "_" + name_2))
+                # Save the newly merged_index into temporary/index_12.txt
+                self.save_tmp_index(name_1 + name_2, merged_index, final_index=final_index)
+                # Remove the name_1, name_2 from folder_names and add the new name
+                folder_names.remove(name_1)
+                folder_names.remove(name_2)
+                folder_names.append(name_1 + name_2)
+
+    def pairwise(self, folder_names):
+        pair = iter(folder_names)
+        return izip(pair, pair)
+
+    def get_tmp_index(self, folder_name):
+        index = {}
+        path = self.get_tmp_path(INDEX_PATH + "_" + folder_name)
+        with open(path, 'r') as file:
+            line = file.readline()
+            while line:
+                if not line.startswith("#"):
+                    term_id = int(line[0:line.rindex(':')])
+                    # + 1 because there is a space after ":"
+                    docs_list = line[line.rindex(':') + 1:]
+                    docs_list = map(int, docs_list.split(', '))
+                    index[term_id] = docs_list
+                line = file.readline()
+        return index
+
+    def merge_index_dictionaries(self, index_1, index_2):
+        for key in index_2:
+            if key not in index_1:
+                index_1[key] = index_2[key]
+            else:
+                index_1[key] = sorted(index_1[key] + (index_2[key]))
+        return index_1

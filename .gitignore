@@ -90,3 +90,4 @@ ENV/
 
 # Particular to this project
 data/
+indexes/
