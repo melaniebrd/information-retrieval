@@ -298,6 +298,7 @@ class CS276Index(Index):
                 folder_names.remove(name_1)
                 folder_names.remove(name_2)
                 folder_names.append(name_1 + name_2)
+        os.remove(os.getcwd() + '/' + self.get_tmp_path(INDEX_PATH + "_" + folder_names[0]))
 
     def pairwise(self, folder_names):
         pair = iter(folder_names)
