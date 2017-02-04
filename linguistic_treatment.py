@@ -34,7 +34,7 @@ class LinguisticTreatment(object):
         """
         tokens = self.remove_duplication()
         common_words = self.get_common_words()
-        voc_list = list(set(tokens) - set(common_words))
+        voc_list = list(set(tokens) - set(common_words) - set([""]))
         return sorted(voc_list)
 
     def build_vocabulary_with_frequency(self):

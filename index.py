@@ -15,7 +15,6 @@ class Index(object):
         self.index = {}       # { term_id : [doc_id_0, ..., doc_id_10] }
         # We can either build the dictionaries or get the last one saved
         if build_dictionaries:
-            self.doc_ids = self.build_doc_ids()
             self.term_ids = self.build_term_ids()
             # The function build_index fill the index dynamically
             self.build_index()
@@ -23,12 +22,6 @@ class Index(object):
             self.doc_ids = self.get_doc_ids()
             self.term_ids = self.get_term_ids()
             self.index = self.get_index()
-
-    def build_doc_ids(self):
-        """
-        Builds a dictionary of (doc_id, doc)
-        """
-        pass
 
     def build_term_ids(self):
         """
@@ -82,10 +75,10 @@ class Index(object):
 
     def save_all(self):
         if len(self.doc_ids) > 0:
-            #self.save_doc_ids()
+            self.save_doc_ids()
             print("Document IDs saved")
         if len(self.term_ids) > 0:
-            #self.save_term_ids()
+            self.save_term_ids()
             print("Term IDs saved")
         if self.index is not None and len(self.index) > 0:
             self.save_index()
@@ -99,9 +92,14 @@ class Index(object):
             while line:
                 if not line.startswith("#"):
                     # From 0 to line.rindex(':') - 1 because there is a space
-                    # before the last ":"
-                    doc_id = int(line[0:line.index(':') - 1])
-                    doc = str(line[line.index(':') + 1:])
+                    # before the first ":"
+                    separation_index = line.index(':')
+                    doc_id = int(line[0:separation_index - 1])
+                    separation_index += 1
+                    while line[separation_index] == " ":
+                        separation_index += 1
+                    doc = str(line[separation_index:])
+                    doc = doc.replace("\n", "")
                     doc_ids[doc_id] = doc
                 line = file.readline()
         return doc_ids
@@ -138,7 +136,7 @@ class Index(object):
         return index
 
     def fill_index(self, doc_id, terms, index):
-        terms = list(set(terms))
+        terms = set(terms)
         for term in terms:
             if term in self.term_ids:
                 if self.term_ids[term] not in index:
@@ -167,13 +165,6 @@ class CACMIndex(Index):
 
     def starts_with_any_marker(self, line):
         return line.startswith(PREFIX)
-
-    def build_doc_ids(self):
-        """
-        Builds a dictionary of (doc_id, doc)
-        The dictionary is created dynamically in the build_block_index() function
-        """
-        return {}
 
     def build_index(self):
         """
@@ -226,13 +217,6 @@ class CS276Index(Index):
     def get_tmp_path(self, file_name):
         return 'indexes/%s/temporary/%s.txt' % (self.collection_name, file_name)
 
-    def build_doc_ids(self):
-        """
-        Builds a dictionary of (doc_id, doc)
-        The dictionary is created dynamically in the build_block_index() function
-        """
-        return {}
-
     def build_index(self):
         folder_count = 1
         print("CS276 Index building")
@@ -279,7 +263,6 @@ class CS276Index(Index):
                 file.write("%s : %s\n" % (key, ", ".join(map(str, tmp_index[key]))))
                 folder_count += 1
 
-
     def merge_indexes(self):
         folder_names = os.listdir(os.getcwd() + '/' + CS276_PATH)
         folder_names.remove(".DS_Store")
@@ -298,7 +281,6 @@ class CS276Index(Index):
                 folder_names.remove(name_1)
                 folder_names.remove(name_2)
                 folder_names.append(name_1 + name_2)
-        os.remove(os.getcwd() + '/' + self.get_tmp_path(INDEX_PATH + "_" + folder_names[0]))
 
     def pairwise(self, folder_names):
         pair = iter(folder_names)
