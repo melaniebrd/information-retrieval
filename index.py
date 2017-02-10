@@ -2,6 +2,7 @@ from linguistic_treatment import CACMLinguisticTreatment
 from settings import CACM, CACM_PATH, CS276, CS276_PATH, DOC_IDS_PATH, INDEX_PATH, \
      PREFIX, INITIAL_MARKER, TERM_IDS_PATH, TITLE_MARKER
 
+from collections import Counter
 from itertools import izip
 import os
 
@@ -69,7 +70,7 @@ class Index(object):
             with open(path, 'w') as file:
                 file.write("# %s index\n" % self.collection_name)
                 for key in self.index:
-                    file.write("%s : %s\n" % (key, ", ".join(map(str, self.index[key]))))
+                    file.write("%s : %s\n" % (key, " - ".join(map(str, self.index[key]))))
                     self.print_position(count, 500, 8976)
                     count += 1
 
@@ -130,19 +131,27 @@ class Index(object):
                     term_id = int(line[0:line.rindex(':')])
                     # + 1 because there is a space after ":"
                     docs_list = line[line.rindex(':') + 1:]
-                    docs_list = map(int, docs_list.split(', '))
+                    docs_list = docs_list.split(' - ')
+                    for i in range(len(docs_list)):
+                        doc_tuple = docs_list[i]
+                        doc_tuple = doc_tuple.replace("(", "")
+                        doc_tuple = doc_tuple.replace(")", "")
+                        doc_tuple = doc_tuple.split(", ")
+                        docs_list[i] = (int(doc_tuple[0]), int(doc_tuple[1]))
                     index[term_id] = docs_list
                 line = file.readline()
         return index
 
     def fill_index(self, doc_id, terms, index):
-        terms = set(terms)
-        for term in terms:
+        terms_with_counters = Counter(terms)
+        #terms = set(terms)
+        for term in terms_with_counters:
             if term in self.term_ids:
                 if self.term_ids[term] not in index:
-                    index[self.term_ids[term]] = [doc_id]
-                elif index[self.term_ids[term]][-1] != doc_id:
-                    index[self.term_ids[term]].append(doc_id)
+                    index[self.term_ids[term]] = [(doc_id, terms_with_counters[term])]
+                    #elif index[self.term_ids[term]][-1] != doc_id:
+                else:
+                    index[self.term_ids[term]].append((doc_id, terms_with_counters[term]))
         return index
 
 
@@ -296,7 +305,13 @@ class CS276Index(Index):
                     term_id = int(line[0:line.rindex(':')])
                     # + 1 because there is a space after ":"
                     docs_list = line[line.rindex(':') + 1:]
-                    docs_list = map(int, docs_list.split(', '))
+                    docs_list = docs_list.split(' - ')
+                    for i in range(len(docs_list)):
+                        doc_tuple = docs_list[i]
+                        doc_tuple = doc_tuple.replace("(", "")
+                        doc_tuple = doc_tuple.replace(")", "")
+                        doc_tuple = doc_tuple.split(", ")
+                        docs_list[i] = (int(doc_tuple[0]), int(doc_tuple[1]))
                     index[term_id] = docs_list
                 line = file.readline()
         return index

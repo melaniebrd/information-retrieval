@@ -30,10 +30,11 @@ class BooleanSearch():
         """
         text_request = lower(text_request)
         positive_clauses, negative_clauses = self.convert_request(text_request)
-        positive_postings = self.get_postings(positive_clauses)
-        negative_postings = self.get_postings(negative_clauses)
+        positive_postings, positive_frequencies = self.get_postings(positive_clauses)
+        negative_postings, negative_frequencies = self.get_postings(negative_clauses)
         result = positive_postings - negative_postings
-        return result
+        result, frequencies = self.order_result_by_frequencies(result, positive_frequencies)
+        return result, frequencies
 
     def convert_request(self, text_request):
         """
@@ -66,6 +67,7 @@ class BooleanSearch():
         return clause
 
     def get_postings(self, clauses):
+        frequencies = {}
         merged_postings = None if len(clauses) > 0 else set()
         for clause in clauses:
             # For each term of the clause, get the list of doc_id where the term appear,
@@ -73,11 +75,20 @@ class BooleanSearch():
             postings = set()
             for term in clause:
                 if term in self.index.term_ids:
-                    postings = postings | set(self.index.index[self.index.term_ids[term]])
+                    postings = postings | set([doc_tuple[0] for doc_tuple in self.index.index[self.index.term_ids[term]]])
+                    for doc_tuple in self.index.index[self.index.term_ids[term]]:
+                        if doc_tuple[0] not in frequencies:
+                            frequencies[doc_tuple[0]] = 0
+                        frequencies[doc_tuple[0]] += doc_tuple[1]
             if merged_postings == None:
                 merged_postings = postings
-            else:
+            elif len(postings) != 0:
                 merged_postings = merged_postings & postings
-        return merged_postings
+        return merged_postings, frequencies
 
+    def order_result_by_frequencies(self, result, frequencies):
+        filtered_frequencies = {doc_id : frequencies[doc_id] for doc_id in result}
+        result = sorted(filtered_frequencies, key=filtered_frequencies.get)
+        result.reverse()
+        return result, filtered_frequencies
 

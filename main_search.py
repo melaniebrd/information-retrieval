@@ -22,8 +22,7 @@ def search_for_request(boolean_search):
     print("# 'NOT (term1 OR term2) AND (term3 OR term4) AND NOT (term5 OR term6)'\n")
     print("# Type your request :")
     text_request = read_line()
-    result = boolean_search.search(text_request)
-    result = list(result)
+    result, frequencies = boolean_search.search(text_request)
     plural = "s" if len(result) > 1 else ""
     print("\n# Result%s : %s file%s found" % (plural, len(result), plural))
     print_more = True
@@ -32,7 +31,7 @@ def search_for_request(boolean_search):
         max_index = min(len(result) - 1, index + 10 - 1)
         print("\n# Showing %s to %s of %s files\n" % (index + 1, max_index + 1, len(result)))
         for doc_id in result[index:max_index + 1]:
-            print("- DOC ID %s : %s" % (doc_id, boolean_search.index.doc_ids[doc_id]))
+            print("- DOC ID %s (points : %s): %s" % (doc_id, frequencies[doc_id], boolean_search.index.doc_ids[doc_id]))
         if max_index == index + 10 - 1:
             print("# Print more ? y/n")
             print_more = (read_line() == 'y')
