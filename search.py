@@ -5,10 +5,7 @@ from re import split
 from string import lower, lstrip
 
 
-class BooleanSearch():
-    AND = "and"
-    OR = "or"
-    NOT = "not"
+class Search(object):
 
     def __init__(self, collection_name, build_dictionaries=False):
         self.collection_name = collection_name
@@ -19,6 +16,16 @@ class BooleanSearch():
         else:
             # Same here with build_dictionary
             self.index = CS276Index(build_dictionaries=build_dictionaries)
+
+
+    def search(self):
+        pass
+
+
+class BooleanSearch(Search):
+    AND = "and"
+    OR = "or"
+    NOT = "not"
 
     def search(self, text_request):
         """
@@ -92,3 +99,26 @@ class BooleanSearch():
         result.reverse()
         return result, filtered_frequencies
 
+
+class VectorialSearch():
+    TF_IDF = "tf-idf"                       # TF-IDF
+    NORM_TF_IDF = "norm-tf-idf"             # Normalized TF-IDF
+    NORM_FREQ = "norm-freq"                 # Normalized Frequency
+
+    def __init__(self, collection_name, weight_method, build_dictionaries=False):
+        if weight_method in [TF_IDF, NORM_TF_IDF, NORM_FREQ]:
+            self.weight_method = weight_method
+        else:
+            self.weight_method = TF_IDF
+        super(VectorialSearch, self).__init__(collection_name=collection_name, build_dictionaries=build_dictionaries)
+
+
+    def search(self, text_request):
+        """
+        In order to process the search, the text_request is transformed into a request_vector
+        in the space of dimension n, with n = the length of terms saved in the index.
+        """
+        return result, frequencies
+
+    def get_vector(self, request):
+        pass

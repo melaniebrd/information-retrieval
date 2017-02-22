@@ -33,7 +33,7 @@ class Index(object):
         for i in range(self.linguistic_treatment.get_vocabulary_size()):
             if self.linguistic_treatment.vocabulary[i] != "":
                 term_ids[self.linguistic_treatment.vocabulary[i]] = i
-            self.print_position(i, 1000, 8976)
+            #self.print_position(i, 1000, 8976)
         return term_ids
 
     def build_index(self):
@@ -51,7 +51,7 @@ class Index(object):
             file.write("# %s doc ids\n" % self.collection_name)
             for doc_id in self.doc_ids:
                 file.write("%s : %s\n" % (doc_id, self.doc_ids[doc_id]))
-                self.print_position(doc_id, 1000, 3203)
+                #self.print_position(doc_id, 1000, 3203)
 
     def save_term_ids(self):
         count = 0
@@ -60,7 +60,7 @@ class Index(object):
             file.write("# %s term ids\n" % self.collection_name)
             for term in self.term_ids:
                 file.write("%s : %s\n" % (term, self.term_ids[term]))
-                self.print_position(count, 1000, 8976)
+                #self.print_position(count, 1000, 8976)
                 count += 1
 
     def save_index(self):
@@ -71,7 +71,7 @@ class Index(object):
                 file.write("# %s index\n" % self.collection_name)
                 for key in self.index:
                     file.write("%s : %s\n" % (key, " - ".join(map(str, self.index[key]))))
-                    self.print_position(count, 500, 8976)
+                    #self.print_position(count, 500, 8976)
                     count += 1
 
     def save_all(self):
@@ -228,14 +228,13 @@ class CS276Index(Index):
 
     def build_index(self):
         folder_count = 1
-        print("CS276 Index building")
+        print("Step 1 : create one index per block")
         for folder_name in os.listdir(os.getcwd() + '/' + CS276_PATH):
             if folder_name != ".DS_Store":
                 print("%s %s %s %s" % ("####" * folder_count, "    " * (10 - folder_count), folder_count * 10, '%'))
                 folder_count += 1
                 tmp_index = self.build_block_index(folder_name)
                 self.save_tmp_index(folder_name, tmp_index)
-                print("Length of tmp index : %s" % (len(tmp_index)))
         self.merge_indexes()
 
     def build_block_index(self, folder_name):
@@ -269,12 +268,14 @@ class CS276Index(Index):
         with open(path, 'w') as file:
             file.write("# %s tmp index %s\n" % (self.collection_name, folder_count))
             for key in tmp_index:
-                file.write("%s : %s\n" % (key, ", ".join(map(str, tmp_index[key]))))
+                file.write("%s : %s\n" % (key, " - ".join(map(str, tmp_index[key]))))
                 folder_count += 1
 
     def merge_indexes(self):
         folder_names = os.listdir(os.getcwd() + '/' + CS276_PATH)
         folder_names.remove(".DS_Store")
+        print("\nStep 2 : Merge all the block indexes")
+        step_count = 1
         while len(folder_names) > 1:
             final_index = (len(folder_names) == 2)
             for name_1, name_2 in self.pairwise(folder_names):
@@ -290,6 +291,9 @@ class CS276Index(Index):
                 folder_names.remove(name_1)
                 folder_names.remove(name_2)
                 folder_names.append(name_1 + name_2)
+            # In order to let the user know where we are in the process
+            print("%s %s %s %s" % ("####" * step_count, "    " * (5 - step_count), step_count * 20, '%'))
+            step_count += 1
 
     def pairwise(self, folder_names):
         pair = iter(folder_names)

@@ -153,9 +153,8 @@ class CS276LinguisticTreatment(LinguisticTreatment):
         Spaces and ponctuation (non alphabetic char) divide token.
         """
         folder_count = 1
-        print("CS276 Tokenize")
         for folder_name in os.listdir(os.getcwd() + '/' + CS276_PATH):
-            print("%s %s %s %s" % ("####" * folder_count, "    " * (10 - folder_count), folder_count * 10, '%'))
+            # print("%s %s %s %s" % ("####" * folder_count, "    " * (10 - folder_count), folder_count * 10, '%'))
             folder_count += 1
             for filename in os.listdir(os.getcwd() + '/' + CS276_PATH + '/' + folder_name):
                 with open(CS276_PATH + '/' + folder_name + '/' + filename, 'r') as content_file:
