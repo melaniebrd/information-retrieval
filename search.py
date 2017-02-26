@@ -1,6 +1,8 @@
 from index import CACMIndex, CS276Index
 from settings import CACM, CS276
 
+from collections import Counter
+from math import log
 from re import split
 from string import lower, lstrip
 
@@ -18,8 +20,26 @@ class Search(object):
             self.index = CS276Index(build_dictionaries=build_dictionaries)
 
 
-    def search(self):
+    def search(self, text_request):
+        """
+        ::param text_request: the request as the user entered it
+        ::output result,frequencies:
+        """
         pass
+
+    def get_postings(self, request):
+        """
+        Returns : "result, frequencies" or "result, similitudes"
+        result : [doc_id_1, doc_id_2, doc_id_3, ...] ordered by frequency or similitude
+        similitudes or frequencies = {doc_id_1: 0.70, doc_id_2: 0.56, doc_id_3: 0.98}
+        """
+        pass
+
+    def order_result_by_frequencies_or_similitudes(self, result, frequencies):
+        filtered_frequencies = {doc_id : frequencies[doc_id] for doc_id in result}
+        result = sorted(filtered_frequencies, key=filtered_frequencies.get)
+        result.reverse()
+        return result, filtered_frequencies
 
 
 class BooleanSearch(Search):
@@ -40,7 +60,9 @@ class BooleanSearch(Search):
         positive_postings, positive_frequencies = self.get_postings(positive_clauses)
         negative_postings, negative_frequencies = self.get_postings(negative_clauses)
         result = positive_postings - negative_postings
-        result, frequencies = self.order_result_by_frequencies(result, positive_frequencies)
+        result, frequencies = self.order_result_by_frequencies_or_similitudes(result, positive_frequencies)
+        # frequencies = {doc_id: frequency}
+        # result = [doc_id_1, doc_id_2, ...]
         return result, frequencies
 
     def convert_request(self, text_request):
@@ -93,32 +115,88 @@ class BooleanSearch(Search):
                 merged_postings = merged_postings & postings
         return merged_postings, frequencies
 
-    def order_result_by_frequencies(self, result, frequencies):
-        filtered_frequencies = {doc_id : frequencies[doc_id] for doc_id in result}
-        result = sorted(filtered_frequencies, key=filtered_frequencies.get)
-        result.reverse()
-        return result, filtered_frequencies
 
-
-class VectorialSearch():
+class VectorialSearch(Search):
     TF_IDF = "tf-idf"                       # TF-IDF
     NORM_TF_IDF = "norm-tf-idf"             # Normalized TF-IDF
     NORM_FREQ = "norm-freq"                 # Normalized Frequency
 
-    def __init__(self, collection_name, weight_method, build_dictionaries=False):
-        if weight_method in [TF_IDF, NORM_TF_IDF, NORM_FREQ]:
+    def __init__(self, collection_name, weight_method=TF_IDF, build_dictionaries=False):
+        if weight_method in [self.TF_IDF, self.NORM_TF_IDF, self.NORM_FREQ]:
             self.weight_method = weight_method
         else:
-            self.weight_method = TF_IDF
+            self.weight_method = self.TF_IDF
         super(VectorialSearch, self).__init__(collection_name=collection_name, build_dictionaries=build_dictionaries)
 
 
     def search(self, text_request):
         """
-        In order to process the search, the text_request is transformed into a request_vector
+        In order to process the search, the text_request is transformed into the list of terms ids request_term_ids
         in the space of dimension n, with n = the length of terms saved in the index.
         """
-        return result, frequencies
+        request_term_ids = self.get_request_term_ids(text_request)
+        result, similitudes = self.get_postings(request_term_ids)
+        result, similitudes = self.order_result_by_frequencies_or_similitudes(result, similitudes)
+        return result, similitudes
 
-    def get_vector(self, request):
-        pass
+    def get_request_term_ids(self, request):
+        """
+        Transform the request into a list of term_ids request = [q1, q2, ...]
+        """
+        request = lower(request)
+        request_term_ids = [self.index.term_ids[term] for term in split('\W+', request) if not term.isdigit() and term in self.index.term_ids]
+        return request_term_ids
+
+    def get_postings(self, request_term_ids):
+        doc_ids = set()
+        df = {}
+        if request_term_ids == []:
+            return [], {}
+        for term_id in request_term_ids:
+            doc_ids = doc_ids | set([doc_tuple[0] for doc_tuple in self.index.index[term_id]])
+        # Calculate the df list
+        N = float(len(doc_ids))
+        print N
+        for term_id in request_term_ids:
+            df[term_id] = round(float(len(self.index.index[term_id]))/N, 4)
+        # Calculate the tf dictionary
+        tf = {}
+        for term_id in request_term_ids:
+            for doc_tuple in self.index.index[term_id]:
+                tf[(term_id, doc_tuple[0])] = doc_tuple[1]
+        # Calculate the weights from tf, df and N
+        # weights : key = (term_id, doc_id), value = weight of the term term_id in the doc doc_id
+        weights = {}
+        for term_id in request_term_ids:
+            for doc_id in doc_ids:
+                if (term_id, doc_id) in tf:
+                    term_frequency = tf[(term_id, doc_id)]
+                    weights[(term_id, doc_id)] = self.get_tf_idf_weight(term_frequency, N, df[term_id])
+                else:
+                    weights[(term_id, doc_id)] = 0
+        query_weights = {}
+        request_term_ids_counter = Counter(request_term_ids)
+        for term_id in request_term_ids_counter:
+            query_weights[term_id] = round(float(request_term_ids_counter[term_id])/float(len(request_term_ids)), 4)
+        similitudes = self.get_similitudes(weights, request_term_ids, query_weights, doc_ids)
+        return doc_ids, similitudes
+
+    def get_similitudes(self, weights, request_term_ids, query_weights, doc_ids):
+        query_norm = sum([pow(query_weights[term_id], 2) for term_id in request_term_ids])
+        similitudes = {}
+        for doc_id in doc_ids:
+            #doc_norm = sum([pow(weights[(term_id, doc_id)], 2) for term_id in request_term_ids])
+            doc_norm = 1
+            numerator_sim = 0
+            for term_id in request_term_ids:
+                numerator_sim += query_weights[term_id] * weights[(term_id, doc_id)]
+            similitudes[doc_id] = round(float(numerator_sim)/float(doc_norm * query_norm), 4)
+        return similitudes
+
+    def get_tf_idf_weight(self, tf, N, dft):
+        """
+        Returns the weight with the TF-IDF method
+        """
+        return (1 + log(tf, 10)) * log(N/dft, 10)
+
+

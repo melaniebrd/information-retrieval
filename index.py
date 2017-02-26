@@ -144,14 +144,13 @@ class Index(object):
 
     def fill_index(self, doc_id, terms, index):
         terms_with_counters = Counter(terms)
-        #terms = set(terms)
         for term in terms_with_counters:
             if term in self.term_ids:
+                term_frequency = terms_with_counters[term]
                 if self.term_ids[term] not in index:
-                    index[self.term_ids[term]] = [(doc_id, terms_with_counters[term])]
-                    #elif index[self.term_ids[term]][-1] != doc_id:
+                    index[self.term_ids[term]] = [(doc_id, term_frequency)]
                 else:
-                    index[self.term_ids[term]].append((doc_id, terms_with_counters[term]))
+                    index[self.term_ids[term]].append((doc_id, term_frequency))
         return index
 
 

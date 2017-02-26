@@ -1,28 +1,31 @@
-from search import BooleanSearch
+from search import BooleanSearch, VectorialSearch
 from settings import CACM, CS276
 
 import sys
 
 
-def search(collection_name):
-    boolean_search = BooleanSearch(collection_name)
+def search(collection_name, search_type):
+    if search_type == "bool":
+        search = BooleanSearch(collection_name)
+    else:
+        search = VectorialSearch(collection_name)
     print_separation(120)
     print("#" * 5 + " Welcome to the CS Search Engine " + "#" * 5 + "\n")
     new_request = True
     while new_request:
-        search_for_request(boolean_search)
+        search_for_request(search)
         print_separation(80)
         print("# Do you want to type a new request ? y/n")
         new_request = read_line() == 'y'
         print_separation(80)
     print("Goodbye :)\n")
 
-def search_for_request(boolean_search):
+def search_for_request(search):
     print("# To type a request, use the following syntax :")
     print("# 'NOT (term1 OR term2) AND (term3 OR term4) AND NOT (term5 OR term6)'\n")
     print("# Type your request :")
     text_request = read_line()
-    result, frequencies = boolean_search.search(text_request)
+    result, frequencies = search.search(text_request)
     plural = "s" if len(result) > 1 else ""
     print("\n# Result%s : %s file%s found" % (plural, len(result), plural))
     print_more = True
@@ -31,7 +34,7 @@ def search_for_request(boolean_search):
         max_index = min(len(result) - 1, index + 10 - 1)
         print("\n# Showing %s to %s of %s files\n" % (index + 1, max_index + 1, len(result)))
         for doc_id in result[index:max_index + 1]:
-            print("- DOC ID %s (points : %s): %s" % (doc_id, frequencies[doc_id], boolean_search.index.doc_ids[doc_id]))
+            print("- DOC ID %s (points : %s): %s" % (doc_id, frequencies[doc_id], search.index.doc_ids[doc_id]))
         if max_index == index + 10 - 1:
             print("# Print more ? y/n")
             print_more = (read_line() == 'y')
@@ -48,14 +51,17 @@ def read_line():
 
 def help():
     print("Usage: ./main_search.py <arguments>")
-    print("  -s <c>         to search a request in the collection c (cacm or cs276)")
+    print("  -bool <c>         to do a boolean search in the collection c (cacm or cs276)")
+    print("  -vect <c>         to do a vectorial search in the collection c (cacm or cs276)")
 
 
 if __name__ == "__main__":
     collection_name = str(sys.argv[2]) if len(sys.argv) > 2 else None
     if collection_name not in [CACM, CS276]:
         help()
-    elif len(sys.argv) == 3 and sys.argv[1] == "-s":
-        search(collection_name)
+    elif len(sys.argv) == 3 and sys.argv[1] == "-bool":
+        search(collection_name, search_type="bool")
+    elif len(sys.argv) == 3 and sys.argv[1] == "-vect":
+        search(collection_name, search_type="vect")
     else:
         help()
