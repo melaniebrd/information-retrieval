@@ -2,6 +2,15 @@
 
 Search engine for school project in IS3013AA (RI-W) at Centrale Supelec
 
+### Table of contents: 
++ **[Getting Started](#getting-started)**
+    + **[Prerequisites](#prerequisites)**
+    + **[Build linguistic treatment](#build-linguistic-treatment)**
+    + **[Build the index](#build-the-index)**
+    + **[Query search](#query-search)**
++ **[Authors](#authors)**
++ **[License](#license)**
+
 ## Getting started
 
 ### Prerequisites
@@ -15,9 +24,9 @@ Run the script below to download the requirements with pip:
 pip3 install -r requirements.txt
 ```
 
-### Build the linguistic treatment (tokenisation)
+### Build the linguistic treatment
 
-Use the [main_linguistic_treatment.py](main_linguistic_treatment.py) file to trigger the collections tokenization.
+Use the [main_linguistic_treatment.py](main_linguistic_treatment.py) file to trigger the collections' terms tokenization.
 
 You can add the following arguments:
 * `-l <c>` : to get the linguistic treatment of the cacm or cs276 collection
@@ -51,7 +60,7 @@ Example for cs276:
 python3 main_index.py -b cs276
 ```
 
-### Search queries
+### Query search
 
 Use the [main_search.py](main_search.py) file to search informations in the collections.
 
@@ -60,15 +69,15 @@ You can add the following arguments:
 * `-vect <c>` : to do a vectorial search in the collection c (cacm or cs276)
 In both cases, you must have the indexes already saved in the [indexes/](indexes/) folder. To build them, use the following code ```python3 main_index.py -b cacm```
 
-Example for cacm:
+Example for cacm with the boolean search:
 ```
 python3 main_search.py -bool cacm
 ```
-Example for cs276:
+Example for cs276 with the vectorial search:
 ```
 python3 main_search.py -vect cs276
 ```
-Here is how the interaction with the search engine appears:
+Here is how the interaction with the search engine appears for the boolean search:
 ```
 ##### Welcome to the CS Search Engine #####
 
@@ -89,7 +98,7 @@ Algorithm AND Programming AND (Style OR Algebra)
 ################################################################################
 
 # Do you want to type a new request ? y/n
-...
+
 ```
 
 ## Authors
