@@ -3,6 +3,7 @@ from index import CACMIndex
 from search import VectorialSearch
 from settings import CACM, CACM_QUERY_PATH, CACM_QUERY_RESULT_PATH, INITIAL_MARKER, QUERY_MARKER, PREFIX
 
+import numpy as np
 
 class Evaluation(object):
     """
@@ -12,29 +13,32 @@ class Evaluation(object):
     def __init__(self, build_dictionaries=False):
         self.index = CACMIndex(build_dictionaries=build_dictionaries)
         self.search = VectorialSearch(CACM)
+        self.queries = self.upload_queries()
+        self.results = self.upload_correct_results()
+        self.precision_recall_by_id = self.precision_recall()
 
     def precision_recall(self):
-        queries = self.upload_queries()
-        results = self.upload_correct_results()
-        for query_id in queries:
-            if query_id in results:
-                doc_ids, frequencies = self.search.search(queries[query_id])
+        precision_recall_by_id = {}
+        for query_id in self.queries:
+            if query_id in self.results:
+                doc_ids, frequencies = self.search.search(self.queries[query_id])
                 precisions, recalls = [], []
                 # i is the current index of the doc_ids list
                 i = 0
                 # Current number of correct doc_ids found
                 correct_doc_ids = 0
-                while (len(recalls) < len(results[query_id]) and i < len(doc_ids)):
-                    if doc_ids[i] in results[query_id]:
+                while (len(recalls) < len(self.results[query_id]) and i < len(doc_ids)):
+                    if doc_ids[i] in self.results[query_id]:
                         # Update the number of current doc found
                         correct_doc_ids += 1
                         # Add the precision and recall values to the precisions and recalls lists 
                         precision = round(float(correct_doc_ids)/(i+1), 4)
-                        recall = round(float(correct_doc_ids)/len(results[query_id]), 4)
+                        recall = round(float(correct_doc_ids)/len(self.results[query_id]), 4)
                         precisions.append(precision)
                         recalls.append(recall)
                     i += 1
-            show(recalls, "Recalls in %", precisions, "Precision in %")
+            precision_recall_by_id[query_id] = (precisions, recalls)
+        return precision_recall_by_id
 
     def upload_queries(self):
         queries = {}
@@ -70,3 +74,24 @@ class Evaluation(object):
                 results[query_id].append(query_doc_id)
                 line = content_file.readline()
         return results
+
+    def show_precision_recall(self):
+        for doc_id in self.precision_recall_by_id:
+            show(self.precision_recall_by_id[doc_id][1], "Recalls in %", self.precision_recall_by_id[doc_id][0], "Precision in %")
+
+    def mean_average_precision(self):
+        map_value = 0
+        for doc_id in self.precision_recall_by_id:
+            precisions = self.precision_recall_by_id[doc_id][0]
+            recalls = self.precision_recall_by_id[doc_id][1]
+            query_area = 0
+            if len(precisions) > 1:
+                for i in range(len(precisions) - 1):
+                    triangle_area = 0.5 * abs(precisions[i + 1] - precisions[i]) * abs(recalls[i + 1] - recalls[i])
+                    bottom_area = min(precisions[i], precisions[i+1]) * (recalls[i + 1] - recalls[i])
+                    query_area += triangle_area + bottom_area
+                query_area = round(query_area/(recalls[-1] - recalls[0]), 4)
+            map_value += query_area
+        return round(map_value/len(self.precision_recall_by_id), 4)
+
+
