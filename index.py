@@ -3,7 +3,7 @@ from settings import CACM, CACM_PATH, CS276, CS276_PATH, DOC_IDS_PATH, INDEX_PAT
      PREFIX, INITIAL_MARKER, TERM_IDS_PATH, TITLE_MARKER
 
 from collections import Counter
-from itertools import izip
+from itertools import zip_longest
 import os
 
 
@@ -156,7 +156,7 @@ class Index(object):
 
     def print_position(self, current, modulo, maximum):
         if current % modulo == 0:
-            print "%s / %s" % (current, maximum)
+            print("%s / %s" % (current, maximum))
 
 
 class CACMIndex(Index):
@@ -296,7 +296,7 @@ class CS276Index(Index):
 
     def pairwise(self, folder_names):
         pair = iter(folder_names)
-        return izip(pair, pair)
+        return zip_longest(pair, pair, fillvalue='-')
 
     def get_tmp_index(self, folder_name):
         index = {}

@@ -4,7 +4,6 @@ from settings import CACM, CS276
 from collections import Counter
 from math import log
 from re import split
-from string import lower, lstrip
 
 
 class Search(object):
@@ -55,7 +54,7 @@ class BooleanSearch(Search):
         NOT (x1 OR x2) AND (x3 OR x4 OR x5) AND NOT (x6 OR .. OR xn)
         :param text_request: a string representing the request
         """
-        text_request = lower(text_request)
+        text_request = text_request.lower()
         positive_clauses, negative_clauses = self.convert_request(text_request)
         positive_postings, positive_frequencies = self.get_postings(positive_clauses)
         negative_postings, negative_frequencies = self.get_postings(negative_clauses)
@@ -78,7 +77,7 @@ class BooleanSearch(Search):
         # request = ['NOT (x1 OR x2)', '(x3 OR x4 OR x5)', 'NOT (x6 OR .. OR xn)']
         for clause in request:
             if clause.startswith(self.NOT):
-                clause = lstrip(clause, "%s " % self.NOT)
+                clause = clause.lstrip("%s " % self.NOT)
                 clause = self.format_clause(clause)
                 negative_clauses.append(clause)
             else:
@@ -143,7 +142,7 @@ class VectorialSearch(Search):
         """
         Transform the request into a list of term_ids request = [q1, q2, ...]
         """
-        request = lower(request)
+        request = request.lower()
         request_term_ids = [self.index.term_ids[term] for term in split('\W+', request) if not term.isdigit() and term in self.index.term_ids]
         return request_term_ids
 
@@ -156,7 +155,6 @@ class VectorialSearch(Search):
             doc_ids = doc_ids | set([doc_tuple[0] for doc_tuple in self.index.index[term_id]])
         # Calculate the df list
         N = float(len(doc_ids))
-        print N
         for term_id in request_term_ids:
             df[term_id] = round(float(len(self.index.index[term_id]))/N, 4)
         # Calculate the tf dictionary
@@ -171,7 +169,8 @@ class VectorialSearch(Search):
             for doc_id in doc_ids:
                 if (term_id, doc_id) in tf:
                     term_frequency = tf[(term_id, doc_id)]
-                    weights[(term_id, doc_id)] = self.get_tf_idf_weight(term_frequency, N, df[term_id])
+                    if self.weight_method == self.TF_IDF:
+                        weights[(term_id, doc_id)] = self.get_tf_idf_weight(term_frequency, N, df[term_id])
                 else:
                     weights[(term_id, doc_id)] = 0
         query_weights = {}

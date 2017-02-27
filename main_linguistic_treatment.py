@@ -1,3 +1,4 @@
+from graph_representation import show_frequency_by_rank
 from linguistic_treatment import LinguisticTreatment, CACMLinguisticTreatment, CS276LinguisticTreatment
 from settings import CACM, CS276
 
@@ -23,6 +24,14 @@ def build_liguistic_treatment(collection_name, build_frequencies=False, heap_par
         print("Estimated vocabulary size for 10^6 tokens : %s" % voc_size)
 
 
+def get_graph_representation(collection_name):
+    if collection_name == CACM:
+        linguistic_treatment = CACMLinguisticTreatment(build_frequencies=True)
+    else:
+        linguistic_treatment = CS276LinguisticTreatment(build_frequencies=True)
+    show_frequency_by_rank(linguistic_treatment.vocabulary_with_frequencies)
+
+
 def help():
     print("Usage: ./main_linguistic_treatment.py <arguments>")
     print("  -l <c>       to get the linguistic treatment of the cacm or cs276 (c)")
@@ -42,6 +51,6 @@ if __name__ == "__main__" :
     elif len(sys.argv) == 3 and sys.argv[1] == "-h":
         build_liguistic_treatment(collection_name, heap_parameters=True)
     elif len(sys.argv) == 3 and sys.argv[1] == "-g":
-        build_liguistic_treatment(collection_name)
+        get_graph_representation(collection_name)
     else:
         help()

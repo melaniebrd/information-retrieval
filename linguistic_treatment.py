@@ -1,7 +1,7 @@
 from settings import CACM, CACM_PATH, CS276, CS276_PATH, MARKERS_TO_CHECK, MARKERS, PREFIX
 
 from math import floor, log
-from string import lower, punctuation
+from string import punctuation
 import os
 import re
 
@@ -126,7 +126,7 @@ class CACMLinguisticTreatment(LinguisticTreatment):
 
     def tokenize_by_line(self, line):
         # Lower all the letters
-        line = lower(line)
+        line = line.lower()
         # Get an array of words
         line_words = [word for word in re.split('\W+', line) if not word.isdigit()]
         return line_words
@@ -155,12 +155,13 @@ class CS276LinguisticTreatment(LinguisticTreatment):
         folder_count = 1
         for folder_name in os.listdir(os.getcwd() + '/' + CS276_PATH):
             # print("%s %s %s %s" % ("####" * folder_count, "    " * (10 - folder_count), folder_count * 10, '%'))
-            folder_count += 1
-            for filename in os.listdir(os.getcwd() + '/' + CS276_PATH + '/' + folder_name):
-                with open(CS276_PATH + '/' + folder_name + '/' + filename, 'r') as content_file:
-                    line = content_file.readline()
-                    while line:
-                        line = line.split()
-                        tokens += line
+            if folder_name != ".DS_Store":
+                folder_count += 1
+                for filename in os.listdir(os.getcwd() + '/' + CS276_PATH + '/' + folder_name):
+                    with open(CS276_PATH + '/' + folder_name + '/' + filename, 'r') as content_file:
                         line = content_file.readline()
+                        while line:
+                            line = line.split()
+                            tokens += line
+                            line = content_file.readline()
         return tokens
