@@ -5,16 +5,19 @@ from string import punctuation
 import os
 import re
 
+import datetime
 
 class LinguisticTreatment(object):
 
     def __init__(self, collection_name, build_frequencies=False):
         self.collection_name = collection_name
         self.tokens = self.tokenize()
-        self.vocabulary = self.build_vocabulary_list()
+        self.vocabulary = {}
         self.vocabulary_with_frequencies = {}
         if build_frequencies:
             self.vocabulary_with_frequencies = self.build_vocabulary_with_frequency()
+        else:
+            self.vocabulary = self.build_vocabulary_list()
 
     def get_tokens_size(self):
         return len(self.tokens)
@@ -154,7 +157,7 @@ class CS276LinguisticTreatment(LinguisticTreatment):
         """
         folder_count = 1
         for folder_name in os.listdir(os.getcwd() + '/' + CS276_PATH):
-            # print("%s %s %s %s" % ("####" * folder_count, "    " * (10 - folder_count), folder_count * 10, '%'))
+            print("%s %s %s %s" % ("####" * folder_count, "    " * (10 - folder_count), folder_count * 10, '%'))
             if folder_name != ".DS_Store":
                 folder_count += 1
                 for filename in os.listdir(os.getcwd() + '/' + CS276_PATH + '/' + folder_name):

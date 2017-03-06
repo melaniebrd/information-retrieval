@@ -3,28 +3,51 @@
 Search engine for school project in IS3013AA (RI-W) at Centrale Supelec
 
 ### Table of contents: 
-+ **[Getting Started](#getting-started)**
-    + **[Prerequisites](#prerequisites)**
-    + **[Build linguistic treatment](#build-linguistic-treatment)**
-    + **[Build the index](#build-the-index)**
-    + **[Query search](#query-search)**
-+ **[Authors](#authors)**
-+ **[License](#license)**
++ **[1. Getting Started](#getting-started)**
+    + **[1.1 Prerequisites](#prerequisites)**
+    + **[1.2 Build linguistic treatment](#build-linguistic-treatment)**
+    + **[1.3 Build the index](#build-the-index)**
+    + **[1.4 Query search](#query-search)**
++ **[2. Rapport](#rapport)**
+    + **[2.1 Traitements Linguistics](#traitements-linguistics)**
+    + **[2.1 Création de l'index inversé](#creation-de-l-index-inverse)**
+    + **[2.1 Modèles de recherche](#modele-de-recherche)**
+        + **[Modèle booléen](#modele-booleen)**
+        + **[Modèle vectoriel](#modele-vectoriel)**
+    + **[2.4 Performances](#performances)**
+    + **[2.5 Conclusion](#conclusion)**
++ **[3. Authors](#authors)**
++ **[4. License](#license)**
 
-## Getting started
+## 1. Getting started
 
-### Prerequisites
+### 1.1 Prerequisites
 
 What things you need to install the software :
 * Python3
 * virtualenv
+
+Run the script below to create your virtual env:
+```
+virtualenv ENV
+```
+
+Run the script below to activate your virtual env:
+```
+source ENV/bin/activate
+```
 
 Run the script below to download the requirements with pip:
 ```
 pip3 install -r requirements.txt
 ```
 
-### Build the linguistic treatment
+Run the script below to deactivate your virtual env:
+```
+deactivate
+```
+
+### 1.2 Build the linguistic treatment
 
 Use the [main_linguistic_treatment.py](main_linguistic_treatment.py) file to trigger the collections' terms tokenization.
 
@@ -43,7 +66,7 @@ Example for cs276:
 python3 main_linguistic_treatment.py -l cs276
 ```
 
-### Build the index
+### 1.3 Build the index
 
 Use the [main_index.py](main_index.py) file to build the collection's index.
 
@@ -60,7 +83,7 @@ Example for cs276:
 python3 main_index.py -b cs276
 ```
 
-### Query search
+### 1.4 Query search
 
 Use the [main_search.py](main_search.py) file to search informations in the collections.
 
@@ -100,6 +123,54 @@ Algorithm AND Programming AND (Style OR Algebra)
 # Do you want to type a new request ? y/n
 
 ```
+
+## 2. Rapport (in French)
+
+### 2.1 Traitements Linguistics
+
+Les fichiers correspondants au traitement linguistique des deux collections (CACM et CS276) dont les suivants:
+- [main_linguistic_treatment.py](main_linguistic_treatment.py) : permet de lancer le traitement linguistique en ligne de commande
+- [linguistic_treatment.py](linguistic_treatment.py) : permet de construire les tokens ainsi que le vocabulaire (avec ou sans term_frequency) pour chacune des deux collections.
+
+Voici les résultats de la tokenisation de CACM et CS276 :
+|       |    Tokens  |   Voc   | 1/2 tokens  | 1/2 voc | k (heap) | b (heap) | Voc (1 Millions token) |
+|-------|------------|---------|-------------|---------|----------|----------|------------------------|
+| CACM  |    222 373 |   8 976 |     111 186 |   6 393 |   21.641 |  0.48958 |                 18 738 |
+| CS276 | 25 498 340 | 346 650 |  12 749 170 | 177 266 | 0.023639 |  0.96756 |                 15 100 |
+
+#### Graphes fréquence (f) vs rang (r) :
+- CACM :
+![alt text](images/cacm_freq_vs_rank.png "CACM frequence (f) vs rang (r)")
+- CS276 :
+![alt text](images/cs276_freq_vs_rank.png "CACM frequence (f) vs rang (r)")
+
+#### Graphes logarithme de la fréquence (log(f)) vs logarithme du rang (log(r)) :
+- CACM :
+![alt text](images/cacm_log_freq_vs_log_rank.png "CACM Logarithme de la frequence vs Logarithme du rang")
+- CS276 :
+![alt text](images/cs276_log_freq_vs_log_rank.png "CACM Logarithme de la frequence vs Logarithme du rang")
+
+
+### 2.2 Création de l'index inversé
+ie : choix d'implémentation, stratégie utilisée, performances : durée de création, taille de l'index ..
+
+### 2.3 Modèles de recherche
+
+#### Modèle Booléen
+
+#### Modèle Vectoriel
+
+### 2.4 Performances
+Évaluation pour la collection CACM
+
+### 2.5 Conclusion
+Une conclusion (améliorations possibles, ...)
+
+
+
+
+
+
 
 ## Authors
 * Melanie Berard
