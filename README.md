@@ -48,13 +48,13 @@ deactivate
 ```
 
 Add the CACM and CS276 data collection in the `data/` folder :
-- [data/CACM]
-..* [cacm.all]
-..* [common_words]
-..* [qrels.text]
-..* [query.text]
-- [data/CS276]
-..* [pa1-data/0/...]
+- [data/CACM]()
+..* [cacm.all]()
+..* [common_words]()
+..* [qrels.text]()
+..* [query.text]()
+- [data/CS276]()
+..* [pa1-data/0/...]()
 
 
 ### 1.2 Build the linguistic treatment
@@ -143,10 +143,16 @@ Les fichiers correspondants au traitement linguistique des deux collections (CAC
 - [linguistic_treatment.py](linguistic_treatment.py) : permet de construire les tokens ainsi que le vocabulaire (avec ou sans term_frequency) pour chacune des deux collections.
 
 Voici les résultats de la tokenisation de CACM et CS276 :
-| data  |    Tokens  |   Voc   | 1/2 tokens  | 1/2 voc | k (heap) | b (heap) | Voc (1 Millions token) |
-|-------|------------|---------|-------------|---------|----------|----------|------------------------|
-| CACM  |    222 373 |   8 976 |     111 186 |   6 393 |   21.641 |  0.48958 |                 18 738 |
-| CS276 | 25 498 340 | 346 650 |  12 749 170 | 177 266 | 0.023639 |  0.96756 |                 15 100 |
+
+| Collection    |   CACM  |    CS276    |
+|---------------|---------|-------------|
+| Tokens        | 222 373 |  25 498 340 |
+| Vocabulary    |   8 976 |     346 650 |
+| Half tokens   | 111 186 |  12 749 170 |
+| Half vocab    |   6 393 |     177 266 |
+| Heap param k  |  21.641 |    0.023639 |
+| Heap param b  | 0.48958 |     0.96756 |
+| Voc (1Million)|  18 738 |      15 100 |
 
 #### Graphes fréquence (f) vs rang (r) :
 - CACM :
