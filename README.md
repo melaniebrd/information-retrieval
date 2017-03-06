@@ -47,6 +47,16 @@ Run the script below to deactivate your virtual env:
 deactivate
 ```
 
+Add the CACM and CS276 data collection in the `data/` folder :
+- [data/CACM]
+..* [cacm.all]
+..* [common_words]
+..* [qrels.text]
+..* [query.text]
+- [data/CS276]
+..* [pa1-data/0/...]
+
+
 ### 1.2 Build the linguistic treatment
 
 Use the [main_linguistic_treatment.py](main_linguistic_treatment.py) file to trigger the collections' terms tokenization.
@@ -133,26 +143,68 @@ Les fichiers correspondants au traitement linguistique des deux collections (CAC
 - [linguistic_treatment.py](linguistic_treatment.py) : permet de construire les tokens ainsi que le vocabulaire (avec ou sans term_frequency) pour chacune des deux collections.
 
 Voici les résultats de la tokenisation de CACM et CS276 :
-|       |    Tokens  |   Voc   | 1/2 tokens  | 1/2 voc | k (heap) | b (heap) | Voc (1 Millions token) |
+| data  |    Tokens  |   Voc   | 1/2 tokens  | 1/2 voc | k (heap) | b (heap) | Voc (1 Millions token) |
 |-------|------------|---------|-------------|---------|----------|----------|------------------------|
 | CACM  |    222 373 |   8 976 |     111 186 |   6 393 |   21.641 |  0.48958 |                 18 738 |
 | CS276 | 25 498 340 | 346 650 |  12 749 170 | 177 266 | 0.023639 |  0.96756 |                 15 100 |
 
 #### Graphes fréquence (f) vs rang (r) :
 - CACM :
-<img src="images/cacm_freq_vs_rank.png" alt="CACM frequence (f) vs rang (r)" style="width: 200px;"/>
+![alt text](images/cacm_freq_vs_rank.png "CACM frequence (f) vs rang (r)")
 - CS276 :
-<img src="images/cs276_freq_vs_rank.png" alt="CS276 frequence (f) vs rang (r)" style="width: 200px;"/>
+![alt text](images/cs276_freq_vs_rank.png "CS276 frequence (f) vs rang (r)")
 
 #### Graphes logarithme de la fréquence (log(f)) vs logarithme du rang (log(r)) :
 - CACM :
-<img src="images/cacm_log_freq_vs_log_rank.png" alt="CACM Logarithme de la frequence vs Logarithme du rang" style="width: 200px;"/>
+![alt text](images/cacm_log_freq_vs_log_rank.png "CACM Logarithme de la frequence vs Logarithme du rang")
 - CS276 :
-<img src="images/cs276_log_freq_vs_log_rank.png" alt="CS276 Logarithme de la frequence vs Logarithme du rang" style="width: 200px;"/>
+![alt text](images/cs276_log_freq_vs_log_rank.png "CS276 Logarithme de la frequence vs Logarithme du rang")
 
 
 ### 2.2 Création de l'index inversé
-ie : choix d'implémentation, stratégie utilisée, performances : durée de création, taille de l'index ..
+
+#### Choix d'implémentation et stratégie utilisée
+Pour représenter un index (CACM ou CS276), j'ai choisi d'implémenter une classe Index dont allait hérité les deux classes CACMIndex et CS276Index.
+
+Chaque classe possède les propriétés suivantes :
+```
+self.collection_name = collection_name
+self.doc_ids = {}     # { doc_id : doc } : dictionnaire de (document_id, document)
+self.term_ids = {}    # { term_id : term } : dictionnaire de (terme, terme_id)
+self.index = {}       # { term_id : [(doc_id_0, freq_0), ..., (doc_id_10, freq_10)] } : liste de postings pour chaque terme_id
+```
+
+La collection CACM a été considérée comme un seul bloc, en revanche, pour CS276, j'ai considéré chaque sous répertoire du dossier pa1-data comme un bloc.
+
+La création de l'index de CACM se déroule ainsi:
+- Création du dictionnaire de (terme, terme_id) à partir du traitement linguistique fait précédemment : `self.term_ids`
+- Parcours de tous les documents :
+..* Attribution d'un document_id
+..* Ajout dans l'index `self.index` du tuple (document_id, frequency)  pour tous les term_id présents dans le document
+- Sauvegarde de l'index, et des dictionnaires de (document_id, document) et (terme, terme_id) dans [indexes/cacm/](indexes/cacm/)
+
+La création de l'index CS276 se déroule de la façon suivante :
+- Création du dictionnaire de (terme, terme_id) à partir du traitement linguistique fait précédemment : `self.term_ids`
+- Parcours de tous les blocs (10 en tout) :
+..* Création de l'index de ce bloc (même méthode que pour CACM)
+..* Sauvegarde de cet index dans le dossier [indexes/cs276/temporary/](indexes/cs276/temporary/)
+- Fusion des index des 10 blocs enregistrés dans le dossier [indexes/cs276/temporary/](indexes/cs276/temporary/)
+..* Fusion de deux index, par exemple: `index_0.txt` et `index_1.txt`
+..* Sauvegarde temporaire de l'index fusionné : `index_01.txt`
+..* Recommencer jusqu'à ce qu'il n'y ait plus qu'un seul index.
+- Sauvegarde de l'index final dans le dossier [indexes/cs276/](indexes/cs276/)
+- Le dictionnaire de (document_id, document) est mis à jour régulièrement et sauvegardé à la fin dans le même dossier
+
+#### Performances
+Les performances détaillées de création des deux index (CACM et CS276) sont enregistrées ici:
+- [results/cacm_cProfile.txt](results/cacm_cProfile.txt)
+- [results/cs276_cProfile.txt](results/cs276_cProfile.txt)
+
+| Collection | Durée de création | Taille de l'index |
+|------------|-------------------|-------------------|
+|    CACM    |     1.779 seconds |             1.1 Mo|
+|    CS276   |   129.393 seconds |            79.4 Mo|
+
 
 ### 2.3 Modèles de recherche
 

@@ -3,6 +3,7 @@ from settings import CACM, CACM_PATH, CS276, CS276_PATH, DOC_IDS_PATH, INDEX_PAT
      PREFIX, INITIAL_MARKER, TERM_IDS_PATH, TITLE_MARKER
 
 from collections import Counter
+from copy import copy
 from itertools import zip_longest
 import os
 
@@ -13,7 +14,7 @@ class Index(object):
         self.collection_name = collection_name
         self.doc_ids = {}     # { doc_id : doc }
         self.term_ids = {}    # { term_id : term }
-        self.index = {}       # { term_id : [doc_id_0, ..., doc_id_10] }
+        self.index = {}       # { term_id : [[(doc_id_0, freq_0), ..., (doc_id_10, freq_10)]] }
         # We can either build the dictionaries or get the last one saved
         if build_dictionaries:
             self.term_ids = self.build_term_ids()
@@ -277,19 +278,22 @@ class CS276Index(Index):
         step_count = 1
         while len(folder_names) > 1:
             final_index = (len(folder_names) == 2)
+            new_folder_names = copy(folder_names)
             for name_1, name_2 in self.pairwise(folder_names):
-                index_1 = self.get_tmp_index(name_1)
-                index_2 = self.get_tmp_index(name_2)
-                merged_index = self.merge_index_dictionaries(index_1, index_2)
-                # Delete the txt indexes : index_1 and index_2
-                os.remove(os.getcwd() + '/' + self.get_tmp_path(INDEX_PATH + "_" + name_1))
-                os.remove(os.getcwd() + '/' + self.get_tmp_path(INDEX_PATH + "_" + name_2))
-                # Save the newly merged_index into temporary/index_12.txt
-                self.save_tmp_index(name_1 + name_2, merged_index, final_index=final_index)
-                # Remove the name_1, name_2 from folder_names and add the new name
-                folder_names.remove(name_1)
-                folder_names.remove(name_2)
-                folder_names.append(name_1 + name_2)
+                if (name_2 != "-"):
+                    index_1 = self.get_tmp_index(name_1)
+                    index_2 = self.get_tmp_index(name_2)
+                    merged_index = self.merge_index_dictionaries(index_1, index_2)
+                    # Delete the txt indexes : index_1 and index_2
+                    os.remove(os.getcwd() + '/' + self.get_tmp_path(INDEX_PATH + "_" + name_1))
+                    os.remove(os.getcwd() + '/' + self.get_tmp_path(INDEX_PATH + "_" + name_2))
+                    # Save the newly merged_index into temporary/index_12.txt
+                    self.save_tmp_index(name_1 + name_2, merged_index, final_index=final_index)
+                    # Remove the name_1, name_2 from folder_names and add the new name
+                    new_folder_names.remove(name_1)
+                    new_folder_names.remove(name_2)
+                    new_folder_names.append(name_1 + name_2)
+            folder_names = copy(new_folder_names)
             # In order to let the user know where we are in the process
             print("%s %s %s %s" % ("####" * step_count, "    " * (5 - step_count), step_count * 20, '%'))
             step_count += 1
