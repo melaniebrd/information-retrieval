@@ -140,15 +140,15 @@ Voici les résultats de la tokenisation de CACM et CS276 :
 
 #### Graphes fréquence (f) vs rang (r) :
 - CACM :
-![alt text](images/cacm_freq_vs_rank.png "CACM frequence (f) vs rang (r)" =250x)
+<img src="images/cacm_freq_vs_rank.png" alt="CACM frequence (f) vs rang (r)" style="width: 200px;"/>
 - CS276 :
-![alt text](images/cs276_freq_vs_rank.png "CACM frequence (f) vs rang (r)" =250x)
+<img src="images/cs276_freq_vs_rank.png" alt="CS276 frequence (f) vs rang (r)" style="width: 200px;"/>
 
 #### Graphes logarithme de la fréquence (log(f)) vs logarithme du rang (log(r)) :
 - CACM :
-![alt text](images/cacm_log_freq_vs_log_rank.png "CACM Logarithme de la frequence vs Logarithme du rang" =250x)
+<img src="images/cacm_log_freq_vs_log_rank.png" alt="CACM Logarithme de la frequence vs Logarithme du rang" style="width: 200px;"/>
 - CS276 :
-![alt text](images/cs276_log_freq_vs_log_rank.png "CACM Logarithme de la frequence vs Logarithme du rang" =250x)
+<img src="images/cs276_log_freq_vs_log_rank.png" alt="CS276 Logarithme de la frequence vs Logarithme du rang" style="width: 200px;"/>
 
 
 ### 2.2 Création de l'index inversé
