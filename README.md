@@ -3,21 +3,21 @@
 Search engine for school project in IS3013AA (RI-W) at Centrale Supelec
 
 ### Table of contents: 
-+ **[1. Getting Started](#getting-started)**
-    + **[1.1 Prerequisites](#prerequisites)**
-    + **[1.2 Build linguistic treatment](#build-linguistic-treatment)**
-    + **[1.3 Build the index](#build-the-index)**
-    + **[1.4 Query search](#query-search)**
-+ **[2. Rapport](#rapport)**
-    + **[2.1 Traitements Linguistics](#traitements-linguistics)**
-    + **[2.1 Création de l'index inversé](#creation-de-l-index-inverse)**
-    + **[2.1 Modèles de recherche](#modele-de-recherche)**
-        + **[Modèle booléen](#modele-booleen)**
-        + **[Modèle vectoriel](#modele-vectoriel)**
-    + **[2.4 Performances](#performances)**
-    + **[2.5 Conclusion](#conclusion)**
-+ **[3. Authors](#authors)**
-+ **[4. License](#license)**
++ **[1. Getting Started](#1-getting-started)**
+    + **[1.1 Prerequisites](#11-prerequisites)**
+    + **[1.2 Build the linguistic treatment](#12-build-the-linguistic-treatment)**
+    + **[1.3 Build the index](#13-build-the-index)**
+    + **[1.4 Query search](#14-query-search)**
++ **[2. Rapport](#2-rapport-in-french)**
+    + **[2.1 Traitements Linguistics](#21-traitements-linguistics)**
+    + **[2.2 Création de l'index inversé](#22-création-de-lindex-inversé)**
+    + **[2.3 Modèles de recherche](#23-modèles-de-recherche)**
+        + **[Modèle booléen](#modèle-booléen)**
+        + **[Modèle vectoriel](#modèle-vectoriel)**
+    + **[2.4 Performances](#24-performances)**
+    + **[2.5 Conclusion](#25-conclusion)**
++ **[3. Authors](#3-authors)**
++ **[4. License](#4-license)**
 
 ## 1. Getting started
 
@@ -140,15 +140,15 @@ Voici les résultats de la tokenisation de CACM et CS276 :
 
 #### Graphes fréquence (f) vs rang (r) :
 - CACM :
-![alt text](images/cacm_freq_vs_rank.png "CACM frequence (f) vs rang (r)")
+![alt text](images/cacm_freq_vs_rank.png "CACM frequence (f) vs rang (r)" =250x)
 - CS276 :
-![alt text](images/cs276_freq_vs_rank.png "CACM frequence (f) vs rang (r)")
+![alt text](images/cs276_freq_vs_rank.png "CACM frequence (f) vs rang (r)" =250x)
 
 #### Graphes logarithme de la fréquence (log(f)) vs logarithme du rang (log(r)) :
 - CACM :
-![alt text](images/cacm_log_freq_vs_log_rank.png "CACM Logarithme de la frequence vs Logarithme du rang")
+![alt text](images/cacm_log_freq_vs_log_rank.png "CACM Logarithme de la frequence vs Logarithme du rang" =250x)
 - CS276 :
-![alt text](images/cs276_log_freq_vs_log_rank.png "CACM Logarithme de la frequence vs Logarithme du rang")
+![alt text](images/cs276_log_freq_vs_log_rank.png "CACM Logarithme de la frequence vs Logarithme du rang" =250x)
 
 
 ### 2.2 Création de l'index inversé
