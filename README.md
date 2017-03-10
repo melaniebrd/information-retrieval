@@ -265,6 +265,7 @@ dynamics of arm motion._
 ![alt text](images/evaluation_request_17.png "Precision vc Recall")
 
 De plus, voici la valeur du Mean Average Precision (MAP) que j'ai obtenu:
+
 | Mesure| Valeur |
 |-------|--------|
 |  MAP  | 0.2197 |
