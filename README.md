@@ -8,6 +8,7 @@ Search engine for school project in IS3013AA (RI-W) at Centrale Supelec
     + **[1.2 Build the linguistic treatment](#12-build-the-linguistic-treatment)**
     + **[1.3 Build the index](#13-build-the-index)**
     + **[1.4 Query search](#14-query-search)**
+    + **[1.5 Evaluation](#15-evaluation)**
 + **[2. Rapport](#2-rapport-in-french)**
     + **[2.1 Traitements Linguistics](#21-traitements-linguistics)**
     + **[2.2 Création de l'index inversé](#22-création-de-lindex-inversé)**
@@ -134,6 +135,25 @@ Algorithm AND Programming AND (Style OR Algebra)
 
 ```
 
+### 1.5 Evaluation
+
+To evaluate the information retrieval model, you can either display some precision/recall graph or ask the code to calculate the MAP (Mean Average Precision) value. Use the [main_evaluation.py](main_evaluation.py) to do so.
+
+Here are the arguments you have to add
+* `-g ` : to get the precision and recall graph for all the queries from cacm/query.text
+* `-gb ` : to build the index and then get the precision and recall graph for all the queries from cacm/query.text
+* `-m ` : to get the MAP (Mean Average Precision) value for cacm
+
+Example:
+```
+python3 main_evaluation.py -g
+```
+
+And to get the MAP:
+```
+python3 main_evaluation.py -m
+```
+
 ## 2. Rapport (in French)
 
 ### 2.1 Traitements Linguistics
@@ -254,7 +274,6 @@ Voici les pistes d'amélioration possibles :
 - ajouter différents poids au modèle vectoriel (seul tf-idf a été implémenté)
 - calculer plus précisément le score d'un document étant donné une requête : des approximations ont été faites dans mon code (notamment pour tout ce qui concerne le calcule de la norme d'un document ici approximée à 1)
 - implémenter une recherche par probabilité
-
 
 ## Authors
 * Melanie Berard
