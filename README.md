@@ -244,16 +244,16 @@ dynamics of arm motion._
 - _Optimization of intermediate and machine code_
 ![alt text](images/evaluation_request_17.png "Precision vc Recall")
 
-De plus, voici la valeur du Mean Average Precision (MAP):
+De plus, voici la valeur du Mean Average Precision (MAP) que j'ai obtenu:
+|-----|--------|
 | MAP | 0.2197 |
 
 ### 2.5 Conclusion
-Une conclusion (améliorations possibles, ...)
 
-
-
-
-
+Voici les pistes d'amélioration possibles :
+- ajouter différents poids au modèle vectoriel (seul tf-idf a été implémenté)
+- calculer plus précisément le score d'un document étant donné une requête : des approximations ont été faites dans mon code (notamment pour tout ce qui concerne le calcule de la norme d'un document ici approximée à 1)
+- implémenter une recherche par probabilité
 
 
 ## Authors
