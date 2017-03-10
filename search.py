@@ -181,6 +181,9 @@ class VectorialSearch(Search):
         return doc_ids, similitudes
 
     def get_similitudes(self, weights, request_term_ids, query_weights, doc_ids):
+        """
+        Return the score of a document for the request
+        """
         query_norm = sum([pow(query_weights[term_id], 2) for term_id in request_term_ids])
         similitudes = {}
         for doc_id in doc_ids:

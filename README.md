@@ -49,12 +49,12 @@ deactivate
 
 Add the CACM and CS276 data collection in the `data/` folder :
 - [data/CACM]()
-..* [cacm.all]()
-..* [common_words]()
-..* [qrels.text]()
-..* [query.text]()
+⋅⋅* [cacm.all]()
+⋅⋅* [common_words]()
+⋅⋅* [qrels.text]()
+⋅⋅* [query.text]()
 - [data/CS276]()
-..* [pa1-data/0/...]()
+⋅⋅* [pa1-data/0/...]()
 
 
 ### 1.2 Build the linguistic treatment
@@ -185,19 +185,19 @@ La collection CACM a été considérée comme un seul bloc, en revanche, pour CS
 La création de l'index de CACM se déroule ainsi:
 - Création du dictionnaire de (terme, terme_id) à partir du traitement linguistique fait précédemment : `self.term_ids`
 - Parcours de tous les documents :
-..* Attribution d'un document_id
-..* Ajout dans l'index `self.index` du tuple (document_id, frequency)  pour tous les term_id présents dans le document
+⋅⋅* Attribution d'un document_id
+⋅⋅* Ajout dans l'index `self.index` du tuple (document_id, frequency)  pour tous les term_id présents dans le document
 - Sauvegarde de l'index, et des dictionnaires de (document_id, document) et (terme, terme_id) dans [indexes/cacm/](indexes/cacm/)
 
 La création de l'index CS276 se déroule de la façon suivante :
 - Création du dictionnaire de (terme, terme_id) à partir du traitement linguistique fait précédemment : `self.term_ids`
 - Parcours de tous les blocs (10 en tout) :
-..* Création de l'index de ce bloc (même méthode que pour CACM)
-..* Sauvegarde de cet index dans le dossier [indexes/cs276/temporary/](indexes/cs276/temporary/)
+⋅⋅* Création de l'index de ce bloc (même méthode que pour CACM)
+⋅⋅* Sauvegarde de cet index dans le dossier [indexes/cs276/temporary/](indexes/cs276/temporary/)
 - Fusion des index des 10 blocs enregistrés dans le dossier [indexes/cs276/temporary/](indexes/cs276/temporary/)
-..* Fusion de deux index, par exemple: `index_0.txt` et `index_1.txt`
-..* Sauvegarde temporaire de l'index fusionné : `index_01.txt`
-..* Recommencer jusqu'à ce qu'il n'y ait plus qu'un seul index.
+⋅⋅* Fusion de deux index, par exemple: `index_0.txt` et `index_1.txt`
+⋅⋅* Sauvegarde temporaire de l'index fusionné : `index_01.txt`
+⋅⋅* Recommencer jusqu'à ce qu'il n'y ait plus qu'un seul index.
 - Sauvegarde de l'index final dans le dossier [indexes/cs276/](indexes/cs276/)
 - Le dictionnaire de (document_id, document) est mis à jour régulièrement et sauvegardé à la fin dans le même dossier
 
@@ -214,12 +214,38 @@ Les performances détaillées de création des deux index (CACM et CS276) sont e
 
 ### 2.3 Modèles de recherche
 
+Deux modèles de recherche ont été implémentés : le modèle booléen et le modèle vectoriel. Pour cefaire, j'ai utilisé une classe Search dont allait hérité les classes BooleanSearch et VectorialSearch.
+
 #### Modèle Booléen
+Pour le modèle booléen, la requète doit être une forme normale conjonctive :
+```NOT (x1 OR x2) AND (x3 OR x4 OR x5) AND NOT (x6 OR .. OR xn)```
+
+Une fois que l'utilisateur a tapé sa recherche, celle-ci est convertie en deux tableaux `positive_clauses` et `negative_clauses` qui rassemblent les clauses positives et les clauses commençant par un `NOT`. Ensuite, pour chacun des deux tableaux de clauses, une fonction `get_postings(clauses)` détermine la liste des documents pertinents. Le résultat final est obtenu en retirant de la liste positive_postings tous les documents présents dans la liste negative_postings.
 
 #### Modèle Vectoriel
+Pour le modèle vectoriel, la requête peut prendre n'importe quelle forme. Dans un premier temps, la requête est transformée en une liste de term_ids appelé `request_term_ids`. À partir de cette liste, je récupère la liste de tous les documents qui contiennent au moins un terme de la liste. Après avoir constitué cette liste de `doc_ids`, je calcule pour chaqun des termes le document_frequency (df) ainsi que le term_frequency (pour chaque document de `doc_ids`). Après quoi, je calcule le poids d'un terme dans un document en utilisant la méthode TF-IDF. (Les autres méthodes n'ont pas été implémentées pour le moment). Une fois les poids déterminés, je calcule le score (ici appelé similitude) d'un document par rapport à la requête, en utilisant la fonction `get_similitudes`.
 
 ### 2.4 Performances
-Évaluation pour la collection CACM
+Évaluation pour la collection CACM :
+
+Voici quelques exemples de courbes de rappel obtenues.
+- _What articles exist which deal with TSS (Time Sharing System), an
+operating system for IBM computers?_
+![alt text](images/evaluation_request_1.png "Precision vc Recall")
+- _I'd like papers on design and implementation of editing interfaces,
+window-managers, command interpreters, etc.  The essential issues are
+human interface design, with views on improvements to user efficiency,
+effectiveness and satisfaction._
+![alt text](images/evaluation_request_5.png "Precision vc Recall")
+- _Interested in articles on robotics, motion planning particularly the
+geometric and combinatorial aspects.  We are not interested in the
+dynamics of arm motion._
+![alt text](images/evaluation_request_6.png "Precision vc Recall")
+- _Optimization of intermediate and machine code_
+![alt text](images/evaluation_request_17.png "Precision vc Recall")
+
+De plus, voici la valeur du Mean Average Precision (MAP):
+| MAP | 0.2197 |
 
 ### 2.5 Conclusion
 Une conclusion (améliorations possibles, ...)

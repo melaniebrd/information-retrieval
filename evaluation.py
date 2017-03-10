@@ -77,7 +77,7 @@ class Evaluation(object):
 
     def show_precision_recall(self):
         for doc_id in self.precision_recall_by_id:
-            show(self.precision_recall_by_id[doc_id][1], "Recalls in %", self.precision_recall_by_id[doc_id][0], "Precision in %")
+            show(self.precision_recall_by_id[doc_id][1], "Recalls in %", self.precision_recall_by_id[doc_id][0], "Precision in %", "Precision vs Recalls")
 
     def mean_average_precision(self):
         map_value = 0
@@ -93,5 +93,3 @@ class Evaluation(object):
                 query_area = round(query_area/(recalls[-1] - recalls[0]), 4)
             map_value += query_area
         return round(map_value/len(self.precision_recall_by_id), 4)
-
-
